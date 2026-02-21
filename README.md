@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rahul Bhadekar</h1>
-<h3 align="center">Full Stack Developer | JavaScript | Node.js | React Learner 🚀</h3>
+<h3 align="center">Full Stack Developer | JavaScript | Node.js | React.js | Java | MongoDb | Git&Github </h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Full+Stack+Developer;JavaScript+Enthusiast;Building+Real+World+Projects;Always+Learning+New+Things&center=true&width=500&height=45">
@@ -28,6 +28,7 @@
 
 🔹 Jarvis AI Assistant — Voice based web assistant  
 🔹 Revitalize Waste Management System  
+🔹 Personal Portfolio
 
 ---
 
