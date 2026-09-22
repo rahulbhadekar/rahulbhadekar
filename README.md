@@ -35,61 +35,49 @@
 
 # 👨‍💻 About Me
 
-<table>
-<tr>
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320"/>
+</p>
 
-<td width="62%">
+<p align="center">
+  🎓 <b>Computer Science Engineering Student</b>
+</p>
 
-🎓 **Computer Science Engineering Student**
+<p align="center">
+  ☕ Passionate about <b>Java Full Stack Development</b>
+</p>
 
-<br><br>
+<p align="center">
+  💻 Building applications using <b>Java, Spring Boot, React.js & MySQL</b>
+</p>
 
-☕ Passionate about **Java Full Stack Development**
+<p align="center">
+  🧠 Improving <b>DSA & Problem Solving</b>
+</p>
 
-<br><br>
+<p align="center">
+  🔐 Learning <b>Spring Security & JWT Authentication</b>
+</p>
 
-💻 Building applications using **Java, Spring Boot, React.js & MySQL**
+<p align="center">
+  🧩 Exploring <b>Microservices, Kafka, Redis & System Design</b>
+</p>
 
-<br><br>
+<p align="center">
+  🐳 Learning <b>Docker, CI/CD & Cloud Technologies</b>
+</p>
 
-🧠 Improving **DSA & Problem Solving**
+<p align="center">
+  ☁️ Interested in <b>AWS & Scalable Backend Systems</b>
+</p>
 
-<br><br>
+<p align="center">
+  🚀 Building <b>Real-World Projects</b> to improve my development skills
+</p>
 
-🔐 Learning **Spring Security & JWT Authentication**
-
-<br><br>
-
-🧩 Exploring **Microservices, Kafka, Redis & System Design**
-
-<br><br>
-
-🐳 Learning **Docker, CI/CD & Cloud Technologies**
-
-<br><br>
-
-☁️ Interested in **AWS & Scalable Backend Systems**
-
-<br><br>
-
-🚀 Building real-world projects to improve my development skills
-
-<br><br>
-
-🎯 Goal: **Become a Professional Software Engineer**
-
-</td>
-
-<td width="38%" align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360"/>
-
-</td>
-
-</tr>
-</table>
-
----
+<p align="center">
+  🎯 Goal: <b>Become a Professional Software Engineer</b>
+</p>
 
 # 💻 What I Do
 
