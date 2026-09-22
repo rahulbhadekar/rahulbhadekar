@@ -1,177 +1,102 @@
-# 👋 Hi, I'm Rahul Bhadekar
+<!-- ===================================================== -->
+<!--                    PROFILE HEADER                     -->
+<!-- ===================================================== -->
+
+<h1 align="center">Hi 👋, I'm Rahul Bhadekar</h1>
+
+<h3 align="center">
+  ☕ Java Full Stack Developer | 🚀 Software Engineer in Making
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+MySQL;Backend+%7C+REST+APIs+%7C+React.js;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real-World+Applications;Future+Software+Engineer+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React.js;MySQL+%7C+REST+APIs+%7C+Hibernate;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real+World+Applications+%F0%9F%9A%80;Future+Software+Engineer" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=for-the-badge&color=1f6feb" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-🎓 Computer Science Engineering Student passionate about software development.
+<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+
+🎓 Computer Science Engineering student passionate about software development.
 
 ☕ Currently focusing on **Java Full Stack Development**.
 
-💻 Building applications using **Java, Spring Boot, MySQL and React.js**.
+💻 Building applications using **Java, Spring Boot, React.js and MySQL**.
 
-🧠 Improving my **DSA, problem-solving and backend development skills**.
+🧠 Improving my **Data Structures & Algorithms** and problem-solving skills.
 
-🚀 Interested in building scalable and real-world applications.
+🔐 Learning secure backend development using **Spring Security and JWT**.
 
-🔐 Exploring authentication, security and API development.
+🧩 Exploring **Microservices, Kafka, Redis and System Design**.
 
-☁️ Interested in **Microservices, Docker, AWS and Cloud Development**.
+🐳 Learning **Docker, CI/CD and Cloud technologies**.
 
-📚 Continuously learning new technologies and improving my development skills.
+☁️ Interested in **AWS and scalable backend systems**.
 
-🎯 Goal: Become a **Professional Java Full Stack Developer / Software Engineer**.
+🚀 My goal is to become a **Professional Software Engineer**.
 
----
-
-# 🛠️ Tech Stack
-
-## ☕ Programming Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,javascript,html,css" />
-</p>
-
-- Java
-- JavaScript
-- HTML5
-- CSS3
+<br clear="right"/>
 
 ---
 
-## ⚙️ Backend Development
+# 🧑‍💻 My Developer Profile
 
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,maven" />
-</p>
+```java
+public class RahulBhadekar {
 
-- Core Java
-- Object-Oriented Programming
-- Collections Framework
-- Exception Handling
-- Java 8+
-- Spring Framework
-- Spring Boot
-- Spring MVC
-- Spring Data JPA
-- Hibernate
-- RESTful APIs
-- Maven
+    String role = "Java Full Stack Developer";
 
----
+    String primaryLanguage = "Java";
 
-## 🔐 Security & Authentication
+    String[] backend = {
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "Hibernate",
+        "REST APIs"
+    };
 
-- Spring Security
-- JWT Authentication
-- Authentication & Authorization
-- Role-Based Access Control
-- Secure REST APIs
+    String[] frontend = {
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+    };
 
----
+    String[] databases = {
+        "MySQL",
+        "MongoDB",
+        "Redis"
+    };
 
-## ⚛️ Frontend Development
+    String[] learning = {
+        "DSA",
+        "Microservices",
+        "Kafka",
+        "Docker",
+        "AWS",
+        "System Design"
+    };
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,html,css,javascript" />
-</p>
+    String mindset = "Learn → Build → Debug → Improve";
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Responsive Web Design
-- REST API Integration
-- React Hooks
-- Component-Based Development
-
----
-
-## 🗄️ Database & Data Technologies
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" />
-</p>
-
-- MySQL
-- SQL
-- MongoDB
-- Redis
-- Database Design
-- CRUD Operations
-- Joins
-- Subqueries
-- Normalization
-- Query Optimization
-
----
-
-## 🧩 Microservices & Distributed Systems
-
-<p>
-  <img src="https://skillicons.dev/icons?i=spring" />
-</p>
-
-- Microservices Architecture
-- Spring Cloud
-- API Gateway
-- Service Discovery
-- Inter-Service Communication
-- Apache Kafka
-- Distributed Systems
-
----
-
-## 🐳 DevOps & Cloud
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,aws,linux,githubactions" />
-</p>
-
-- Docker
-- AWS
-- Linux
-- CI/CD
-- GitHub Actions
-- Containerization
-- Cloud Deployment
-
----
-
-## 🔧 Development Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman,maven" />
-</p>
-
-- Git
-- GitHub
-- IntelliJ IDEA
-- VS Code
-- Postman
-- Maven
-
----
-
-# 🚀 Featured Projects
-
-## ♻️ Revitalize 2.0 — Waste Management System
-
-A full-stack waste management platform designed to connect users with waste collection services.
-
-### 🛠️ Technology Stack
-
-```text
-Frontend  → React.js
-Backend   → Java + Spring Boot
+    String goal = "Become a Software Engineer 🚀";
+}
 Database  → MySQL
 API       → REST APIs
 Security  → Spring Security + JWT
