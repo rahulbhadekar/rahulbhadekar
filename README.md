@@ -1,8 +1,10 @@
-<!-- ===================================================== -->
-<!--                    PROFILE HEADER                     -->
-<!-- ===================================================== -->
+<!-- ========================================================= -->
+<!--                     PROFILE HEADER                        -->
+<!-- ========================================================= -->
 
-<h1 align="center">Hi 👋, I'm Rahul Bhadekar</h1>
+<h1 align="center">
+  Hi 👋, I'm Rahul Bhadekar
+</h1>
 
 <h3 align="center">
   ☕ Java Full Stack Developer | 🚀 Software Engineer in Making
@@ -13,17 +15,27 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=for-the-badge&color=1f6feb" />
+
+<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
+
+<img src="https://img.shields.io/github/followers/rahulbhadekar?label=FOLLOWERS&style=for-the-badge&color=1f6feb" />
+
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+
+<a href="https://github.com/rahulbhadekar">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rahul-bhadekar">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:rahulbhadekar2@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 </p>
 
 ---
@@ -40,7 +52,7 @@
 
 🧠 Improving my **Data Structures & Algorithms** and problem-solving skills.
 
-🔐 Learning secure backend development using **Spring Security and JWT**.
+🔐 Learning backend security using **Spring Security and JWT**.
 
 🧩 Exploring **Microservices, Kafka, Redis and System Design**.
 
@@ -48,16 +60,20 @@
 
 ☁️ Interested in **AWS and scalable backend systems**.
 
-🚀 My goal is to become a **Professional Software Engineer**.
+🚀 Building real-world projects to improve my development skills.
+
+🎯 Goal: Become a **Professional Software Engineer**.
 
 <br clear="right"/>
 
 ---
 
-# 🧑‍💻 My Developer Profile
+# 🧑‍💻 Developer Profile
 
 ```java
 public class RahulBhadekar {
+
+    String name = "Rahul Bhadekar";
 
     String role = "Java Full Stack Developer";
 
@@ -84,13 +100,19 @@ public class RahulBhadekar {
         "Redis"
     };
 
-    String[] learning = {
+    String[] currentlyLearning = {
         "DSA",
         "Microservices",
         "Kafka",
         "Docker",
         "AWS",
         "System Design"
+    };
+
+    String mindset = "Learn → Build → Debug → Improve";
+
+    String goal = "Become a Software Engineer 🚀";
+}
     };
 
     String mindset = "Learn → Build → Debug → Improve";
