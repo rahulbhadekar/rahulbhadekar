@@ -1,124 +1,135 @@
-<!-- ========================================================= -->
-<!--                     PROFILE HEADER                        -->
-<!-- ========================================================= -->
+<h1 align="center">Hi 👋, I'm Rahul Bhadekar</h1>
 
-<h1 align="center">
-  Hi 👋, I'm Rahul Bhadekar
-</h1>
-
-<h3 align="center">
-  ☕ Java Full Stack Developer | 🚀 Software Engineer in Making
-</h3>
+<h3 align="center">☕ Java Full Stack Developer | 🚀 Software Engineer in Making</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React.js;MySQL+%7C+REST+APIs+%7C+Hibernate;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real+World+Applications+%F0%9F%9A%80;Future+Software+Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React.js;MySQL+%7C+REST+APIs+%7C+Hibernate;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real-World+Applications+%F0%9F%9A%80" />
 </p>
 
 <p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
-
-<img src="https://img.shields.io/github/followers/rahulbhadekar?label=FOLLOWERS&style=for-the-badge&color=1f6feb" />
-
+  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=Profile%20Views&style=for-the-badge&color=0e75b6" />
+  <img src="https://img.shields.io/github/followers/rahulbhadekar?label=Followers&style=for-the-badge&color=1f6feb" />
 </p>
 
 <p align="center">
-
-<a href="https://github.com/rahulbhadekar">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/rahul-bhadekar">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:rahulbhadekar2@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
+  <a href="https://github.com/rahulbhadekar">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/rahul-bhadekar">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:rahulbhadekar2@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-# 👨‍💻 About Me
+## 🚀 About Me
 
-<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+🎓 **Computer Science Engineering Student**
 
-🎓 Computer Science Engineering student passionate about software development.
+☕ Passionate about **Java Full Stack Development**
 
-☕ Currently focusing on **Java Full Stack Development**.
+💻 Building applications with **Java, Spring Boot, React.js & MySQL**
 
-💻 Building applications using **Java, Spring Boot, React.js and MySQL**.
+🧠 Currently improving **DSA & Problem Solving**
 
-🧠 Improving my **Data Structures & Algorithms** and problem-solving skills.
+🔐 Learning **Spring Security & JWT Authentication**
 
-🔐 Learning backend security using **Spring Security and JWT**.
+🧩 Exploring **Microservices, Kafka & Redis**
 
-🧩 Exploring **Microservices, Kafka, Redis and System Design**.
+🐳 Learning **Docker, AWS & Cloud Development**
 
-🐳 Learning **Docker, CI/CD and Cloud technologies**.
+🚀 Interested in building **real-world and scalable applications**
 
-☁️ Interested in **AWS and scalable backend systems**.
-
-🚀 Building real-world projects to improve my development skills.
-
-🎯 Goal: Become a **Professional Software Engineer**.
-
-<br clear="right"/>
+🎯 Goal: **Become a Professional Software Engineer**
 
 ---
 
-# 🧑‍💻 Developer Profile
+## 🛠️ Tech Stack
 
-```java
-public class RahulBhadekar {
+### ☕ Languages
 
-    String name = "Rahul Bhadekar";
+<p>
+<img src="https://skillicons.dev/icons?i=java,javascript,html,css" />
+</p>
 
-    String role = "Java Full Stack Developer";
+### ⚙️ Backend
 
-    String primaryLanguage = "Java";
+<p>
+<img src="https://skillicons.dev/icons?i=spring,maven" />
+</p>
 
-    String[] backend = {
-        "Spring Boot",
-        "Spring MVC",
-        "Spring Data JPA",
-        "Hibernate",
-        "REST APIs"
-    };
+**Java • Spring • Spring Boot • Spring MVC • Spring Data JPA • Hibernate • REST APIs • Maven**
 
-    String[] frontend = {
-        "React.js",
-        "JavaScript",
-        "HTML5",
-        "CSS3"
-    };
+### ⚛️ Frontend
 
-    String[] databases = {
-        "MySQL",
-        "MongoDB",
-        "Redis"
-    };
+<p>
+<img src="https://skillicons.dev/icons?i=react,html,css,javascript" />
+</p>
 
-    String[] currentlyLearning = {
-        "DSA",
-        "Microservices",
-        "Kafka",
-        "Docker",
-        "AWS",
-        "System Design"
-    };
+**React.js • JavaScript • HTML5 • CSS3 • Responsive Design • REST API Integration**
 
-    String mindset = "Learn → Build → Debug → Improve";
+### 🗄️ Database
 
-    String goal = "Become a Software Engineer 🚀";
-}
-    };
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" />
+</p>
 
-    String mindset = "Learn → Build → Debug → Improve";
+**MySQL • SQL • MongoDB • Redis**
 
-    String goal = "Become a Software Engineer 🚀";
-}
-Database  → MySQL
-API       → REST APIs
-Security  → Spring Security + JWT
+### 🔐 Security
+
+**Spring Security • JWT • Authentication • Authorization • Role-Based Access**
+
+### 🧩 Architecture & Messaging
+
+**Microservices • Spring Cloud • API Gateway • Service Discovery • Apache Kafka**
+
+### 🐳 DevOps & Cloud
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,aws,linux,githubactions" />
+</p>
+
+**Docker • AWS • Linux • CI/CD • GitHub Actions**
+
+### 🔧 Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman" />
+</p>
+
+**Git • GitHub • IntelliJ IDEA • VS Code • Postman**
+
+---
+
+## 📚 Currently Learning
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,docker,aws,kafka,redis" />
+</p>
+
+```text
+Java
+  ↓
+Spring Boot
+  ↓
+JPA / Hibernate
+  ↓
+REST APIs
+  ↓
+Spring Security + JWT
+  ↓
+React.js
+  ↓
+Microservices
+  ↓
+Kafka + Redis
+  ↓
+Docker
+  ↓
+AWS
+  ↓
+System Design
