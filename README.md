@@ -1,7 +1,3 @@
-<!-- ========================================================= -->
-<!--                     PROFILE HEADER                        -->
-<!-- ========================================================= -->
-
 <h1 align="center">
   👋 Hi, I'm Rahul Bhadekar
 </h1>
@@ -72,7 +68,7 @@
 
 <br><br>
 
-☁️ Interested in **AWS & scalable backend systems**
+☁️ Interested in **AWS & Scalable Backend Systems**
 
 <br><br>
 
@@ -101,79 +97,37 @@
   <img src="https://skillicons.dev/icons?i=java,spring,react,mysql,git,github" />
 </p>
 
-<table align="center">
-<tr>
+<p align="center">
 
-<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Backend-Java%20%7C%20Spring%20Boot-orange?style=for-the-badge"/>
 
-### ☕ Backend
+<img src="https://img.shields.io/badge/Frontend-React.js%20%7C%20JavaScript-blue?style=for-the-badge"/>
 
-Java
+<img src="https://img.shields.io/badge/Database-MySQL%20%7C%20MongoDB-4479A1?style=for-the-badge"/>
 
-Spring Boot
+</p>
 
-Spring MVC
+<p align="center">
 
-Spring Data JPA
+<img src="https://img.shields.io/badge/API-REST%20APIs-success?style=for-the-badge"/>
 
-Hibernate
+<img src="https://img.shields.io/badge/Security-Spring%20Security%20%7C%20JWT-red?style=for-the-badge"/>
 
-REST APIs
+<img src="https://img.shields.io/badge/Architecture-Microservices-purple?style=for-the-badge"/>
 
-Spring Security
-
-</td>
-
-<td align="center" width="33%">
-
-### ⚛️ Frontend
-
-React.js
-
-JavaScript
-
-HTML5
-
-CSS3
-
-Responsive UI
-
-API Integration
-
-</td>
-
-<td align="center" width="33%">
-
-### 🗄️ Database
-
-MySQL
-
-SQL
-
-MongoDB
-
-Redis
-
-Database Design
-
-CRUD Operations
-
-</td>
-
-</tr>
-</table>
+</p>
 
 ---
 
 # 🛠️ Tech Stack
 
-## ☕ Languages
+## ☕ Programming Languages
 
 <p>
 <img src="https://skillicons.dev/icons?i=java,javascript,html,css" />
 </p>
 
-`Java` `JavaScript` `HTML5` `CSS3`
+`Java` • `JavaScript` • `HTML5` • `CSS3`
 
 ---
 
@@ -187,17 +141,25 @@ CRUD Operations
 
 `Spring Data JPA` • `Hibernate` • `REST APIs`
 
-`Maven` • `Java 8+` • `OOP` • `Collections`
+`Maven` • `OOP` • `Collections` • `Exception Handling`
 
 ---
 
 ## 🔐 Security
 
-`Spring Security` • `JWT`
+<p align="left">
+
+<img src="https://img.shields.io/badge/Spring%20Security-Learning-red?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/JWT-Learning-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Authentication-Authorization-blue?style=for-the-badge"/>
+
+</p>
 
 `Authentication` • `Authorization`
 
-`Role-Based Access Control`
+`JWT` • `Role-Based Access Control`
 
 ---
 
@@ -229,6 +191,18 @@ CRUD Operations
 
 ## 🧩 Microservices & Distributed Systems
 
+<p align="left">
+
+<img src="https://img.shields.io/badge/Microservices-Learning-purple?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Spring%20Cloud-Learning-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Kafka-Learning-black?style=for-the-badge&logo=apachekafka"/>
+
+<img src="https://img.shields.io/badge/Redis-Learning-red?style=for-the-badge&logo=redis"/>
+
+</p>
+
 `Microservices Architecture`
 
 `Spring Cloud` • `API Gateway`
@@ -257,7 +231,7 @@ CRUD Operations
 
 ---
 
-## 🔧 Tools
+## 🔧 Development Tools
 
 <p>
 <img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman" />
@@ -273,19 +247,29 @@ CRUD Operations
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=spring,kafka,redis,docker,aws" />
+<img src="https://img.shields.io/badge/Spring%20Boot-Advanced-success?style=for-the-badge&logo=spring"/>
+
+<img src="https://img.shields.io/badge/Microservices-Learning-purple?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Kafka-Learning-black?style=for-the-badge&logo=apachekafka"/>
 
 </p>
 
 <p align="center">
 
-<b>Microservices</b> •
-<b>Spring Cloud</b> •
-<b>Kafka</b> •
-<b>Redis</b> •
-<b>Docker</b> •
-<b>AWS</b> •
-<b>System Design</b>
+<img src="https://img.shields.io/badge/Redis-Learning-red?style=for-the-badge&logo=redis"/>
+
+<img src="https://img.shields.io/badge/Docker-Learning-blue?style=for-the-badge&logo=docker"/>
+
+<img src="https://img.shields.io/badge/AWS-Exploring-orange?style=for-the-badge&logo=amazonaws"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/System%20Design-Learning-8A2BE2?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/DSA-Practicing-yellow?style=for-the-badge"/>
 
 </p>
 
@@ -294,28 +278,30 @@ CRUD Operations
 # 🎯 My Development Journey
 
 ```text
-☕ Java
-   ↓
-🌱 Spring Boot
-   ↓
+☕ Core Java
+      ↓
+🧠 OOP + Collections
+      ↓
+🌱 Spring & Spring Boot
+      ↓
 🗄️ MySQL + JPA / Hibernate
-   ↓
+      ↓
 🔗 REST APIs
-   ↓
+      ↓
 🔐 Spring Security + JWT
-   ↓
+      ↓
 ⚛️ React.js
-   ↓
+      ↓
 🚀 Java Full Stack
-   ↓
+      ↓
 🧩 Microservices
-   ↓
+      ↓
 📨 Kafka + Redis
-   ↓
+      ↓
 🐳 Docker
-   ↓
+      ↓
 ☁️ AWS
-   ↓
+      ↓
 🏗️ System Design
-   ↓
+      ↓
 💻 Software Engineer
