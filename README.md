@@ -35,54 +35,32 @@
 
 <h1 align="left">👨‍💻 About Me</h1>
 
-<div align="center">
-
 <img align="right"
      src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
-     width="360"
+     width="340"
      alt="Coding GIF"/>
 
 <div align="left">
 
-🎓 **Computer Science Engineering Student**
+🎓 <b>Computer Science Engineering Student</b><br><br>
 
-<br><br>
+☕ Passionate about <b>Java Full Stack Development</b><br><br>
 
-☕ Passionate about **Java Full Stack Development**
+💻 Building applications using <b>Java, Spring Boot, React.js & MySQL</b><br><br>
 
-<br><br>
+🧠 Improving <b>DSA & Problem Solving</b><br><br>
 
-💻 Building applications using **Java, Spring Boot, React.js & MySQL**
+🔐 Learning <b>Spring Security & JWT Authentication</b><br><br>
 
-<br><br>
+🧩 Exploring <b>Microservices, Kafka, Redis & System Design</b><br><br>
 
-🧠 Improving **DSA & Problem Solving**
+🐳 Learning <b>Docker, CI/CD & Cloud Technologies</b><br><br>
 
-<br><br>
+☁️ Interested in <b>AWS & Scalable Backend Systems</b><br><br>
 
-🔐 Learning **Spring Security & JWT Authentication**
+🚀 Building <b>Real-World Projects</b><br><br>
 
-<br><br>
-
-🧩 Exploring **Microservices, Kafka, Redis & System Design**
-
-<br><br>
-
-🐳 Learning **Docker, CI/CD & Cloud Technologies**
-
-<br><br>
-
-☁️ Interested in **AWS & Scalable Backend Systems**
-
-<br><br>
-
-🚀 Building **Real-World Projects**
-
-<br><br>
-
-🎯 Goal: **Become a Professional Software Engineer**
-
-</div>
+🎯 Goal: <b>Become a Professional Software Engineer</b>
 
 </div>
 
