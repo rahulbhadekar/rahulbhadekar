@@ -1,136 +1,115 @@
-<!-- ===================== PROFILE HEADER ===================== -->
-<h1 align="center">Hi 👋, I'm Rahul Bhadekar</h1>
+<!-- ========================================================= -->
+<!--                     PROFILE HEADER                        -->
+<!-- ========================================================= -->
 
-<h3 align="center">☕ Java Full Stack Developer | 🚀 Software Engineer in Making</h3>
+<h1 align="center">
+  Hi 👋, I'm Rahul Bhadekar
+</h1>
+
+<h3 align="center">
+  ☕ Java Full Stack Developer | 🚀 Software Engineer in Making
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React.js;MySQL+%7C+REST+APIs+%7C+Hibernate;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real-World+Applications+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Java+Full+Stack+Developer;Java+%7C+Spring+Boot+%7C+React.js;MySQL+%7C+REST+APIs+%7C+Hibernate;Learning+DSA+%26+System+Design;Exploring+Microservices+%26+Cloud;Building+Real+World+Applications+%F0%9F%9A%80;Future+Software+Engineer" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=Profile%20Views&style=for-the-badge&color=0e75b6" />
-  <img src="https://img.shields.io/github/followers/rahulbhadekar?label=Followers&style=for-the-badge&color=1f6feb" />
+
+<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" />
+
+<img src="https://img.shields.io/github/followers/rahulbhadekar?label=FOLLOWERS&style=for-the-badge&color=1f6feb" />
+
 </p>
 
 <p align="center">
-  <a href="https://github.com/rahulbhadekar">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/rahul-bhadekar">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:rahulbhadekar2@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+
+<a href="https://github.com/rahulbhadekar">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rahul-bhadekar">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:rahulbhadekar2@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 </p>
 
 ---
 
-## 🚀 About Me
+# 👨‍💻 About Me
 
-🎓 **Computer Science Engineering Student**
+<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-☕ Passionate about **Java Full Stack Development**
+🎓 Computer Science Engineering student passionate about software development.
 
-💻 Building applications with **Java, Spring Boot, React.js & MySQL**
+☕ Currently focusing on **Java Full Stack Development**.
 
-🧠 Currently improving **DSA & Problem Solving**
+💻 Building applications using **Java, Spring Boot, React.js and MySQL**.
 
-🔐 Learning **Spring Security & JWT Authentication**
+🧠 Improving my **Data Structures & Algorithms** and problem-solving skills.
 
-🧩 Exploring **Microservices, Kafka & Redis**
+🔐 Learning backend security using **Spring Security and JWT**.
 
-🐳 Learning **Docker, AWS & Cloud Development**
+🧩 Exploring **Microservices, Kafka, Redis and System Design**.
 
-🚀 Interested in building **real-world and scalable applications**
+🐳 Learning **Docker, CI/CD and Cloud technologies**.
 
-🎯 Goal: **Become a Professional Software Engineer**
+☁️ Interested in **AWS and scalable backend systems**.
 
----
+🚀 Building real-world projects to improve my development skills.
 
-## 🛠️ Tech Stack
+🎯 Goal: Become a **Professional Software Engineer**.
 
-### ☕ Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,javascript,html,css" />
-</p>
-
-### ⚙️ Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=spring,maven" />
-</p>
-
-**Java • Spring • Spring Boot • Spring MVC • Spring Data JPA • Hibernate • REST APIs • Maven**
-
-### ⚛️ Frontend
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,html,css,javascript" />
-</p>
-
-**React.js • JavaScript • HTML5 • CSS3 • Responsive Design • REST API Integration**
-
-### 🗄️ Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" />
-</p>
-
-**MySQL • SQL • MongoDB • Redis**
-
-### 🔐 Security
-
-**Spring Security • JWT • Authentication • Authorization • Role-Based Access**
-
-### 🧩 Architecture & Messaging
-
-**Microservices • Spring Cloud • API Gateway • Service Discovery • Apache Kafka**
-
-### 🐳 DevOps & Cloud
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,aws,linux,githubactions" />
-</p>
-
-**Docker • AWS • Linux • CI/CD • GitHub Actions**
-
-### 🔧 Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman" />
-</p>
-
-**Git • GitHub • IntelliJ IDEA • VS Code • Postman**
+<br clear="right"/>
 
 ---
 
-## 📚 Currently Learning
+# 🧑‍💻 Developer Profile
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,docker,aws,kafka,redis" />
-</p>
+```java
+public class RahulBhadekar {
 
-```text
-Java
-  ↓
-Spring Boot
-  ↓
-JPA / Hibernate
-  ↓
-REST APIs
-  ↓
-Spring Security + JWT
-  ↓
-React.js
-  ↓
-Microservices
-  ↓
-Kafka + Redis
-  ↓
-Docker
-  ↓
-AWS
-  ↓
-System Design
+    String name = "Rahul Bhadekar";
+
+    String role = "Java Full Stack Developer";
+
+    String primaryLanguage = "Java";
+
+    String[] backend = {
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "Hibernate",
+        "REST APIs"
+    };
+
+    String[] frontend = {
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+    };
+
+    String[] databases = {
+        "MySQL",
+        "MongoDB",
+        "Redis"
+    };
+
+    String[] currentlyLearning = {
+        "DSA",
+        "Microservices",
+        "Kafka",
+        "Docker",
+        "AWS",
+        "System Design"
+    };
+
+    String mindset = "Learn → Build → Debug → Improve";
+
+    String goal = "Become a Software Engineer 🚀";
+}
