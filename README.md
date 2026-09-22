@@ -33,40 +33,27 @@
 
 ---
 
-<h1 align="left">👨‍💻 About Me</h1>
+<h1>👨‍💻 About Me</h1>
 
 <img align="right"
      src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
-     width="340"
+     width="330"
      alt="Coding GIF"/>
 
-<div align="left">
-
-🎓 <b>Computer Science Engineering Student</b><br><br>
-
-☕ Passionate about <b>Java Full Stack Development</b><br><br>
-
-💻 Building applications using <b>Java, Spring Boot, React.js & MySQL</b><br><br>
-
-🧠 Improving <b>DSA & Problem Solving</b><br><br>
-
-🔐 Learning <b>Spring Security & JWT Authentication</b><br><br>
-
-🧩 Exploring <b>Microservices, Kafka, Redis & System Design</b><br><br>
-
-🐳 Learning <b>Docker, CI/CD & Cloud Technologies</b><br><br>
-
-☁️ Interested in <b>AWS & Scalable Backend Systems</b><br><br>
-
-🚀 Building <b>Real-World Projects</b><br><br>
-
+<p>
+🎓 <b>Computer Science Engineering Student</b><br>
+☕ Passionate about <b>Java Full Stack Development</b><br>
+💻 Building applications using <b>Java, Spring Boot, React.js & MySQL</b><br>
+🧠 Improving <b>DSA & Problem Solving</b><br>
+🔐 Learning <b>Spring Security & JWT Authentication</b><br>
+🧩 Exploring <b>Microservices, Kafka, Redis & System Design</b><br>
+🐳 Learning <b>Docker, CI/CD & Cloud Technologies</b><br>
+☁️ Interested in <b>AWS & Scalable Backend Systems</b><br>
+🚀 Building <b>Real-World Projects</b><br>
 🎯 Goal: <b>Become a Professional Software Engineer</b>
+</p>
 
-</div>
-
-<br clear="both"/>
-
-# 💻 What I Do
+<br clear="both"/># 💻 What I Do
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,react,mysql,git,github" />
