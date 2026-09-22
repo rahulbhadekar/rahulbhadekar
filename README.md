@@ -33,51 +33,60 @@
 
 ---
 
-# 👨‍💻 About Me
+<h1 align="left">👨‍💻 About Me</h1>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320"/>
-</p>
+<div align="center">
 
-<p align="center">
-  🎓 <b>Computer Science Engineering Student</b>
-</p>
+<img align="right"
+     src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
+     width="360"
+     alt="Coding GIF"/>
 
-<p align="center">
-  ☕ Passionate about <b>Java Full Stack Development</b>
-</p>
+<div align="left">
 
-<p align="center">
-  💻 Building applications using <b>Java, Spring Boot, React.js & MySQL</b>
-</p>
+🎓 **Computer Science Engineering Student**
 
-<p align="center">
-  🧠 Improving <b>DSA & Problem Solving</b>
-</p>
+<br><br>
 
-<p align="center">
-  🔐 Learning <b>Spring Security & JWT Authentication</b>
-</p>
+☕ Passionate about **Java Full Stack Development**
 
-<p align="center">
-  🧩 Exploring <b>Microservices, Kafka, Redis & System Design</b>
-</p>
+<br><br>
 
-<p align="center">
-  🐳 Learning <b>Docker, CI/CD & Cloud Technologies</b>
-</p>
+💻 Building applications using **Java, Spring Boot, React.js & MySQL**
 
-<p align="center">
-  ☁️ Interested in <b>AWS & Scalable Backend Systems</b>
-</p>
+<br><br>
 
-<p align="center">
-  🚀 Building <b>Real-World Projects</b> to improve my development skills
-</p>
+🧠 Improving **DSA & Problem Solving**
 
-<p align="center">
-  🎯 Goal: <b>Become a Professional Software Engineer</b>
-</p>
+<br><br>
+
+🔐 Learning **Spring Security & JWT Authentication**
+
+<br><br>
+
+🧩 Exploring **Microservices, Kafka, Redis & System Design**
+
+<br><br>
+
+🐳 Learning **Docker, CI/CD & Cloud Technologies**
+
+<br><br>
+
+☁️ Interested in **AWS & Scalable Backend Systems**
+
+<br><br>
+
+🚀 Building **Real-World Projects**
+
+<br><br>
+
+🎯 Goal: **Become a Professional Software Engineer**
+
+</div>
+
+</div>
+
+<br clear="both"/>
 
 # 💻 What I Do
 
