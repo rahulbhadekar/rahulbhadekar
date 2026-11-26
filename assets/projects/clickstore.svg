@@ -1,0 +1,441 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="500"
+     viewBox="0 0 1200 500">
+
+  <title>ClickStore - Full Stack E-Commerce Platform</title>
+
+  <defs>
+
+    <radialGradient id="bg" cx="75%" cy="45%">
+      <stop offset="0%" stop-color="#163B65"/>
+      <stop offset="55%" stop-color="#0B192C"/>
+      <stop offset="100%" stop-color="#030610"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#BFDBFE"/>
+      <stop offset="65%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="cart" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="50%" stop-color="#0C2840"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="cube">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0C2340"/>
+    </linearGradient>
+
+    <radialGradient id="floor">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#2563EB"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Reusable 3D Product Package -->
+
+    <g id="package">
+
+      <path d="M0 30L50 0L100 30L50 60Z"
+            fill="#60A5FA"
+            stroke="#BFDBFE"/>
+
+      <path d="M0 30L50 60V120L0 90Z"
+            fill="#1D4ED8"
+            stroke="#60A5FA"/>
+
+      <path d="M50 60L100 30V90L50 120Z"
+            fill="url(#cube)"
+            stroke="#60A5FA"/>
+
+      <path d="M25 15L75 45V105L65 111V51L15 21Z"
+            fill="#93C5FD"
+            opacity=".6"/>
+
+    </g>
+
+  </defs>
+
+  <!-- CINEMATIC BACKGROUND -->
+
+  <rect width="1200" height="500"
+        rx="20" fill="url(#bg)"/>
+
+  <ellipse cx="900" cy="390"
+           rx="290" ry="90"
+           fill="url(#floor)">
+
+    <animate attributeName="opacity"
+             values=".5;1;.5"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- PERSPECTIVE GRID -->
+
+  <g stroke="#38BDF8"
+     opacity=".09" fill="none">
+
+    <path d="M850 280L0 500"/>
+    <path d="M850 280L200 500"/>
+    <path d="M850 280L400 500"/>
+    <path d="M850 280L600 500"/>
+    <path d="M850 280L800 500"/>
+    <path d="M850 280L1000 500"/>
+    <path d="M850 280L1200 500"/>
+
+    <path d="M0 310H1200"/>
+    <path d="M0 350H1200"/>
+    <path d="M0 400H1200"/>
+    <path d="M0 460H1200"/>
+
+  </g>
+
+  <!-- PROJECT LABEL -->
+
+  <circle cx="50" cy="47" r="5"
+          fill="#38BDF8"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="68" y="53"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="3">
+    02 / FULL STACK COMMERCE
+  </text>
+
+  <!-- METALLIC TITLE -->
+
+  <text x="47" y="145"
+        font-family="Arial"
+        font-size="84"
+        font-weight="900"
+        fill="url(#metal)">
+    ClickStore
+  </text>
+
+  <text x="50" y="185"
+        font-family="Arial"
+        font-size="25"
+        font-weight="bold"
+        fill="#E2E8F0">
+    Full Stack E-Commerce Platform
+  </text>
+
+  <!-- PROJECT FEATURES -->
+
+  <g font-family="Arial"
+     font-size="18"
+     fill="#CBD5E1">
+
+    <circle cx="55" cy="230" r="4"
+            fill="#38BDF8"/>
+    <text x="75" y="236">
+      Product Catalog &amp; Management
+    </text>
+
+    <circle cx="55" cy="267" r="4"
+            fill="#38BDF8"/>
+    <text x="75" y="273">
+      Shopping Cart &amp; Order Management
+    </text>
+
+    <circle cx="55" cy="304" r="4"
+            fill="#38BDF8"/>
+    <text x="75" y="310">
+      RESTful Backend Architecture
+    </text>
+
+    <circle cx="55" cy="341" r="4"
+            fill="#38BDF8"/>
+    <text x="75" y="347">
+      PostgreSQL Database Integration
+    </text>
+
+  </g>
+
+  <!-- TECHNOLOGY STACK -->
+
+  <g font-family="monospace"
+     font-size="14"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="50" y="385"
+          width="110" height="38"
+          rx="6" fill="#10182E"
+          stroke="#F97316"/>
+
+    <text x="105" y="409"
+          fill="#FB923C">JAVA</text>
+
+    <rect x="172" y="385"
+          width="155" height="38"
+          rx="6" fill="#10182E"
+          stroke="#4ADE80"/>
+
+    <text x="249" y="409"
+          fill="#4ADE80">SPRING BOOT</text>
+
+    <rect x="339" y="385"
+          width="155" height="38"
+          rx="6" fill="#10182E"
+          stroke="#60A5FA"/>
+
+    <text x="416" y="409"
+          fill="#93C5FD">POSTGRESQL</text>
+
+  </g>
+
+  <!-- HOLOGRAPHIC PLATFORM -->
+
+  <g fill="none" stroke="#38BDF8">
+
+    <ellipse cx="900" cy="390"
+             rx="240" ry="50"
+             opacity=".25"/>
+
+    <ellipse cx="900" cy="390"
+             rx="190" ry="40"
+             stroke-dasharray="35 15"
+             opacity=".6">
+
+      <animate attributeName="stroke-dashoffset"
+               from="0" to="300"
+               dur="10s"
+               repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="900" cy="390"
+             rx="140" ry="30"
+             opacity=".4"/>
+
+  </g>
+
+  <!-- FLOATING PRODUCT PACKAGE 1 -->
+
+  <g transform="translate(740 65) scale(.95)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -15;0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+      <use href="#package"/>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING PRODUCT PACKAGE 2 -->
+
+  <g transform="translate(950 90) scale(.8)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -20;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+      <use href="#package"/>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING PRODUCT PACKAGE 3 -->
+
+  <g transform="translate(865 30) scale(.65)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 12;0 0"
+        dur="4.5s"
+        repeatCount="indefinite"/>
+
+      <use href="#package"/>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING SHOPPING CART -->
+
+  <g transform="translate(735 200)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -10;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+      <!-- Cart Body -->
+
+      <path d="M-35 -20H0
+               L35 125H245
+               L290 10H8"
+            fill="url(#cart)"
+            stroke="#67E8F9"
+            stroke-width="4"
+            stroke-linejoin="round"/>
+
+      <!-- Cart Wireframe -->
+
+      <g stroke="#60A5FA"
+         stroke-width="2"
+         opacity=".65">
+
+        <path d="M15 45H275"/>
+        <path d="M25 85H260"/>
+        <path d="M65 10L85 125"/>
+        <path d="M125 10L135 125"/>
+        <path d="M185 10L180 125"/>
+        <path d="M245 10L225 125"/>
+
+      </g>
+
+      <!-- Cart Base -->
+
+      <path d="M35 125L28 150H245"
+            stroke="#67E8F9"
+            stroke-width="4"
+            fill="none"
+            stroke-linecap="round"/>
+
+      <!-- Wheels -->
+
+      <circle cx="65" cy="170"
+              r="17"
+              fill="#0F172A"
+              stroke="#67E8F9"
+              stroke-width="3"/>
+
+      <circle cx="215" cy="170"
+              r="17"
+              fill="#0F172A"
+              stroke="#67E8F9"
+              stroke-width="3"/>
+
+      <circle cx="65" cy="170"
+              r="6" fill="#38BDF8"/>
+
+      <circle cx="215" cy="170"
+              r="6" fill="#38BDF8"/>
+
+      <!-- Moving Cart Energy -->
+
+      <circle r="5"
+              fill="#FFFFFF"
+              filter="url(#glow)">
+
+        <animateMotion
+          path="M8 10H290L245 125H35L8 10"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+    </g>
+
+  </g>
+
+  <!-- DIGITAL COMMERCE PARTICLES -->
+
+  <g fill="#67E8F9"
+     filter="url(#glow)">
+
+    <circle r="4">
+
+      <animateMotion
+        path="M650 200Q850 20 1100 150"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3">
+
+      <animateMotion
+        path="M1100 350Q900 450 650 350"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3">
+
+      <animateMotion
+        path="M700 80Q900 10 1150 90"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- FOOTER -->
+
+  <path d="M50 450H1150"
+        stroke="#2563EB"
+        opacity=".7"/>
+
+  <circle cx="50" cy="450"
+          r="4"
+          fill="#FFFFFF"
+          filter="url(#glow)">
+
+    <animate attributeName="cx"
+             values="50;1150;50"
+             dur="8s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="600" y="478"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="14"
+        letter-spacing="3"
+        fill="#67E8F9">
+    ENGINEERING THE DIGITAL SHOPPING EXPERIENCE
+  </text>
+
+</svg>
