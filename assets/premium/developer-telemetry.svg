@@ -1,0 +1,257 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="280"
+     viewBox="0 0 1200 280">
+
+  <title>RAHUL OS 2.0 - Developer Telemetry</title>
+
+  <defs>
+
+    <radialGradient id="bg" cx="75%" cy="50%" r="85%">
+      <stop offset="0%" stop-color="#15233F"/>
+      <stop offset="50%" stop-color="#080F1C"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="energy">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity="0"/>
+      <stop offset="45%" stop-color="#67E8F9"/>
+      <stop offset="75%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="area" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#2563EB"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#2563EB"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="stars"
+             width="190" height="170"
+             patternUnits="userSpaceOnUse">
+
+      <circle cx="17" cy="26" r=".8"
+              fill="#FFFFFF" opacity=".3"/>
+
+      <circle cx="87" cy="73" r=".7"
+              fill="#93C5FD" opacity=".4"/>
+
+      <circle cx="156" cy="138" r="1"
+              fill="#C4B5FD" opacity=".4"/>
+
+    </pattern>
+
+    <pattern id="grid"
+             width="35" height="35"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M35 0H0V35"
+            fill="none"
+            stroke="#334155"
+            stroke-width=".5"
+            opacity=".25"/>
+
+    </pattern>
+
+    <clipPath id="graphClip">
+      <rect x="680" y="35"
+            width="475" height="210"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- UNIFIED BACKGROUND -->
+
+  <rect width="1200" height="280"
+        fill="#030509"/>
+
+  <rect width="1200" height="280"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="280"
+        fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".4;.9;.4"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <ellipse cx="950" cy="140"
+           rx="300" ry="150"
+           fill="url(#halo)">
+
+    <animate attributeName="opacity"
+      values=".5;1;.5"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- EDITORIAL HEADING -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="48"
+          font-size="13"
+          letter-spacing="5"
+          fill="#94A3B8">
+      06 / DEVELOPER TELEMETRY
+    </text>
+
+    <text x="45" y="115"
+          font-size="49"
+          font-weight="900"
+          fill="url(#metal)">
+      Engineering in numbers.
+    </text>
+
+    <text x="45" y="155"
+          font-size="20"
+          fill="#94A3B8">
+      Code. Contributions. Consistency.
+    </text>
+
+    <circle cx="52" cy="200"
+            r="5"
+            fill="#67E8F9"
+            filter="url(#glow)">
+
+      <animate attributeName="opacity"
+        values=".3;1;.3"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <text x="70" y="205"
+          font-size="13"
+          letter-spacing="3"
+          fill="#67E8F9">
+      GITHUB ACTIVITY / DEVELOPER ANALYTICS
+    </text>
+
+  </g>
+
+  <!-- DECORATIVE ANALYTICS WAVE -->
+
+  <g clip-path="url(#graphClip)">
+
+    <rect x="680" y="35"
+          width="475" height="210"
+          fill="url(#grid)"/>
+
+    <path d="M680 200
+             L715 180
+             L750 195
+             L785 135
+             L820 165
+             L855 110
+             L890 145
+             L925 85
+             L960 125
+             L995 75
+             L1030 110
+             L1065 55
+             L1100 95
+             L1155 45
+             V245H680Z"
+          fill="url(#area)"/>
+
+    <path d="M680 200
+             L715 180
+             L750 195
+             L785 135
+             L820 165
+             L855 110
+             L890 145
+             L925 85
+             L960 125
+             L995 75
+             L1030 110
+             L1065 55
+             L1100 95
+             L1155 45"
+          fill="none"
+          stroke="url(#energy)"
+          stroke-width="2.5"
+          filter="url(#glow)"/>
+
+    <circle r="4"
+            fill="#FFFFFF"
+            filter="url(#glow)">
+
+      <animateMotion
+        path="M680 200
+              L715 180
+              L750 195
+              L785 135
+              L820 165
+              L855 110
+              L890 145
+              L925 85
+              L960 125
+              L995 75
+              L1030 110
+              L1065 55
+              L1100 95
+              L1155 45"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <text x="1155" y="240"
+        text-anchor="end"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="2"
+        fill="#64748B">
+    ACTIVITY VISUALIZATION
+  </text>
+
+  <!-- BOTTOM TRANSITION -->
+
+  <path d="M45 260H1155"
+        stroke="url(#energy)"
+        opacity=".6"/>
+
+  <circle r="2.5"
+          fill="#67E8F9"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M45 260H1155"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
