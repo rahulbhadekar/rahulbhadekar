@@ -1,0 +1,628 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="960"
+     viewBox="0 0 1200 960">
+
+  <title>Neural Architecture and Engineering Expertise</title>
+
+  <defs>
+
+    <!-- UNIFIED OBSIDIAN THEME -->
+
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#15233F"/>
+      <stop offset="50%" stop-color="#080F1C"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="energy">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="45%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="divider">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="tableHeader">
+      <stop offset="0%" stop-color="#172B48"/>
+      <stop offset="50%" stop-color="#142039"/>
+      <stop offset="100%" stop-color="#1D1938"/>
+    </linearGradient>
+
+    <linearGradient id="scan">
+      <stop offset="0%" stop-color="#67E8F9"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9"
+            stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#67E8F9"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#2563EB"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <pattern id="stars"
+             width="190" height="170"
+             patternUnits="userSpaceOnUse">
+
+      <circle cx="17" cy="26" r=".8"
+              fill="#FFFFFF" opacity=".3"/>
+
+      <circle cx="87" cy="73" r=".7"
+              fill="#93C5FD" opacity=".4"/>
+
+      <circle cx="156" cy="138" r="1"
+              fill="#C4B5FD" opacity=".4"/>
+
+    </pattern>
+
+    <!-- REUSABLE NEURAL NODE -->
+
+    <g id="node">
+
+      <circle r="23"
+              fill="currentColor"
+              opacity=".15"
+              filter="url(#softGlow)"/>
+
+      <circle r="15"
+              fill="#0B1528"
+              stroke="currentColor"
+              stroke-width="1.5"/>
+
+      <circle r="7"
+              fill="currentColor"
+              opacity=".25">
+
+        <animate attributeName="r"
+          values="5;10;5"
+          dur="4s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+      <circle r="4"
+              fill="currentColor"
+              filter="url(#glow)"/>
+
+      <circle r="21"
+              fill="none"
+              stroke="currentColor"
+              stroke-opacity=".25">
+
+        <animate attributeName="r"
+          values="16;25;16"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+        <animate attributeName="opacity"
+          values=".6;.1;.6"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+      </circle>
+
+    </g>
+
+    <clipPath id="tableClip">
+      <rect x="45" y="640"
+            width="1110" height="270"
+            rx="6"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- CONTINUOUS BACKGROUND -->
+
+  <rect width="1200" height="960"
+        fill="#030509"/>
+
+  <rect width="1200" height="960"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="960"
+        fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".4;.9;.4"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <ellipse cx="600" cy="320"
+           rx="570" ry="280"
+           fill="url(#halo)">
+
+    <animate attributeName="opacity"
+      values=".5;1;.5"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- EDITORIAL HEADING -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="48"
+          font-size="13"
+          letter-spacing="5"
+          fill="#94A3B8">
+      03 / SYSTEM ARCHITECTURE
+    </text>
+
+    <text x="45" y="115"
+          font-size="49"
+          font-weight="bold"
+          fill="url(#metal)">
+      From data to intelligence.
+    </text>
+
+    <text x="45" y="151"
+          font-size="18"
+          fill="#94A3B8">
+      Connecting intelligent models with real-world applications.
+    </text>
+
+  </g>
+
+  <!-- INPUT TO PROCESSING CONNECTIONS -->
+
+  <g fill="none"
+     stroke="#60A5FA"
+     stroke-width="1.2"
+     opacity=".3">
+
+    <path d="M150 230C270 230 310 255 430 255"/>
+    <path d="M150 230C270 230 310 315 430 315"/>
+    <path d="M150 230C270 230 310 375 430 375"/>
+
+    <path d="M150 285C270 285 310 255 430 255"/>
+    <path d="M150 285C270 285 310 315 430 315"/>
+    <path d="M150 285C270 285 310 375 430 375"/>
+
+    <path d="M150 340C270 340 310 255 430 255"/>
+    <path d="M150 340C270 340 310 315 430 315"/>
+    <path d="M150 340C270 340 310 375 430 375"/>
+
+    <path d="M150 395C270 395 310 255 430 255"/>
+    <path d="M150 395C270 395 310 315 430 315"/>
+    <path d="M150 395C270 395 310 375 430 375"/>
+
+  </g>
+
+  <!-- PROCESSING TO AI ENGINE -->
+
+  <g fill="none"
+     stroke="url(#energy)"
+     stroke-width="1.3"
+     opacity=".4">
+
+    <path d="M430 255C550 255 650 255 770 255"/>
+    <path d="M430 255C550 255 650 315 770 315"/>
+    <path d="M430 255C550 255 650 375 770 375"/>
+
+    <path d="M430 315C550 315 650 255 770 255"/>
+    <path d="M430 315C550 315 650 315 770 315"/>
+    <path d="M430 315C550 315 650 375 770 375"/>
+
+    <path d="M430 375C550 375 650 255 770 255"/>
+    <path d="M430 375C550 375 650 315 770 315"/>
+    <path d="M430 375C550 375 650 375 770 375"/>
+
+  </g>
+
+  <!-- AI ENGINE TO APPLICATION -->
+
+  <g fill="none"
+     stroke="#67E8F9"
+     stroke-width="1.2"
+     opacity=".3">
+
+    <path d="M770 255C890 255 930 255 1050 255"/>
+    <path d="M770 255C890 255 930 315 1050 315"/>
+    <path d="M770 255C890 255 930 375 1050 375"/>
+
+    <path d="M770 315C890 315 930 255 1050 255"/>
+    <path d="M770 315C890 315 930 315 1050 315"/>
+    <path d="M770 315C890 315 930 375 1050 375"/>
+
+    <path d="M770 375C890 375 930 255 1050 255"/>
+    <path d="M770 375C890 375 930 315 1050 315"/>
+    <path d="M770 375C890 375 930 375 1050 375"/>
+
+  </g>
+
+  <!-- DATA INPUT NODES -->
+
+  <g color="#60A5FA">
+
+    <use xlink:href="#node" x="150" y="230"/>
+    <use xlink:href="#node" x="150" y="285"/>
+    <use xlink:href="#node" x="150" y="340"/>
+    <use xlink:href="#node" x="150" y="395"/>
+
+  </g>
+
+  <!-- PYTHON PROCESSING NODES -->
+
+  <g color="#67E8F9">
+
+    <use xlink:href="#node" x="430" y="255"/>
+    <use xlink:href="#node" x="430" y="315"/>
+    <use xlink:href="#node" x="430" y="375"/>
+
+  </g>
+
+  <!-- AI INTELLIGENCE NODES -->
+
+  <g color="#A78BFA">
+
+    <use xlink:href="#node" x="770" y="255"/>
+    <use xlink:href="#node" x="770" y="315"/>
+    <use xlink:href="#node" x="770" y="375"/>
+
+  </g>
+
+  <!-- APPLICATION NODES -->
+
+  <g color="#67E8F9">
+
+    <use xlink:href="#node" x="1050" y="255"/>
+    <use xlink:href="#node" x="1050" y="315"/>
+    <use xlink:href="#node" x="1050" y="375"/>
+
+  </g>
+
+  <!-- ANIMATED DATA FLOW -->
+
+  <g filter="url(#glow)">
+
+    <circle r="4" fill="#67E8F9">
+
+      <animateMotion
+        path="M150 230
+              C270 230 310 255 430 255
+              C550 255 650 315 770 315
+              C890 315 930 375 1050 375"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="4" fill="#C4B5FD">
+
+      <animateMotion
+        path="M150 395
+              C270 395 310 375 430 375
+              C550 375 650 255 770 255
+              C890 255 930 315 1050 315"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3" fill="#FFFFFF">
+
+      <animateMotion
+        path="M150 285
+              C270 285 310 315 430 315
+              C550 315 650 375 770 375
+              C890 375 930 255 1050 255"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3" fill="#60A5FA">
+
+      <animateMotion
+        path="M150 340
+              C270 340 310 255 430 255
+              C550 255 650 255 770 255
+              C890 255 930 375 1050 375"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- ARCHITECTURE LABELS -->
+
+  <g font-family="Arial, sans-serif"
+     text-anchor="middle">
+
+    <text x="150" y="450"
+          font-size="17"
+          font-weight="bold"
+          fill="#93C5FD">
+      DATA INPUT
+    </text>
+
+    <text x="150" y="475"
+          font-size="13"
+          fill="#94A3B8">
+      Data &amp; Requirements
+    </text>
+
+    <text x="430" y="450"
+          font-size="17"
+          font-weight="bold"
+          fill="#67E8F9">
+      PROCESSING
+    </text>
+
+    <text x="430" y="475"
+          font-size="13"
+          fill="#94A3B8">
+      Python &amp; Automation
+    </text>
+
+    <text x="770" y="450"
+          font-size="17"
+          font-weight="bold"
+          fill="#C4B5FD">
+      AI ENGINE
+    </text>
+
+    <text x="770" y="475"
+          font-size="13"
+          fill="#94A3B8">
+      Models &amp; Intelligence
+    </text>
+
+    <text x="1050" y="450"
+          font-size="17"
+          font-weight="bold"
+          fill="#67E8F9">
+      APPLICATION
+    </text>
+
+    <text x="1050" y="475"
+          font-size="13"
+          fill="#94A3B8">
+      APIs &amp; User Experience
+    </text>
+
+  </g>
+
+  <!-- SECTION TRANSITION -->
+
+  <path d="M45 515H1155"
+        stroke="url(#divider)"
+        stroke-width="1.5"/>
+
+  <!-- TECHNICAL EXPERTISE HEADING -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="560"
+          font-size="13"
+          letter-spacing="5"
+          fill="#94A3B8">
+      ENGINEERING CAPABILITIES
+    </text>
+
+    <text x="45" y="610"
+          font-size="37"
+          font-weight="bold"
+          fill="url(#metal)">
+      The technical foundation.
+    </text>
+
+  </g>
+
+  <!-- PREMIUM EDITORIAL TABLE -->
+
+  <g clip-path="url(#tableClip)">
+
+    <rect x="45" y="640"
+          width="1110" height="270"
+          fill="#080F1C"/>
+
+    <!-- TABLE HEADER -->
+
+    <rect x="45" y="640"
+          width="1110" height="45"
+          fill="url(#tableHeader)"/>
+
+    <g font-family="Arial"
+       font-size="14"
+       font-weight="bold"
+       letter-spacing="2"
+       fill="#67E8F9">
+
+      <text x="70" y="668">DOMAIN</text>
+      <text x="375" y="668">TECHNOLOGY</text>
+      <text x="765" y="668">APPLICATION</text>
+
+    </g>
+
+    <!-- ALTERNATING ROWS -->
+
+    <rect x="45" y="685"
+          width="1110" height="45"
+          fill="#101A2B"/>
+
+    <rect x="45" y="775"
+          width="1110" height="45"
+          fill="#101A2B"/>
+
+    <rect x="45" y="865"
+          width="1110" height="45"
+          fill="#101A2B"/>
+
+    <!-- TABLE SEPARATORS -->
+
+    <g stroke="#334155"
+       stroke-width=".7"
+       opacity=".55">
+
+      <path d="M45 685H1155"/>
+      <path d="M45 730H1155"/>
+      <path d="M45 775H1155"/>
+      <path d="M45 820H1155"/>
+      <path d="M45 865H1155"/>
+      <path d="M355 640V910"/>
+      <path d="M745 640V910"/>
+
+    </g>
+
+    <!-- DOMAIN COLUMN -->
+
+    <g font-family="Arial"
+       font-size="16"
+       font-weight="bold">
+
+      <text x="70" y="713" fill="#67E8F9">
+        01   AI &amp; Intelligence
+      </text>
+
+      <text x="70" y="758" fill="#E2E8F0">
+        02   Backend Engineering
+      </text>
+
+      <text x="70" y="803" fill="#E2E8F0">
+        03   Frontend Engineering
+      </text>
+
+      <text x="70" y="848" fill="#E2E8F0">
+        04   Database Systems
+      </text>
+
+      <text x="70" y="893" fill="#E2E8F0">
+        05   Development Workflow
+      </text>
+
+    </g>
+
+    <!-- TECHNOLOGY COLUMN -->
+
+    <g font-family="Arial"
+       font-size="16"
+       fill="#C4B5FD">
+
+      <text x="375" y="713">
+        Python / AI / Machine Learning
+      </text>
+
+      <text x="375" y="758">
+        Django / Java / Spring Boot
+      </text>
+
+      <text x="375" y="803">
+        React / JavaScript / HTML / CSS
+      </text>
+
+      <text x="375" y="848">
+        PostgreSQL / MySQL / SQL
+      </text>
+
+      <text x="375" y="893">
+        Git / GitHub / Postman
+      </text>
+
+    </g>
+
+    <!-- PRACTICAL APPLICATION COLUMN -->
+
+    <g font-family="Arial"
+       font-size="15"
+       fill="#94A3B8">
+
+      <text x="765" y="713">
+        Intelligent applications
+      </text>
+
+      <text x="765" y="758">
+        REST APIs &amp; business logic
+      </text>
+
+      <text x="765" y="803">
+        Responsive user experiences
+      </text>
+
+      <text x="765" y="848">
+        Structured data management
+      </text>
+
+      <text x="765" y="893">
+        Version control &amp; API testing
+      </text>
+
+    </g>
+
+    <!-- MOVING TABLE LIGHT REFLECTION -->
+
+    <rect x="-300" y="640"
+          width="240" height="270"
+          fill="url(#scan)">
+
+      <animate attributeName="x"
+        values="-300;1400;1400"
+        keyTimes="0;.65;1"
+        dur="10s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+  </g>
+
+  <!-- TABLE OUTLINE -->
+
+  <rect x="45" y="640"
+        width="1110" height="270"
+        rx="6"
+        fill="none"
+        stroke="#334155"
+        stroke-width=".8"/>
+
+  <!-- SEAMLESS BOTTOM TRANSITION -->
+
+  <path d="M200 940H1000"
+        stroke="url(#divider)"
+        opacity=".45"/>
+
+  <circle r="2.5"
+          fill="#67E8F9"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M200 940H1000"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
