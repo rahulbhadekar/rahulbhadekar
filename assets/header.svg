@@ -1,0 +1,233 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+
+<defs>
+
+  <radialGradient id="bg">
+    <stop offset="0%" stop-color="#112B48"/>
+    <stop offset="100%" stop-color="#03060D"/>
+  </radialGradient>
+
+  <linearGradient id="metal" x1="0" y1="0" x2="0.2" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="45%" stop-color="#C9EAFF"/>
+    <stop offset="55%" stop-color="#61A4DC"/>
+    <stop offset="100%" stop-color="#FFFFFF"/>
+  </linearGradient>
+
+  <linearGradient id="neon">
+    <stop offset="0%" stop-color="#2563EB"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <pattern id="grid" width="35" height="35"
+           patternUnits="userSpaceOnUse">
+    <path d="M35 0H0V35" fill="none"
+          stroke="#38BDF8" opacity=".08"/>
+  </pattern>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="440" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="440" rx="20" fill="url(#grid)"/>
+
+<!-- Futuristic corners -->
+
+<path d="M25 90V25H230
+         M970 25H1175V90
+         M25 350V415H230
+         M970 415H1175V350"
+      fill="none"
+      stroke="url(#neon)"
+      stroke-width="3"
+      filter="url(#glow)"/>
+
+<!-- Animated orbital universe -->
+
+<g fill="none" stroke="#38BDF8">
+
+  <ellipse cx="600" cy="210" rx="440" ry="125"
+           opacity=".15" stroke-dasharray="100 20">
+    <animateTransform attributeName="transform"
+      type="rotate" from="0 600 210" to="360 600 210"
+      dur="45s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="600" cy="210" rx="390" ry="95"
+           opacity=".2" stroke-dasharray="50 25">
+    <animateTransform attributeName="transform"
+      type="rotate" from="360 600 210" to="0 600 210"
+      dur="35s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="600" cy="210" rx="500" ry="150"
+           opacity=".08">
+    <animateTransform attributeName="transform"
+      type="rotate" from="0 600 210" to="360 600 210"
+      dur="60s" repeatCount="indefinite"/>
+  </ellipse>
+
+</g>
+
+<!-- Floating energy particles -->
+
+<g fill="#67E8F9" filter="url(#glow)">
+
+  <circle cx="100" cy="80" r="3">
+    <animate attributeName="cy" values="80;350;80"
+      dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1100" cy="350" r="3">
+    <animate attributeName="cy" values="350;70;350"
+      dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="250" cy="100" r="2">
+    <animate attributeName="cx" values="250;950;250"
+      dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="950" cy="350" r="2">
+    <animate attributeName="cx" values="950;250;950"
+      dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="180" cy="250" r="2">
+    <animate attributeName="opacity" values=".2;1;.2"
+      dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1020" cy="130" r="2">
+    <animate attributeName="opacity" values="1;.2;1"
+      dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+</g>
+
+<!-- System information -->
+
+<text x="55" y="55"
+      fill="#67E8F9"
+      font-family="monospace"
+      font-size="14"
+      letter-spacing="2">
+  RB / DIGITAL PORTFOLIO
+</text>
+
+<circle cx="1060" cy="50" r="5" fill="#00FF88">
+  <animate attributeName="opacity"
+    values="1;.3;1" dur="2s"
+    repeatCount="indefinite"/>
+</circle>
+
+<text x="1075" y="55"
+      fill="#00FF88"
+      font-family="monospace"
+      font-size="14">
+  ONLINE
+</text>
+
+<!-- Main typography -->
+
+<text x="600" y="115"
+      text-anchor="middle"
+      fill="#7DD3FC"
+      font-family="monospace"
+      font-size="16"
+      letter-spacing="8">
+  DESIGN · DEVELOP · DEPLOY
+</text>
+
+<text x="600" y="195"
+      text-anchor="middle"
+      fill="url(#metal)"
+      font-family="Arial, sans-serif"
+      font-weight="900"
+      font-size="68"
+      letter-spacing="3">
+  RAHUL BHADEKAR
+</text>
+
+<text x="600" y="240"
+      text-anchor="middle"
+      fill="#22D3EE"
+      font-family="monospace"
+      font-size="25"
+      letter-spacing="7">
+  FULL STACK DEVELOPER
+</text>
+
+<!-- Energy scanner -->
+
+<path d="M250 270H950"
+      stroke="url(#neon)"
+      stroke-width="2"/>
+
+<circle cx="250" cy="270" r="4"
+        fill="#FFFFFF" filter="url(#glow)">
+  <animate attributeName="cx"
+    values="250;950;250"
+    dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<text x="600" y="305"
+      text-anchor="middle"
+      fill="#94A3B8"
+      font-family="Arial"
+      font-size="18">
+  Building intelligent applications for the real world.
+</text>
+
+<!-- Premium technology cards -->
+
+<g font-family="monospace"
+   font-size="15"
+   text-anchor="middle"
+   fill="#C9EAFF">
+
+  <rect x="260" y="335" width="160" height="40"
+        rx="7" fill="#0B1829" stroke="#24536D"/>
+  <text x="340" y="360">JAVA</text>
+
+  <rect x="435" y="335" width="160" height="40"
+        rx="7" fill="#0B1829" stroke="#24536D"/>
+  <text x="515" y="360">PYTHON</text>
+
+  <rect x="610" y="335" width="160" height="40"
+        rx="7" fill="#0B1829" stroke="#24536D"/>
+  <text x="690" y="360">BACKEND</text>
+
+  <rect x="785" y="335" width="160" height="40"
+        rx="7" fill="#0B1829" stroke="#24536D"/>
+  <text x="865" y="360">FULL STACK</text>
+
+</g>
+
+<text x="55" y="400"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="12">
+  VERSION 2026.1
+</text>
+
+<text x="1145" y="400"
+      text-anchor="end"
+      fill="#64748B"
+      font-family="monospace"
+      font-size="12">
+  RAHULTECHNOTES
+</text>
+
+</svg>
