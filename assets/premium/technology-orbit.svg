@@ -1,0 +1,549 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="500"
+     viewBox="0 0 1200 500"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>Rahul OS - Engineering Technology Ecosystem</title>
+
+  <defs>
+
+    <radialGradient id="bg">
+      <stop stop-color="#1c3053"/>
+      <stop offset=".55" stop-color="#101a2c"/>
+      <stop offset="1" stop-color="#080d16"/>
+    </radialGradient>
+
+    <linearGradient id="orbit">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#526b91"/>
+      <stop offset=".4" stop-color="#1e304e"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <linearGradient id="pythonBlue" x2="1" y2="1">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563a5"/>
+    </linearGradient>
+
+    <linearGradient id="pythonYellow" x2="1" y2="1">
+      <stop stop-color="#fff2a3"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+
+    <radialGradient id="sphere" cx=".35" cy=".25" r=".8">
+      <stop stop-color="#34517c"/>
+      <stop offset=".5" stop-color="#172a49"/>
+      <stop offset="1" stop-color="#080e19"/>
+    </radialGradient>
+
+    <filter id="glow" x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <pattern id="grid" width="35" height="35"
+             patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35"
+            stroke="#94a3b8"
+            stroke-opacity=".045"
+            fill="none"/>
+    </pattern>
+
+    <!-- Reusable metallic technology sphere -->
+
+    <g id="node">
+      <circle cy="5" r="44"
+              fill="#000" opacity=".6"/>
+      <circle r="44" fill="url(#sphere)"
+              stroke="#526b91" stroke-width="1.5"/>
+      <circle r="37" fill="none"
+              stroke="#64748b" stroke-opacity=".35"/>
+      <path d="M-29 -25Q0 -47 29 -25"
+            stroke="#dbeafe" stroke-opacity=".3"
+            fill="none" stroke-width="2"/>
+    </g>
+
+  </defs>
+
+  <!-- Cinematic background -->
+
+  <rect width="1200" height="500"
+        rx="22" fill="url(#bg)"/>
+
+  <rect width="1200" height="500"
+        rx="22" fill="url(#grid)"/>
+
+  <!-- Orbital architecture -->
+
+  <g fill="none">
+
+    <ellipse cx="600" cy="245"
+             rx="465" ry="155"
+             stroke="#334155"/>
+
+    <ellipse cx="600" cy="245"
+             rx="330" ry="190"
+             stroke="#64748b"
+             stroke-dasharray="3 10"
+             opacity=".4"/>
+
+    <ellipse cx="600" cy="245"
+             rx="230" ry="105"
+             stroke="url(#orbit)"
+             stroke-opacity=".45"/>
+
+    <ellipse cx="600" cy="245"
+             rx="465" ry="155"
+             stroke="url(#orbit)"
+             stroke-width="2"
+             stroke-dasharray="45 280"
+             opacity=".65">
+
+      <animate attributeName="stroke-dashoffset"
+               from="650" to="0"
+               dur="22s"
+               repeatCount="indefinite"/>
+
+    </ellipse>
+
+  </g>
+
+  <!-- Technology connections -->
+
+  <g fill="none" stroke="url(#orbit)"
+     stroke-width="1.5" opacity=".3">
+
+    <path d="M600 245L155 150"/>
+    <path d="M600 245L355 85"/>
+    <path d="M600 245L845 85"/>
+    <path d="M600 245L1045 150"/>
+
+    <path d="M600 245L155 335"/>
+    <path d="M600 245L355 385"/>
+    <path d="M600 245L845 385"/>
+    <path d="M600 245L1045 335"/>
+
+  </g>
+
+  <!-- Animated data signals -->
+
+  <g fill="#67e8f9" filter="url(#glow)">
+
+    <circle r="4">
+      <animateMotion path="M155 150L600 245"
+                     dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="4">
+      <animateMotion path="M845 85L600 245"
+                     dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="4">
+      <animateMotion path="M600 245L1045 335"
+                     dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="4">
+      <animateMotion path="M600 245L355 385"
+                     dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- Central Python intelligence core -->
+
+  <ellipse cx="600" cy="345"
+           rx="100" ry="18"
+           fill="#000" opacity=".65"
+           filter="url(#shadow)"/>
+
+  <g transform="translate(600 235)">
+
+    <circle r="119" fill="#2563eb" opacity=".08">
+      <animate attributeName="r"
+               values="115;125;115"
+               dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="108" fill="none"
+            stroke="url(#orbit)"
+            stroke-width="2"
+            stroke-dasharray="10 18">
+
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0" to="360"
+                        dur="35s"
+                        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="91" fill="url(#metal)"
+            stroke="#64748b" stroke-width="2"/>
+
+    <circle r="81" fill="#0b1528"
+            stroke="#60a5fa" stroke-opacity=".7"/>
+
+    <!-- Python symbol -->
+
+    <g transform="translate(-47 -62)">
+
+      <g>
+
+        <path d="M45 0H65Q88 0 88 23V58H40V70H18
+                 Q0 70 0 50V32Q0 15 20 15H45Z"
+              fill="url(#pythonBlue)"/>
+
+        <path d="M48 124H28Q5 124 5 101V66H53V54H75
+                 Q93 54 93 74V92Q93 109 73 109H48Z"
+              fill="url(#pythonYellow)"/>
+
+        <circle cx="65" cy="15" r="6" fill="#fff"/>
+        <circle cx="28" cy="109" r="6" fill="#fff"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 0;0 -5;0 0"
+                          dur="5s" repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <text x="600" y="365"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="26" font-weight="bold"
+        letter-spacing="5"
+        fill="#e2e8f0">PYTHON</text>
+
+  <text x="600" y="389"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="12" letter-spacing="3"
+        fill="#67e8f9">PRIMARY TECHNOLOGY</text>
+
+  <!-- Django -->
+
+  <g transform="translate(155 150)">
+
+    <g>
+      <use href="#node"/>
+
+      <text y="12" text-anchor="middle"
+            font-family="Arial"
+            font-size="38" font-weight="bold"
+            fill="#34d399">dj</text>
+
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="0 0;0 -6;0 0"
+                        dur="5s" repeatCount="indefinite"/>
+    </g>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="19"
+          font-weight="bold" fill="#e2e8f0">Django</text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">BACKEND</text>
+
+  </g>
+
+  <!-- Machine Learning -->
+
+  <g transform="translate(355 85)">
+
+    <g>
+      <use href="#node"/>
+
+      <g stroke="#c084fc" stroke-width="1.5">
+        <path d="M-22 -15L0 -23L22 -12
+                 M-22 -15L0 0L22 15
+                 M-22 15L0 -23L22 15
+                 M-22 15L0 23L22 -12
+                 M-22 15L0 0L22 15"
+              fill="none"/>
+      </g>
+
+      <g fill="#c084fc">
+        <circle cx="-22" cy="-15" r="4"/>
+        <circle cx="-22" cy="15" r="4"/>
+        <circle cy="-23" r="5"/>
+        <circle r="5"/>
+        <circle cy="23" r="5"/>
+        <circle cx="22" cy="-12" r="4"/>
+        <circle cx="22" cy="15" r="4"/>
+
+        <animate attributeName="opacity"
+                 values=".5;1;.5"
+                 dur="4s" repeatCount="indefinite"/>
+      </g>
+
+    </g>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="18"
+          font-weight="bold" fill="#e2e8f0">
+      Machine Learning
+    </text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">AI FOCUS</text>
+
+  </g>
+
+  <!-- Generative AI -->
+
+  <g transform="translate(845 85)">
+
+    <g>
+      <use href="#node"/>
+
+      <path d="M0 -29L8 -9L29 0L8 8
+               L0 29L-8 8L-29 0L-8 -9Z"
+            fill="#67e8f9" filter="url(#glow)">
+
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="0" to="360"
+                          dur="25s"
+                          repeatCount="indefinite"/>
+
+      </path>
+
+    </g>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="18"
+          font-weight="bold" fill="#e2e8f0">
+      Generative AI
+    </text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">LLMs / RAG</text>
+
+  </g>
+
+  <!-- React -->
+
+  <g transform="translate(1045 150)">
+
+    <use href="#node"/>
+
+    <g fill="none" stroke="#61dafb" stroke-width="2.5">
+
+      <ellipse rx="30" ry="11"/>
+      <ellipse rx="30" ry="11" transform="rotate(60)"/>
+      <ellipse rx="30" ry="11" transform="rotate(120)"/>
+
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0" to="360"
+                        dur="22s" repeatCount="indefinite"/>
+
+    </g>
+
+    <circle r="5" fill="#61dafb"/>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="19"
+          font-weight="bold" fill="#e2e8f0">React.js</text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">FRONTEND</text>
+
+  </g>
+
+  <!-- Spring Boot -->
+
+  <g transform="translate(155 335)">
+
+    <use href="#node"/>
+
+    <circle r="28" fill="#173b2a"
+            stroke="#6db33f"/>
+
+    <path d="M20 -24Q30 14 0 24
+             Q-30 28 -25 3
+             Q-21 -16 0 -15
+             Q12 -15 20 -24Z"
+          fill="#6db33f"/>
+
+    <path d="M-22 22Q2 5 17 -13"
+          stroke="#d9f99d" stroke-width="3"
+          fill="none"/>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="18"
+          font-weight="bold" fill="#e2e8f0">Spring Boot</text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">JAVA BACKEND</text>
+
+  </g>
+
+  <!-- Java -->
+
+  <g transform="translate(355 385)">
+
+    <use href="#node"/>
+
+    <path d="M-24 -3H17L12 15
+             Q-3 28 -18 15Z"
+          fill="none" stroke="#fb923c"
+          stroke-width="3"/>
+
+    <path d="M17 0Q34 -3 27 10L14 13"
+          fill="none" stroke="#fb923c"
+          stroke-width="3"/>
+
+    <path d="M-27 24Q0 32 27 24"
+          fill="none" stroke="#93c5fd"
+          stroke-width="3"/>
+
+    <g fill="none" stroke="#fb923c"
+       stroke-width="2.5">
+
+      <path d="M-9 -10Q-22 -22 -5 -31"/>
+      <path d="M5 -10Q-8 -20 10 -33"/>
+
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="4s" repeatCount="indefinite"/>
+
+    </g>
+
+    <text y="65" text-anchor="middle"
+          font-family="Arial" font-size="19"
+          font-weight="bold" fill="#e2e8f0">Java</text>
+
+    <text y="83" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">PROGRAMMING</text>
+
+  </g>
+
+  <!-- Database engineering -->
+
+  <g transform="translate(845 385)">
+
+    <use href="#node"/>
+
+    <path d="M-25 -17V18
+             Q0 36 25 18V-17Z"
+          fill="#1d4b75" stroke="#93c5fd"/>
+
+    <ellipse cy="-17" rx="25" ry="10"
+             fill="#4276a4" stroke="#93c5fd"/>
+
+    <path d="M-25 -5Q0 13 25 -5
+             M-25 7Q0 25 25 7"
+          fill="none" stroke="#93c5fd"
+          stroke-width="2"/>
+
+    <text y="65" text-anchor="middle"
+          font-family="Arial" font-size="18"
+          font-weight="bold" fill="#e2e8f0">PostgreSQL</text>
+
+    <text y="83" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">SQL / MYSQL</text>
+
+  </g>
+
+  <!-- Git and GitHub -->
+
+  <g transform="translate(1045 335)">
+
+    <use href="#node"/>
+
+    <rect x="-22" y="-22" width="44" height="44"
+          rx="5" transform="rotate(45)"
+          fill="#f05032"/>
+
+    <path d="M-12 -14L13 11M-5 -7V18"
+          fill="none" stroke="#fff"
+          stroke-width="3"/>
+
+    <g fill="#fff">
+      <circle cx="-12" cy="-14" r="5"/>
+      <circle cx="13" cy="11" r="5"/>
+      <circle cx="-5" cy="18" r="5"/>
+    </g>
+
+    <text y="66" text-anchor="middle"
+          font-family="Arial" font-size="18"
+          font-weight="bold" fill="#e2e8f0">Git &amp; GitHub</text>
+
+    <text y="84" text-anchor="middle"
+          font-family="Arial" font-size="11"
+          fill="#94a3b8">VERSION CONTROL</text>
+
+  </g>
+
+  <!-- Orbiting particles -->
+
+  <circle r="5" fill="#67e8f9"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M135 245 A465 155 0 1 1 1065 245 A465 155 0 1 1 135 245"
+      dur="24s" repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle r="4" fill="#c084fc"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M1065 245 A465 155 0 1 1 135 245 A465 155 0 1 1 1065 245"
+      dur="24s" repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Minimal branding -->
+
+  <path d="M480 446H720"
+        stroke="url(#orbit)"
+        stroke-opacity=".5"/>
+
+  <text x="600" y="470"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="12" letter-spacing="4"
+        fill="#94a3b8">
+    ENGINEERING ECOSYSTEM
+  </text>
+
+  <text x="600" y="488"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="9" letter-spacing="2"
+        fill="#64748b">
+    RAHUL OS 2.0
+  </text>
+
+</svg>
