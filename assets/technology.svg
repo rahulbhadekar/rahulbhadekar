@@ -1,0 +1,377 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="720"
+     viewBox="0 0 1200 720">
+
+  <defs>
+
+    <radialGradient id="bg">
+      <stop offset="0%" stop-color="#14243E"/>
+      <stop offset="100%" stop-color="#030610"/>
+    </radialGradient>
+
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop offset="0%" stop-color="#13263D"/>
+      <stop offset="100%" stop-color="#080E1C"/>
+    </linearGradient>
+
+    <linearGradient id="neon">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="35" height="35"
+             patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35"
+            fill="none"
+            stroke="#22D3EE"
+            opacity=".05"/>
+    </pattern>
+
+  </defs>
+
+  <!-- MAIN BACKGROUND -->
+
+  <rect width="1200" height="720"
+        rx="20" fill="url(#bg)"/>
+
+  <rect width="1200" height="720"
+        rx="20" fill="url(#grid)"/>
+
+  <!-- ANIMATED OUTER BORDER -->
+
+  <rect x="15" y="15"
+        width="1170" height="690"
+        rx="15" fill="none"
+        stroke="url(#neon)"
+        stroke-width="2"
+        stroke-dasharray="100 20">
+
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="480"
+             dur="15s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- MAIN TITLE -->
+
+  <text x="600" y="60"
+        text-anchor="middle"
+        fill="#67E8F9"
+        font-family="Arial"
+        font-size="30"
+        font-weight="bold"
+        letter-spacing="4">
+    ENGINEERING TECHNOLOGY STACK
+  </text>
+
+  <text x="600" y="90"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="4">
+    INTELLIGENCE - INNOVATION - ENGINEERING
+  </text>
+
+  <!-- PYTHON AND AI PRIMARY PANEL -->
+
+  <rect x="35" y="120"
+        width="1130" height="165"
+        rx="14" fill="url(#panel)"
+        stroke="#22D3EE"
+        stroke-width="1.5"/>
+
+  <circle cx="60" cy="150" r="5"
+          fill="#22D3EE"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="78" y="156"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="19"
+        font-weight="bold">
+    01 // PYTHON &amp; ARTIFICIAL INTELLIGENCE
+  </text>
+
+  <text x="1135" y="155"
+        text-anchor="end"
+        fill="#4ADE80"
+        font-family="monospace"
+        font-size="13">
+    PRIMARY FOCUS
+  </text>
+
+  <!-- AI TECHNOLOGY CARDS -->
+
+  <g font-family="Arial"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="55" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#FFD343"/>
+
+    <text x="140" y="212" fill="#FFD343">PYTHON</text>
+    <text x="140" y="235" fill="#94A3B8" font-size="12">
+      Core Language
+    </text>
+
+    <rect x="238" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#22D3EE"/>
+
+    <text x="323" y="212" fill="#67E8F9">ML</text>
+    <text x="323" y="235" fill="#94A3B8" font-size="12">
+      Machine Learning
+    </text>
+
+    <rect x="421" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#8B5CF6"/>
+
+    <text x="506" y="212" fill="#C4B5FD">DEEP LEARNING</text>
+    <text x="506" y="235" fill="#94A3B8" font-size="12">
+      Neural Networks
+    </text>
+
+    <rect x="604" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#22D3EE"/>
+
+    <text x="689" y="212" fill="#67E8F9">GENERATIVE AI</text>
+    <text x="689" y="235" fill="#94A3B8" font-size="12">
+      Intelligent Systems
+    </text>
+
+    <rect x="787" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#8B5CF6"/>
+
+    <text x="872" y="212" fill="#C4B5FD">LLMs</text>
+    <text x="872" y="235" fill="#94A3B8" font-size="12">
+      Language Models
+    </text>
+
+    <rect x="970" y="180" width="170" height="75"
+          rx="10" fill="#0A1424" stroke="#22D3EE"/>
+
+    <text x="1055" y="212" fill="#67E8F9">RAG</text>
+    <text x="1055" y="235" fill="#94A3B8" font-size="12">
+      Knowledge Retrieval
+    </text>
+
+  </g>
+
+  <!-- BACKEND ENGINEERING -->
+
+  <rect x="35" y="305"
+        width="555" height="155"
+        rx="14" fill="url(#panel)"
+        stroke="#8B5CF6"/>
+
+  <circle cx="60" cy="335" r="5" fill="#A78BFA">
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="78" y="341"
+        fill="#C4B5FD"
+        font-family="monospace"
+        font-size="18"
+        font-weight="bold">
+    02 // BACKEND ENGINEERING
+  </text>
+
+  <g font-family="Arial"
+     font-size="15"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="55" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#4ADE80"/>
+    <text x="115" y="403" fill="#4ADE80">DJANGO</text>
+
+    <rect x="185" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#22D3EE"/>
+    <text x="245" y="403" fill="#67E8F9">REST API</text>
+
+    <rect x="315" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F97316"/>
+    <text x="375" y="403" fill="#FB923C">JAVA</text>
+
+    <rect x="445" y="365" width="125" height="65"
+          rx="8" fill="#0A1424" stroke="#4ADE80"/>
+    <text x="507" y="403" fill="#4ADE80">SPRING BOOT</text>
+
+  </g>
+
+  <!-- DATA AND DATABASE ENGINEERING -->
+
+  <rect x="610" y="305"
+        width="555" height="155"
+        rx="14" fill="url(#panel)"
+        stroke="#60A5FA"/>
+
+  <circle cx="635" cy="335" r="5" fill="#60A5FA">
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="2.5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="653" y="341"
+        fill="#93C5FD"
+        font-family="monospace"
+        font-size="18"
+        font-weight="bold">
+    03 // DATA &amp; DATABASES
+  </text>
+
+  <g font-family="Arial"
+     font-size="15"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="630" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#60A5FA"/>
+    <text x="690" y="403" fill="#93C5FD">SQL</text>
+
+    <rect x="760" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#60A5FA"/>
+    <text x="820" y="403" fill="#93C5FD">POSTGRESQL</text>
+
+    <rect x="890" y="365" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F59E0B"/>
+    <text x="950" y="403" fill="#FBBF24">MYSQL</text>
+
+    <rect x="1020" y="365" width="125" height="65"
+          rx="8" fill="#0A1424" stroke="#A78BFA"/>
+    <text x="1082" y="403" fill="#C4B5FD">DATA SCIENCE</text>
+
+  </g>
+
+  <!-- FRONTEND ENGINEERING -->
+
+  <rect x="35" y="480"
+        width="555" height="155"
+        rx="14" fill="url(#panel)"
+        stroke="#22D3EE"/>
+
+  <circle cx="60" cy="510" r="5" fill="#22D3EE"/>
+
+  <text x="78" y="516"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="18"
+        font-weight="bold">
+    04 // FRONTEND DEVELOPMENT
+  </text>
+
+  <g font-family="Arial"
+     font-size="15"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="55" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#61DAFB"/>
+    <text x="115" y="578" fill="#61DAFB">REACT</text>
+
+    <rect x="185" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F7DF1E"/>
+    <text x="245" y="578" fill="#F7DF1E">JAVASCRIPT</text>
+
+    <rect x="315" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F97316"/>
+    <text x="375" y="578" fill="#FB923C">HTML5</text>
+
+    <rect x="445" y="540" width="125" height="65"
+          rx="8" fill="#0A1424" stroke="#38BDF8"/>
+    <text x="507" y="578" fill="#38BDF8">CSS3</text>
+
+  </g>
+
+  <!-- DEVELOPER TOOLS -->
+
+  <rect x="610" y="480"
+        width="555" height="155"
+        rx="14" fill="url(#panel)"
+        stroke="#4ADE80"/>
+
+  <circle cx="635" cy="510" r="5" fill="#4ADE80"/>
+
+  <text x="653" y="516"
+        fill="#4ADE80"
+        font-family="monospace"
+        font-size="18"
+        font-weight="bold">
+    05 // DEVELOPER TOOLS
+  </text>
+
+  <g font-family="Arial"
+     font-size="15"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="630" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F97316"/>
+    <text x="690" y="578" fill="#FB923C">GIT</text>
+
+    <rect x="760" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#CBD5E1"/>
+    <text x="820" y="578" fill="#F1F5F9">GITHUB</text>
+
+    <rect x="890" y="540" width="120" height="65"
+          rx="8" fill="#0A1424" stroke="#F97316"/>
+    <text x="950" y="578" fill="#FB923C">POSTMAN</text>
+
+    <rect x="1020" y="540" width="125" height="65"
+          rx="8" fill="#0A1424" stroke="#38BDF8"/>
+    <text x="1082" y="578" fill="#38BDF8">VS CODE</text>
+
+  </g>
+
+  <!-- ANIMATED ENERGY SCANNER -->
+
+  <path d="M55 660H1145"
+        stroke="url(#neon)"
+        stroke-width="2"/>
+
+  <circle cx="55" cy="660"
+          r="5" fill="#FFFFFF"
+          filter="url(#glow)">
+
+    <animate attributeName="cx"
+             values="55;1145;55"
+             dur="7s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- FOOTER -->
+
+  <text x="600" y="685"
+        text-anchor="middle"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="14"
+        letter-spacing="4">
+    BUILDING INTELLIGENT DIGITAL SOLUTIONS
+  </text>
+
+</svg>
