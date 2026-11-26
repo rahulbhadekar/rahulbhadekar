@@ -1,0 +1,456 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="620"
+     viewBox="0 0 1200 620">
+
+  <defs>
+
+    <radialGradient id="bg">
+      <stop offset="0%" stop-color="#14294B"/>
+      <stop offset="100%" stop-color="#030610"/>
+    </radialGradient>
+
+    <radialGradient id="core">
+      <stop offset="0%" stop-color="#193E62"/>
+      <stop offset="100%" stop-color="#071321"/>
+    </radialGradient>
+
+    <linearGradient id="neon">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="50%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="35" height="35"
+             patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35"
+            stroke="#22D3EE"
+            opacity=".06"
+            fill="none"/>
+    </pattern>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="620"
+        rx="20" fill="url(#bg)"/>
+
+  <rect width="1200" height="620"
+        rx="20" fill="url(#grid)"/>
+
+  <rect x="15" y="15"
+        width="1170" height="590"
+        rx="15" fill="none"
+        stroke="url(#neon)"
+        stroke-width="2"
+        stroke-dasharray="100 20">
+
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="480"
+             dur="15s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- TITLE -->
+
+  <text x="600" y="65"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="32"
+        font-weight="bold"
+        letter-spacing="5"
+        fill="#67E8F9">
+    AI TECHNOLOGY UNIVERSE
+  </text>
+
+  <text x="600" y="95"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="4"
+        fill="#94A3B8">
+    PYTHON POWERED - INTELLIGENCE DRIVEN
+  </text>
+
+  <!-- NEURAL CONNECTIONS -->
+
+  <g stroke="#22D3EE"
+     stroke-width="1.5"
+     stroke-dasharray="8 8"
+     opacity=".35">
+
+    <path d="M600 320L250 175"/>
+    <path d="M600 320L950 175"/>
+    <path d="M600 320L150 320"/>
+    <path d="M600 320L1050 320"/>
+    <path d="M600 320L250 465"/>
+    <path d="M600 320L950 465"/>
+    <path d="M600 320L600 150"/>
+    <path d="M600 320L600 490"/>
+
+    <animate attributeName="stroke-dashoffset"
+             from="0" to="160"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- ORBITAL RINGS -->
+
+  <g fill="none" stroke-width="2">
+
+    <ellipse cx="600" cy="320"
+             rx="430" ry="155"
+             stroke="#22D3EE"
+             stroke-dasharray="70 20"
+             opacity=".35">
+
+      <animate attributeName="stroke-dashoffset"
+               from="0" to="360"
+               dur="12s"
+               repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="600" cy="320"
+             rx="340" ry="115"
+             stroke="#8B5CF6"
+             stroke-dasharray="30 15"
+             opacity=".45">
+
+      <animate attributeName="stroke-dashoffset"
+               from="360" to="0"
+               dur="10s"
+               repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="600" cy="320"
+             rx="250" ry="85"
+             stroke="#22D3EE"
+             opacity=".25"/>
+
+  </g>
+
+  <!-- PYTHON CORE -->
+
+  <circle cx="600" cy="320"
+          r="115"
+          fill="url(#core)"
+          stroke="#22D3EE"
+          stroke-width="3"/>
+
+  <circle cx="600" cy="320"
+          r="130"
+          fill="none"
+          stroke="#8B5CF6"
+          stroke-width="3"
+          stroke-dasharray="35 12">
+
+    <animateTransform attributeName="transform"
+      type="rotate"
+      from="0 600 320"
+      to="360 600 320"
+      dur="14s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="600" cy="320"
+          r="142"
+          fill="none"
+          stroke="#22D3EE"
+          stroke-dasharray="8 12"
+          opacity=".6">
+
+    <animateTransform attributeName="transform"
+      type="rotate"
+      from="360 600 320"
+      to="0 600 320"
+      dur="20s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- PYTHON SYMBOL -->
+
+  <g transform="translate(600 300) scale(1.4)">
+
+    <path d="M-5 -35H-22
+             Q-40 -35 -40 -17
+             V0H4V7H-25V18H10
+             Q26 18 26 0
+             V-18Q26 -35 8 -35Z"
+          fill="#3776AB"/>
+
+    <path d="M5 35H22
+             Q40 35 40 17
+             V0H-4V-7H25V-18H-10
+             Q-26 -18 -26 0
+             V18Q-26 35 -8 35Z"
+          fill="#FFD343"/>
+
+    <circle cx="-22" cy="-25"
+            r="3.5" fill="#FFFFFF"/>
+
+    <circle cx="22" cy="25"
+            r="3.5" fill="#FFFFFF"/>
+
+    <animate attributeName="opacity"
+             values="1;.7;1"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+  </g>
+
+  <text x="600" y="390"
+        text-anchor="middle"
+        fill="#FFFFFF"
+        font-family="Arial"
+        font-size="26"
+        font-weight="bold"
+        letter-spacing="6">
+    PYTHON
+  </text>
+
+  <!-- TECHNOLOGY NODES -->
+
+  <g font-family="monospace"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <!-- MACHINE LEARNING -->
+
+    <g>
+      <rect x="125" y="150"
+            width="250" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#22D3EE"/>
+
+      <text x="250" y="181"
+            fill="#67E8F9">
+        MACHINE LEARNING
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- DEEP LEARNING -->
+
+    <g>
+      <rect x="825" y="150"
+            width="250" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#8B5CF6"/>
+
+      <text x="950" y="181"
+            fill="#C4B5FD">
+        DEEP LEARNING
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 8;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- DJANGO -->
+
+    <g>
+      <rect x="45" y="295"
+            width="210" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#4ADE80"/>
+
+      <text x="150" y="326"
+            fill="#4ADE80">
+        DJANGO
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;10 0;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- GENERATIVE AI -->
+
+    <g>
+      <rect x="935" y="295"
+            width="230" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#22D3EE"/>
+
+      <text x="1050" y="326"
+            fill="#67E8F9">
+        GENERATIVE AI
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;-10 0;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- DATA SCIENCE -->
+
+    <g>
+      <rect x="125" y="440"
+            width="250" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#60A5FA"/>
+
+      <text x="250" y="471"
+            fill="#93C5FD">
+        DATA SCIENCE
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 8;0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- AI AGENTS -->
+
+    <g>
+      <rect x="825" y="440"
+            width="250" height="50"
+            rx="10" fill="#0C182D"
+            stroke="#A78BFA"/>
+
+      <text x="950" y="471"
+            fill="#C4B5FD">
+        AI AGENTS
+      </text>
+
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- LLM -->
+
+    <rect x="510" y="125"
+          width="180" height="45"
+          rx="8" fill="#0C182D"
+          stroke="#22D3EE"/>
+
+    <text x="600" y="153"
+          fill="#67E8F9">
+      LLMs
+    </text>
+
+    <!-- RAG -->
+
+    <rect x="510" y="475"
+          width="180" height="45"
+          rx="8" fill="#0C182D"
+          stroke="#8B5CF6"/>
+
+    <text x="600" y="503"
+          fill="#C4B5FD">
+      RAG
+    </text>
+
+  </g>
+
+  <!-- MOVING NEURAL SIGNALS -->
+
+  <g fill="#67E8F9" filter="url(#glow)">
+
+    <circle r="5">
+      <animateMotion
+        path="M600 320L250 175L600 320"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="5">
+      <animateMotion
+        path="M600 320L950 175L600 320"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="4">
+      <animateMotion
+        path="M600 320L250 465L600 320"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="4">
+      <animateMotion
+        path="M600 320L950 465L600 320"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- ORBITING PARTICLES -->
+
+  <circle r="6"
+          fill="#22D3EE"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M170 320
+            A430 155 0 1 1 1030 320
+            A430 155 0 1 1 170 320"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle r="5"
+          fill="#A78BFA"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M940 320
+            A340 115 0 1 0 260 320
+            A340 115 0 1 0 940 320"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- FOOTER -->
+
+  <path d="M100 550H1100"
+        stroke="url(#neon)"
+        stroke-width="2"/>
+
+  <text x="600" y="580"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="17"
+        letter-spacing="4"
+        fill="#67E8F9">
+    ENGINEERING THE INTELLIGENT FUTURE
+  </text>
+
+</svg>
