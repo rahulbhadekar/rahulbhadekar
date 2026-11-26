@@ -1,225 +1,451 @@
 
+<!-- ====================================================== -->
+<!--          RAHUL OS 2.0 — AI Engineer Edition            -->
+<!-- ====================================================== -->
+
 <div align="center">
 
-<!-- CUSTOM CINEMATIC HEADER -->
+  <img src="./assets/header.svg" width="100%" alt="Rahul Bhadekar — AI Engineer"/>
 
-<a href="https://rahul-bhadekar-portfolio.netlify.app">
-  <img src="./assets/header.svg" width="100%" alt="Rahul Bhadekar"/>
-</a>
+  <br/>
 
-<!-- LIVE TYPING ANIMATION -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=800&lines=RAHUL+OS+2.0+-+AI+Engineer+Edition;Python+%26+Artificial+Intelligence;Generative+AI+%26+Intelligent+Systems;Full+Stack+Development;Building+Technology+with+Purpose" alt="Developer Identity"/>
+  </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&height=55&lines=Full+Stack+Developer;Java+%26+Python+Developer;Backend+Engineering;AI-Powered+Applications;Dream.+Develop.+Deploy.+Repeat." alt="Developer Animation"/>
+  <br/><br/>
 
-<!-- SOCIAL CONNECTIONS -->
+  <a href="https://rahul-bhadekar-portfolio.netlify.app">
+    <img src="https://img.shields.io/badge/PORTFOLIO-0F172A?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio"/>
+  </a>
+  <a href="https://linkedin.com/in/rahul-bhadekar">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/rahulbhadekar">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:rahulbhadekar2@gmail.com">
+    <img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/>
+  </a>
 
-<a href="https://rahul-bhadekar-portfolio.netlify.app">
-  <img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=black"/>
-</a>
-<a href="https://linkedin.com/in/rahul-bhadekar">
-  <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/rahulbhadekar">
-  <img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="mailto:rahulbhadekar2@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+  <br/><br/>
 
-<!-- LIVE PROFILE METRICS -->
+  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=0891b2&style=for-the-badge" alt="Profile Views"/>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&style=flat-square&color=00D9FF&label=PROFILE+VIEWS"/>
-  <img src="https://img.shields.io/github/followers/rahulbhadekar?style=flat-square&color=00D9FF&label=FOLLOWERS"/>
-  <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF88?style=flat-square&labelColor=050810"/>
-</p>
+  <img src="https://img.shields.io/github/followers/rahulbhadekar?label=FOLLOWERS&style=for-the-badge&color=6366f1&logo=github" alt="GitHub Followers"/>
 
 </div>
 
+<br/>
 
-
-<!-- ANIMATED DIVIDER -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
+<!-- ====================================================== -->
+<!--                  DEVELOPER IDENTITY                    -->
+<!-- ====================================================== -->
 
 ## ◈ 01 // DEVELOPER IDENTITY
 
-<img align="right" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<div align="center">
 
-```yaml
-SYSTEM_PROFILE:
-  name: Rahul Bhadekar
-  role: Full Stack Developer
-  location: Pune, India
-  education: Computer Science Engineering
+  <img src="./assets/developer.svg" width="100%" alt="Developer Identity"/>
 
-  languages:
-    - Java
-    - Python
-    - JavaScript
-    - SQL
+</div>
 
-  interests:
-    - Backend Engineering
-    - Full Stack Development
-    - AI-Powered Applications
-    - Problem Solving
-    - System Design
+### AI Engineer | Python & Full Stack Developer
 
-  status: Always Learning
-  mission: Build Something That Matters
+I am a Computer Science Engineering graduate with a strong interest in Artificial Intelligence, Python development, intelligent applications, and scalable full stack systems.
+
+My focus is on building practical software that combines intelligent automation, reliable backend architecture, and meaningful user experiences.
+
+- **Primary Focus:** Python, Artificial Intelligence and Generative AI.
+- **Engineering Domains:** Machine Learning, Deep Learning, LLMs and Intelligent Systems.
+- **Development:** Django, Java, Spring Boot, React and REST APIs.
+- **Databases:** PostgreSQL, MySQL and relational database systems.
+- **Knowledge Sharing:** Technical notes, programming concepts and interview preparation through RahulTechNotes.
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                   AI UNIVERSE                          -->
+<!-- ====================================================== -->
+
+## ◈ 02 // ARTIFICIAL INTELLIGENCE UNIVERSE
+
+<div align="center">
+
+  <img src="./assets/ai-universe.svg" width="100%" alt="Artificial Intelligence Universe"/>
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-6366F1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Machine_Learning-0891B2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Generative_AI-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Deep_Learning-2563EB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LLMs-0F172A?style=for-the-badge"/>
+
+</div>
+
+### AI Engineering Focus Areas
+
+| Domain | Focus |
+|:---|:---|
+| Python Engineering | Automation, application development and data processing |
+| Machine Learning | Predictive systems and intelligent decision-making |
+| Deep Learning | Neural networks and advanced AI architectures |
+| Generative AI | Intelligent content generation and AI applications |
+| Large Language Models | Language understanding and AI-powered assistants |
+| AI Integration | Connecting intelligent capabilities with real-world applications |
+| AI Deployment | Reliable APIs and scalable AI-enabled software |
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                  TECHNOLOGY UNIVERSE                   -->
+<!-- ====================================================== -->
+
+## ◈ 03 // TECHNOLOGY UNIVERSE
+
+<div align="center">
+
+  <img src="./assets/technology.svg" width="100%" alt="Technology Universe"/>
+
+</div>
+
+### Primary Technology — Python & AI
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,git,github&theme=dark" alt="Python Development Stack"/>
+
+</div>
+
+### Backend Development
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=java,spring,django,mysql,postgres,postman&theme=dark" alt="Backend Development"/>
+
+</div>
+
+### Frontend Development
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,bootstrap&theme=dark" alt="Frontend Development"/>
+
+</div>
+
+### Development Tools
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=vscode,idea,git,github,postman,npm&theme=dark" alt="Development Tools"/>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--              AI ENGINEERING ARCHITECTURE               -->
+<!-- ====================================================== -->
+
+## ◈ 04 // AI ENGINEERING ARCHITECTURE
+
+<div align="center">
+
+  <img src="./assets/ai-roadmap.svg" width="100%" alt="AI Engineering Architecture"/>
+
+</div>
+
+<div align="center">
+
+```mermaid
+flowchart TD
+    A["Data & Problem Definition"] --> B["Python Processing"]
+    B --> C["Machine Learning / AI Models"]
+    C --> D["Intelligent Application Layer"]
+    D --> E["Backend & REST APIs"]
+    E --> F["Frontend Experience"]
+    F --> G["Deployment & Monitoring"]
+
+    style A fill:#0f172a,stroke:#22d3ee,color:#fff
+    style B fill:#172554,stroke:#60a5fa,color:#fff
+    style C fill:#312e81,stroke:#a78bfa,color:#fff
+    style D fill:#4c1d95,stroke:#c4b5fd,color:#fff
+    style E fill:#0c4a6e,stroke:#38bdf8,color:#fff
+    style F fill:#134e4a,stroke:#2dd4bf,color:#fff
+    style G fill:#0f172a,stroke:#22d3ee,color:#fff
 ```
 
-I am passionate about building real-world applications,
-solving problems, and exploring modern technologies.
+</div>
 
-<br clear="both"/>
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
+<!-- ====================================================== -->
+<!--                   PROJECT MULTIVERSE                   -->
+<!-- ====================================================== -->
 
-## ◈ 02 // TECHNOLOGY UNIVERSE
+## ◈ 05 // PROJECT MULTIVERSE
+
+### 01 — HireSmart | AI-Powered Recruitment Platform
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&pause=1000&color=00D9FF&center=true&width=500&lines=MY+TECHNOLOGY+ARSENAL"/>
+  <img src="./assets/projects/hiresmart.svg" width="100%" alt="HireSmart AI Recruitment Platform"/>
 
-### FRONTEND DEVELOPMENT
+  <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind&theme=dark"/>
+  <a href="https://hiresmart-careers.netlify.app">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
 
-### BACKEND DEVELOPMENT
-
-<img src="https://skillicons.dev/icons?i=java,python,spring,django&theme=dark"/>
-
-### DATABASE TECHNOLOGIES
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark"/>
-
-### DEVELOPMENT TOOLS
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman&theme=dark"/>
-
-### EXPLORING NEXT
-
-<img src="https://skillicons.dev/icons?i=docker,aws,redis,kafka&theme=dark"/>
+  <a href="https://github.com/rahulbhadekar?tab=repositories&q=HireSmart">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
+**Technology:** Python, Django, React, PostgreSQL
 
-## ◈ 03 // PROJECT MULTIVERSE
-
-### 🚀 HIRE SMART
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:003D99,100:00D9FF&height=110&text=HIRE%20SMART&fontSize=35&fontColor=FFFFFF&animation=fadeIn&desc=AI-Powered%20Recruitment%20Platform&descSize=15&descAlignY=80"/>
-
-An intelligent recruitment platform connecting candidates
-and recruiters through AI-powered features.
-
-**Core Features**
-
-- AI Resume Analysis
-- Skill Gap Analysis
-- Job Recommendations
-- AI Candidate Matching
-- Candidate and Recruiter Dashboards
-- Resume Upload and Job Applications
-
-<img src="https://skillicons.dev/icons?i=python,django,react,postgres&theme=dark"/>
-
-<br/><br/>
-
-<a href="https://hiresmart-careers.netlify.app">
-<img src="https://img.shields.io/badge/EXPLORE_LIVE_PROJECT-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
-</a>
+An AI-powered recruitment platform connecting candidates and recruiters through intelligent resume analysis, skill-gap identification, job recommendations and candidate matching.
 
 ---
 
-### 🛒 CLICKSTORE
+### 02 — ClickStore | Full Stack E-Commerce Platform
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:581C87,100:A855F7&height=110&text=CLICKSTORE&fontSize=35&fontColor=FFFFFF&animation=fadeIn&desc=Full%20Stack%20E-Commerce%20Platform&descSize=15&descAlignY=80"/>
+<div align="center">
 
-A full-stack e-commerce application built using
-modern backend and frontend technologies.
+  <img src="./assets/projects/clickstore.svg" width="100%" alt="ClickStore E-Commerce Platform"/>
 
-<img src="https://skillicons.dev/icons?i=java,spring,postgres&theme=dark"/>
+  <br/><br/>
+
+  <a href="https://github.com/rahulbhadekar?tab=repositories&q=ClickStore">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+</div>
+
+**Technology:** Java, Spring Boot, PostgreSQL
+
+A full stack e-commerce project featuring product management, backend services, database integration, bulk product imports and automated product image uploads.
 
 ---
 
-### 🌱 REVITALIZE
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:065F46,100:00C853&height=110&text=REVITALIZE&fontSize=35&fontColor=FFFFFF&animation=fadeIn&desc=Waste%20Management%20System&descSize=15&descAlignY=80"/>
-
-A web-based project focused on sustainable waste
-management and environmental awareness.
-
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark"/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
-
-## ◈ 04 // DEVELOPER TELEMETRY
+### 03 — GoTrip | Full Stack Travel Application
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulbhadekar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050810&title_color=00D9FF&icon_color=00D9FF"/>
+  <img src="./assets/projects/gotrip.svg" width="100%" alt="GoTrip Full Stack Travel Application"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulbhadekar&layout=compact&theme=tokyonight&hide_border=true&bg_color=050810&title_color=00D9FF"/>
+  <br/><br/>
 
-<br/><br/>
-
-<img width="80%" src="https://streak-stats.demolab.com?user=rahulbhadekar&theme=tokyonight&hide_border=true&background=050810&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF"/>
-
-<br/><br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rahulbhadekar&bg_color=050810&color=00D9FF&line=0066FF&point=FFFFFF&area=true&hide_border=true"/>
+  <a href="https://github.com/rahulbhadekar?tab=repositories&q=Go-Trip">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-D97706?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
-
-## ◈ 05 // CURRENT MISSION
-
-<div align="center">
-
-| Mission | Status |
-| :--- | :--- |
-| Java Full Stack Development | Building |
-| Python & Django Development | Building |
-| Data Structures & Algorithms | Practicing |
-| AI-Powered Applications | Exploring |
-| Cloud & DevOps | Learning |
-| System Design | Learning |
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:00D9FF,100:020617&height=3"/>
-
-## ◈ 06 // KNOWLEDGE HUB
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:0066FF,100:00D9FF&height=140&text=RahulTechNotes&fontSize=40&fontColor=FFFFFF&animation=fadeIn&desc=LEARN%20%E2%80%A2%20CODE%20%E2%80%A2%20GROW&descSize=17&descAlignY=80"/>
-
-Sharing knowledge. Building projects. Growing together.
-
-`JAVA` `PYTHON` `DJANGO` `SQL` `DSA` `INTERVIEWS`
-
-<a href="https://linkedin.com/in/rahul-bhadekar">
-<img src="https://img.shields.io/badge/FOLLOW_MY_JOURNEY-00D9FF?style=for-the-badge&logo=linkedin&logoColor=black"/>
-</a>
-
-</div>
+A full stack travel application designed to provide a convenient digital travel experience through integrated frontend and backend systems.
 
 ---
 
+### 04 — Revitalize | Waste Management System
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&pause=1000&color=00D9FF&center=true&width=650&lines=THE+JOURNEY+CONTINUES...;Dream.+Develop.+Deploy.+Repeat.;Never+Stop+Learning."/>
+  <img src="./assets/projects/revitalize.svg" width="100%" alt="Revitalize Waste Management System"/>
 
-### Don't just write code. Build something that matters.
+  <br/><br/>
 
-<img src="https://img.shields.io/badge/SYSTEM-ACTIVE-00FF88?style=for-the-badge&labelColor=050810"/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0066FF,100:00D9FF&height=130&section=footer"/>
+  <a href="https://github.com/rahulbhadekar?tab=repositories&q=Revitalize">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-059669?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 
 </div>
+
+**Technology:** HTML, CSS, JavaScript
+
+A sustainability-focused web application promoting waste management awareness, recycling and responsible environmental practices.
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                  PORTFOLIO EXPERIENCE                  -->
+<!-- ====================================================== -->
+
+## ◈ 06 // PORTFOLIO EXPERIENCE
+
+<div align="center">
+
+  <a href="https://rahul-bhadekar-portfolio.netlify.app">
+    <img src="./assets/portfolio.svg" width="100%" alt="Explore My Portfolio"/>
+  </a>
+
+  <br/><br/>
+
+  <a href="https://rahul-bhadekar-portfolio.netlify.app">
+    <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                  DEVELOPER TELEMETRY                   -->
+<!-- ====================================================== -->
+
+## ◈ 07 // DEVELOPER TELEMETRY
+
+<div align="center">
+
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulbhadekar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=E2E8F0" alt="GitHub Statistics"/>
+
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulbhadekar&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" alt="GitHub Streak"/>
+
+  <br/><br/>
+
+  <img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulbhadekar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=E2E8F0&langs_count=8" alt="Most Used Languages"/>
+
+</div>
+
+### Contribution Activity
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rahulbhadekar&bg_color=0d1117&color=22d3ee&line=818cf8&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub Activity Graph"/>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                  CONTRIBUTION UNIVERSE                 -->
+<!-- ====================================================== -->
+
+## ◈ 08 // CONTRIBUTION UNIVERSE
+
+### 3D Contribution Skyline
+
+<div align="center">
+
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contribution Skyline"/>
+
+</div>
+
+### Animated Contribution Snake
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/github-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
+  </picture>
+
+</div>
+
+### Pac-Man Contribution Animation
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/pacman-contribution-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/pacman-contribution-graph.svg"/>
+    <img src="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man Contribution Animation"/>
+  </picture>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                     KNOWLEDGE HUB                      -->
+<!-- ====================================================== -->
+
+## ◈ 09 // KNOWLEDGE HUB
+
+<div align="center">
+
+  <a href="https://linkedin.com/in/rahul-bhadekar">
+    <img src="./assets/knowledge-hub.svg" width="100%" alt="RahulTechNotes Knowledge Hub"/>
+  </a>
+
+</div>
+
+### RahulTechNotes — LEARN • CODE • GROW
+
+Sharing programming concepts, technical notes, interview preparation resources and practical development knowledge.
+
+- Python & Artificial Intelligence
+- Java & Object-Oriented Programming
+- Data Structures & Algorithms
+- Full Stack Development
+- Backend Development & Databases
+- Technical Interview Preparation
+
+<div align="center">
+
+  <a href="https://linkedin.com/in/rahul-bhadekar">
+    <img src="https://img.shields.io/badge/FOLLOW_RAHULTECHNOTES-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider"/>
+</div>
+
+<!-- ====================================================== -->
+<!--                    CONNECT WITH ME                     -->
+<!-- ====================================================== -->
+
+## ◈ 10 // CONNECT WITH ME
+
+<div align="center">
+
+  Open to opportunities in AI Engineering, Python Development, Backend Development and Full Stack Development.
+
+  <br/><br/>
+
+  <a href="https://linkedin.com/in/rahul-bhadekar">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://rahul-bhadekar-portfolio.netlify.app">
+    <img src="https://img.shields.io/badge/PORTFOLIO-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/rahulbhadekar">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="mailto:rahulbhadekar2@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <br/><br/>
+
+  <img src="./assets/footer.svg" width="100%" alt="Rahul OS 2.0 — AI Engineer Edition"/>
+
+</div>
+
+<!-- ====================================================== -->
+<!--                     END OF README                      -->
+<!-- ====================================================== -->
