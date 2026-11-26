@@ -1,0 +1,519 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420"
+     viewBox="0 0 1200 420"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>Rahul OS - Artificial Intelligence Core</title>
+
+  <defs>
+
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#080d18"/>
+      <stop offset=".5" stop-color="#101a30"/>
+      <stop offset="1" stop-color="#080b16"/>
+    </linearGradient>
+
+    <linearGradient id="accent">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="chipTop" x2="1" y2="1">
+      <stop stop-color="#536b9c"/>
+      <stop offset=".45" stop-color="#24365e"/>
+      <stop offset="1" stop-color="#111b32"/>
+    </linearGradient>
+
+    <linearGradient id="chipLeft" x2="0" y2="1">
+      <stop stop-color="#263e70"/>
+      <stop offset="1" stop-color="#0a1020"/>
+    </linearGradient>
+
+    <linearGradient id="chipRight" x2="1" y2="1">
+      <stop stop-color="#182746"/>
+      <stop offset="1" stop-color="#080c17"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#1b2b46"/>
+      <stop offset="1" stop-color="#0c1425"/>
+    </linearGradient>
+
+    <radialGradient id="ambient">
+      <stop stop-color="#2563eb" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30"
+            stroke="#94a3b8"
+            stroke-opacity=".055"
+            fill="none"/>
+    </pattern>
+
+    <filter id="glow" x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1200" height="420"
+        rx="22" fill="url(#bg)"/>
+
+  <rect width="1200" height="420"
+        rx="22" fill="url(#grid)"/>
+
+  <ellipse cx="600" cy="210"
+           rx="350" ry="205"
+           fill="url(#ambient)"/>
+
+  <!-- Decorative circuit paths -->
+
+  <g stroke="#334b70" fill="none" opacity=".4">
+
+    <path d="M0 20H340L390 70H470"/>
+    <path d="M0 400H340L390 350H470"/>
+    <path d="M1200 20H860L810 70H730"/>
+    <path d="M1200 400H860L810 350H730"/>
+
+  </g>
+
+  <!-- Main connections -->
+
+  <g fill="none" stroke="#334b70" stroke-width="2">
+
+    <path d="M310 85H390L490 175H600"/>
+    <path d="M310 205H420L500 205H600"/>
+    <path d="M310 325H390L490 235H600"/>
+
+    <path d="M890 85H810L710 175H600"/>
+    <path d="M890 205H780L700 205H600"/>
+    <path d="M890 325H810L710 235H600"/>
+
+  </g>
+
+  <!-- Animated data transmission -->
+
+  <g fill="none" stroke="url(#accent)"
+     stroke-width="3" stroke-dasharray="12 150"
+     stroke-linecap="round" filter="url(#glow)">
+
+    <path d="M310 85H390L490 175H600"/>
+    <path d="M310 205H420L500 205H600"/>
+    <path d="M310 325H390L490 235H600"/>
+
+    <path d="M890 85H810L710 175H600"/>
+    <path d="M890 205H780L700 205H600"/>
+    <path d="M890 325H810L710 235H600"/>
+
+    <animate attributeName="stroke-dashoffset"
+             from="324" to="0"
+             dur="7s" repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- Machine Learning -->
+
+  <g transform="translate(30 40)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#142c49"/>
+
+    <g stroke="#67e8f9" stroke-width="2" fill="none">
+      <path d="M24 60L37 43L48 50L62 26"/>
+      <path d="M24 26V64H63"/>
+    </g>
+
+    <g fill="#67e8f9">
+      <circle cx="37" cy="43" r="3"/>
+      <circle cx="48" cy="50" r="3"/>
+      <circle cx="62" cy="26" r="3"/>
+    </g>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="20" font-weight="bold"
+          fill="#e2e8f0">Machine Learning</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      Models · Prediction · Data
+    </text>
+
+    <circle cx="280" cy="45" r="4" fill="#22d3ee"/>
+
+  </g>
+
+  <!-- Deep Learning -->
+
+  <g transform="translate(30 160)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#20274c"/>
+
+    <g stroke="#818cf8" fill="none">
+      <path d="M24 30L43 25L62 35"/>
+      <path d="M24 30L43 45L62 55"/>
+      <path d="M24 60L43 25L62 55"/>
+      <path d="M24 60L43 65L62 35"/>
+      <path d="M24 60L43 45L62 55"/>
+    </g>
+
+    <g fill="#a78bfa">
+      <circle cx="24" cy="30" r="4"/>
+      <circle cx="24" cy="60" r="4"/>
+      <circle cx="43" cy="25" r="4"/>
+      <circle cx="43" cy="45" r="4"/>
+      <circle cx="43" cy="65" r="4"/>
+      <circle cx="62" cy="35" r="4"/>
+      <circle cx="62" cy="55" r="4"/>
+
+      <animate attributeName="opacity"
+               values=".5;1;.5"
+               dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="20" font-weight="bold"
+          fill="#e2e8f0">Deep Learning</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      Neural Networks · Models
+    </text>
+
+    <circle cx="280" cy="45" r="4" fill="#818cf8"/>
+
+  </g>
+
+  <!-- Generative AI -->
+
+  <g transform="translate(30 280)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#292046"/>
+
+    <path d="M43 21L49 38L66 45L49 51
+             L43 69L37 51L20 45L37 38Z"
+          fill="#a78bfa" filter="url(#glow)">
+
+      <animate attributeName="opacity"
+               values=".6;1;.6"
+               dur="5s" repeatCount="indefinite"/>
+
+    </path>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="20" font-weight="bold"
+          fill="#e2e8f0">Generative AI</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      Generation · AI Applications
+    </text>
+
+    <circle cx="280" cy="45" r="4" fill="#a78bfa"/>
+
+  </g>
+
+  <!-- Large Language Models -->
+
+  <g transform="translate(890 40)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#142c49"/>
+
+    <rect x="23" y="26" width="40" height="29"
+          rx="6" fill="none"
+          stroke="#67e8f9" stroke-width="2"/>
+
+    <path d="M30 55V65L42 55"
+          fill="none" stroke="#67e8f9"
+          stroke-width="2"/>
+
+    <g fill="#67e8f9">
+      <circle cx="33" cy="41" r="3"/>
+      <circle cx="43" cy="41" r="3"/>
+      <circle cx="53" cy="41" r="3"/>
+    </g>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="19" font-weight="bold"
+          fill="#e2e8f0">Language Models</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      LLMs · NLP · Embeddings
+    </text>
+
+    <circle cy="45" r="4" fill="#22d3ee"/>
+
+  </g>
+
+  <!-- Data Science -->
+
+  <g transform="translate(890 160)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#20274c"/>
+
+    <rect x="23" y="45" width="10" height="20"
+          rx="2" fill="#60a5fa"/>
+
+    <rect x="38" y="34" width="10" height="31"
+          rx="2" fill="#818cf8"/>
+
+    <rect x="53" y="23" width="10" height="42"
+          rx="2" fill="#a78bfa"/>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="20" font-weight="bold"
+          fill="#e2e8f0">Data Science</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      Analysis · Insights · Data
+    </text>
+
+    <circle cy="45" r="4" fill="#818cf8"/>
+
+  </g>
+
+  <!-- AI Agents and RAG -->
+
+  <g transform="translate(890 280)">
+
+    <rect width="280" height="90" rx="13"
+          fill="url(#panel)" stroke="#365779"/>
+
+    <rect x="12" y="14" width="62" height="62"
+          rx="12" fill="#292046"/>
+
+    <g stroke="#a78bfa" stroke-width="2" fill="none">
+      <path d="M43 45L25 26M43 45L61 26"/>
+      <path d="M43 45L25 64M43 45L61 64"/>
+    </g>
+
+    <g fill="#a78bfa">
+      <circle cx="25" cy="26" r="5"/>
+      <circle cx="61" cy="26" r="5"/>
+      <circle cx="25" cy="64" r="5"/>
+      <circle cx="61" cy="64" r="5"/>
+      <circle cx="43" cy="45" r="8"
+              filter="url(#glow)"/>
+    </g>
+
+    <text x="88" y="37" font-family="Arial"
+          font-size="20" font-weight="bold"
+          fill="#e2e8f0">AI Agents &amp; RAG</text>
+
+    <text x="88" y="61" font-family="Arial"
+          font-size="13" fill="#94a3b8">
+      Retrieval · Intelligent Workflows
+    </text>
+
+    <circle cy="45" r="4" fill="#a78bfa"/>
+
+  </g>
+
+  <!-- Processor platform -->
+
+  <ellipse cx="600" cy="330"
+           rx="155" ry="30"
+           fill="#000" opacity=".7"
+           filter="url(#shadow)"/>
+
+  <g transform="translate(600 210)">
+
+    <ellipse rx="195" ry="88"
+             fill="none"
+             stroke="#334b70"
+             stroke-dasharray="4 10"/>
+
+    <ellipse rx="175" ry="75"
+             fill="none"
+             stroke="url(#accent)"
+             stroke-opacity=".4"
+             stroke-width="2"/>
+
+  </g>
+
+  <!-- Floating three-dimensional processor -->
+
+  <g>
+
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 0;0 -9;0 0"
+                      dur="6s" repeatCount="indefinite"/>
+
+    <!-- Lower chip layer -->
+
+    <path d="M600 115L760 195L600 280L440 195Z"
+          fill="#1c3155" stroke="#475d85"/>
+
+    <path d="M440 195L600 280V307L440 222Z"
+          fill="url(#chipLeft)"/>
+
+    <path d="M600 280L760 195V222L600 307Z"
+          fill="url(#chipRight)"/>
+
+    <path d="M440 222L600 307L760 222"
+          fill="none"
+          stroke="url(#accent)"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+    <!-- Main processor body -->
+
+    <path d="M600 85L745 158L600 235L455 158Z"
+          fill="url(#chipTop)"
+          stroke="#8294bc" stroke-width="2"/>
+
+    <path d="M455 158L600 235V275L455 198Z"
+          fill="url(#chipLeft)"/>
+
+    <path d="M600 235L745 158V198L600 275Z"
+          fill="url(#chipRight)"/>
+
+    <!-- Metallic contacts -->
+
+    <g stroke="#94a3b8" stroke-width="5">
+
+      <path d="M470 169V191"/>
+      <path d="M490 180V202"/>
+      <path d="M510 191V213"/>
+      <path d="M530 202V224"/>
+      <path d="M550 213V235"/>
+      <path d="M570 224V246"/>
+
+      <path d="M630 224V246"/>
+      <path d="M650 213V235"/>
+      <path d="M670 202V224"/>
+      <path d="M690 191V213"/>
+      <path d="M710 180V202"/>
+      <path d="M730 169V191"/>
+
+    </g>
+
+    <!-- Glass processor surface -->
+
+    <path d="M600 101L713 158L600 217L487 158Z"
+          fill="#091426"
+          stroke="#67e8f9"
+          stroke-width="2"/>
+
+    <path d="M600 112L690 158L600 204L510 158Z"
+          fill="#13294a"
+          stroke="#475d85"/>
+
+    <path d="M600 123L670 158L600 193L530 158Z"
+          fill="#0d1c36"
+          stroke="#818cf8"/>
+
+    <!-- Processor title -->
+
+    <text x="600" y="170"
+          font-family="Arial,sans-serif"
+          font-size="43" font-weight="800"
+          text-anchor="middle"
+          fill="#e0f2fe"
+          filter="url(#glow)">AI</text>
+
+    <text x="600" y="257"
+          font-family="monospace"
+          font-size="10"
+          text-anchor="middle"
+          fill="#67e8f9">
+      INTELLIGENCE CORE
+    </text>
+
+    <!-- Processor pulse -->
+
+    <path d="M600 101L713 158L600 217L487 158Z"
+          fill="none"
+          stroke="#67e8f9"
+          stroke-width="3"
+          filter="url(#glow)">
+
+      <animate attributeName="opacity"
+               values=".15;.9;.15"
+               dur="4s" repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+  <!-- Orbiting data particles -->
+
+  <circle r="5" fill="#67e8f9"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M405 210 A195 88 0 1 1 795 210 A195 88 0 1 1 405 210"
+      dur="14s" repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle r="4" fill="#a78bfa"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M795 210 A195 88 0 1 1 405 210 A195 88 0 1 1 795 210"
+      dur="14s" repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Branding -->
+
+  <text x="600" y="355"
+        font-family="Arial"
+        font-size="13"
+        letter-spacing="4"
+        text-anchor="middle"
+        fill="#67e8f9">
+    PYTHON POWERED
+  </text>
+
+  <path d="M460 376H740"
+        stroke="url(#accent)"
+        stroke-opacity=".6"/>
+
+  <text x="600" y="398"
+        font-family="Arial"
+        font-size="12"
+        letter-spacing="3"
+        text-anchor="middle"
+        fill="#94a3b8">
+    INTELLIGENCE THROUGH ENGINEERING
+  </text>
+
+</svg>
