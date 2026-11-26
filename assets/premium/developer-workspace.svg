@@ -1,0 +1,1197 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="780"
+     viewBox="0 0 1200 780">
+
+  <title>RAHUL OS 2.0 - Ultimate AI Engineering Studio</title>
+
+  <defs>
+
+    <!-- CINEMATIC THEME -->
+
+    <radialGradient id="background" cx="60%" cy="45%" r="75%">
+      <stop stop-color="#192B50"/>
+      <stop offset=".5" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="wall" x2="0" y2="1">
+      <stop stop-color="#162238"/>
+      <stop offset="1" stop-color="#080D17"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x2="1" y2="1">
+      <stop stop-color="#64748B"/>
+      <stop offset=".4" stop-color="#263449"/>
+      <stop offset="1" stop-color="#0B101B"/>
+    </linearGradient>
+
+    <linearGradient id="wood" x2=".3" y2="1">
+      <stop stop-color="#665449"/>
+      <stop offset=".5" stop-color="#3B302D"/>
+      <stop offset="1" stop-color="#211C24"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x2="1" y2="1">
+      <stop stop-color="#142342"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="hoodie" x2="1" y2=".8">
+      <stop stop-color="#64748B"/>
+      <stop offset=".35" stop-color="#34445D"/>
+      <stop offset=".75" stop-color="#182337"/>
+      <stop offset="1" stop-color="#080F1C"/>
+    </linearGradient>
+
+    <linearGradient id="pants" x2="1" y2="1">
+      <stop stop-color="#334155"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="skin" cx="70%" cy="25%">
+      <stop stop-color="#EAC0A0"/>
+      <stop offset=".5" stop-color="#C18B68"/>
+      <stop offset="1" stop-color="#79513E"/>
+    </radialGradient>
+
+    <linearGradient id="hair" x2=".8" y2="1">
+      <stop stop-color="#334155"/>
+      <stop offset=".4" stop-color="#141B29"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+
+    <linearGradient id="chair" x2="1" y2="1">
+      <stop stop-color="#3B465A"/>
+      <stop offset=".5" stop-color="#18202F"/>
+      <stop offset="1" stop-color="#080B12"/>
+    </linearGradient>
+
+    <linearGradient id="rgb">
+      <stop stop-color="#2563EB"/>
+      <stop offset=".35" stop-color="#22D3EE"/>
+      <stop offset=".7" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+
+      <animate attributeName="x1"
+        values="0%;100%;0%"
+        dur="7s" repeatCount="indefinite"/>
+
+      <animate attributeName="x2"
+        values="100%;0%;100%"
+        dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="silver" x2="0" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".5" stop-color="#94A3B8"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="30%" cy="25%">
+      <stop stop-color="#CFFAFE"/>
+      <stop offset=".25" stop-color="#38BDF8"/>
+      <stop offset=".6" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#101638"/>
+    </radialGradient>
+
+    <radialGradient id="blueHalo">
+      <stop stop-color="#2563EB" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleHalo">
+      <stop stop-color="#8B5CF6" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="5" dy="12"
+        stdDeviation="8"
+        flood-color="#000000"
+        flood-opacity=".7"/>
+    </filter>
+
+    <pattern id="stars" width="150" height="130"
+             patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="20" r=".8"
+              fill="#93C5FD" opacity=".4"/>
+      <circle cx="90" cy="70" r=".6"
+              fill="#FFFFFF" opacity=".3"/>
+      <circle cx="130" cy="110" r=".9"
+              fill="#C4B5FD" opacity=".4"/>
+    </pattern>
+
+    <pattern id="floorGrid" width="50" height="35"
+             patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V35"
+            fill="none" stroke="#334155"
+            stroke-width=".6" opacity=".3"/>
+    </pattern>
+
+    <clipPath id="codeClip">
+      <rect x="486" y="253" width="282"
+            height="147" rx="3"/>
+    </clipPath>
+
+    <!-- REUSABLE RGB FAN -->
+
+    <g id="fan">
+      <circle r="30" fill="#030509"
+              stroke="#334155" stroke-width="4"/>
+
+      <circle r="25" fill="#0F172A"
+              stroke="url(#rgb)"
+              stroke-width="3" filter="url(#glow)"/>
+
+      <g fill="#334155">
+        <path d="M0 0Q-25 -30 -7 -23Q7 -20 0 0"/>
+        <path d="M0 0Q30 -25 23 -7Q20 7 0 0"/>
+        <path d="M0 0Q25 30 7 23Q-7 20 0 0"/>
+        <path d="M0 0Q-30 25 -23 7Q-20 -7 0 0"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0" to="360"
+          dur="1.4s"
+          repeatCount="indefinite"/>
+      </g>
+
+      <circle r="6" fill="#64748B"/>
+      <circle r="3" fill="#67E8F9"/>
+    </g>
+
+    <!-- PYTHON CODE -->
+
+    <g id="pythonCode"
+       font-family="monospace" font-size="10">
+
+      <text y="0" fill="#64748B"># AI Engineering Studio</text>
+      <text y="18" fill="#C4B5FD">import torch</text>
+      <text y="36" fill="#93C5FD">import numpy as np</text>
+      <text y="54" fill="#67E8F9">from transformers import AutoModel</text>
+      <text y="78" fill="#64748B"># Intelligence pipeline</text>
+      <text y="96" fill="#C4B5FD">def process(data):</text>
+      <text x="15" y="114" fill="#6EE7B7">return model(data)</text>
+      <text y="138" fill="#93C5FD">model.eval()</text>
+      <text y="156" fill="#FACC15">print("System ready")</text>
+
+    </g>
+
+  </defs>
+
+  <!-- ================================= -->
+  <!-- CINEMATIC BACKGROUND              -->
+  <!-- ================================= -->
+
+  <rect width="1200" height="780"
+        fill="url(#background)"/>
+
+  <rect width="1200" height="780"
+        fill="url(#stars)"/>
+
+  <ellipse cx="400" cy="380" rx="380" ry="280"
+           fill="url(#blueHalo)">
+    <animate attributeName="opacity"
+      values=".4;1;.4"
+      dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="950" cy="380" rx="280" ry="300"
+           fill="url(#purpleHalo)">
+    <animate attributeName="opacity"
+      values=".4;1;.4"
+      dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- HEADER -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="42"
+          font-size="12"
+          letter-spacing="5"
+          fill="#94A3B8">
+      THE AI ENGINEERING STUDIO
+    </text>
+
+    <text x="45" y="99"
+          font-size="43"
+          font-weight="900"
+          fill="url(#silver)">
+      Where ideas become intelligence.
+    </text>
+
+    <text x="47" y="135"
+          font-size="15"
+          letter-spacing="3"
+          fill="#67E8F9">
+      CODE • BUILD • TRAIN • DEPLOY • SCALE
+    </text>
+
+    <text x="1155" y="42"
+          text-anchor="end"
+          font-size="11"
+          letter-spacing="3"
+          fill="#94A3B8">
+      RAHUL OS 2.0
+    </text>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PREMIUM STUDIO INTERIOR           -->
+  <!-- ================================= -->
+
+  <rect x="45" y="165" width="1110" height="510"
+        rx="15" fill="url(#wall)"
+        stroke="#26354D"/>
+
+  <!-- WALL PANELS -->
+
+  <g stroke="#26354D" stroke-width="1">
+    <path d="M45 340H1155"/>
+    <path d="M45 510H1155"/>
+    <path d="M300 165V510"/>
+    <path d="M600 165V510"/>
+    <path d="M900 165V510"/>
+  </g>
+
+  <!-- WALL LED LIGHTING -->
+
+  <path d="M65 178H1135"
+        stroke="url(#rgb)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <path d="M60 180V650"
+        stroke="#2563EB"
+        stroke-width="2"
+        opacity=".6"/>
+
+  <path d="M1140 180V650"
+        stroke="#8B5CF6"
+        stroke-width="2"
+        opacity=".6"/>
+
+  <!-- FLOOR -->
+
+  <path d="M45 545H1155V675H45Z"
+        fill="#0A101C"/>
+
+  <rect x="45" y="545" width="1110" height="130"
+        fill="url(#floorGrid)"/>
+
+  <ellipse cx="660" cy="645"
+           rx="450" ry="25"
+           fill="#020409" opacity=".8"/>
+
+  <!-- ================================= -->
+  <!-- WALL SHELF AND BOOKS              -->
+  <!-- ================================= -->
+
+  <g transform="translate(90 190)">
+
+    <rect x="0" y="78" width="200" height="9"
+          rx="2" fill="#475569"/>
+
+    <path d="M0 87H200L190 94H10Z"
+          fill="#111827"/>
+
+    <rect x="12" y="15" width="24" height="63"
+          rx="2" fill="#1D4ED8"/>
+
+    <rect x="39" y="5" width="26" height="73"
+          rx="2" fill="#4338CA"/>
+
+    <rect x="68" y="20" width="21" height="58"
+          rx="2" fill="#B45309"/>
+
+    <rect x="92" y="10" width="24" height="68"
+          rx="2" fill="#0F766E"/>
+
+    <g font-family="Arial" font-size="8"
+       fill="#E2E8F0" font-weight="bold">
+
+      <text transform="translate(27 70) rotate(-90)">
+        PYTHON
+      </text>
+
+      <text transform="translate(56 70) rotate(-90)">
+        AI ENGINEERING
+      </text>
+
+      <text transform="translate(82 70) rotate(-90)">
+        JAVA
+      </text>
+
+      <text transform="translate(108 70) rotate(-90)">
+        SQL
+      </text>
+
+    </g>
+
+    <!-- DECORATIVE PLANT -->
+
+    <path d="M148 47H182L176 78H154Z"
+          fill="#64748B"/>
+
+    <g fill="#34D399">
+      <ellipse cx="155" cy="25" rx="8" ry="20"
+               transform="rotate(-35 155 25)"/>
+      <ellipse cx="176" cy="20" rx="8" ry="23"
+               transform="rotate(30 176 20)"/>
+      <ellipse cx="165" cy="15" rx="6" ry="24"/>
+    </g>
+
+  </g>
+
+  <!-- WALL BRANDING -->
+
+  <g transform="translate(915 210)"
+     font-family="Arial" text-anchor="middle">
+
+    <rect x="-100" y="-18" width="200" height="70"
+          rx="6" fill="#0B1220"
+          stroke="#334155"/>
+
+    <text y="8" font-size="20" font-weight="900"
+          fill="#93C5FD" filter="url(#glow)">
+      RAHUL OS 2.0
+    </text>
+
+    <text y="30" font-size="9" letter-spacing="3"
+          fill="#C4B5FD">
+      AI ENGINEER EDITION
+    </text>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- DESK STRUCTURE                    -->
+  <!-- ================================= -->
+
+  <g filter="url(#shadow)">
+
+    <path d="M355 465H380L365 646H340Z"
+          fill="url(#metal)"/>
+
+    <path d="M950 465H980L1005 646H975Z"
+          fill="url(#metal)"/>
+
+    <path d="M365 610H985"
+          stroke="#1E293B" stroke-width="12"/>
+
+    <path d="M320 425H990L1070 495H235Z"
+          fill="url(#wood)"
+          stroke="#64748B" stroke-width=".8"/>
+
+    <path d="M235 495H1070V513H235Z"
+          fill="#211B23"/>
+
+    <path d="M235 495H1070"
+          stroke="url(#rgb)" stroke-width="3"
+          filter="url(#glow)"/>
+
+    <g stroke="#B09B82" opacity=".1">
+      <path d="M305 445H1010"/>
+      <path d="M285 460H1030"/>
+      <path d="M260 480H1050"/>
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- LEFT AI MONITOR                   -->
+  <!-- ================================= -->
+
+  <g transform="translate(295 265) skewY(7)"
+     filter="url(#shadow)">
+
+    <rect width="175" height="145"
+          rx="7" fill="url(#metal)"/>
+
+    <rect x="4" y="4" width="167" height="137"
+          rx="4" fill="url(#screen)"/>
+
+    <text x="12" y="20"
+          font-family="monospace"
+          font-size="8" fill="#67E8F9">
+      NEURAL NETWORK
+    </text>
+
+    <g stroke="#6366F1" stroke-width=".8"
+       opacity=".65">
+
+      <path d="M25 45L85 65L145 45"/>
+      <path d="M25 45L85 105L145 45"/>
+      <path d="M25 80L85 65L145 80"/>
+      <path d="M25 115L85 105L145 115"/>
+      <path d="M25 115L85 65L145 115"/>
+      <path d="M25 80L85 105L145 80"/>
+
+    </g>
+
+    <g fill="#172554" stroke="#818CF8">
+      <circle cx="25" cy="45" r="6"/>
+      <circle cx="25" cy="80" r="6"/>
+      <circle cx="25" cy="115" r="6"/>
+      <circle cx="85" cy="65" r="9"/>
+      <circle cx="85" cy="105" r="9"/>
+      <circle cx="145" cy="45" r="6"/>
+      <circle cx="145" cy="80" r="6"/>
+      <circle cx="145" cy="115" r="6"/>
+    </g>
+
+    <circle r="3" fill="#67E8F9"
+            filter="url(#glow)">
+      <animateMotion
+        path="M25 45L85 65L145 80"
+        dur="2.8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="3" fill="#C4B5FD">
+      <animateMotion
+        path="M25 115L85 105L145 45"
+        dur="3.4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="80" y="145" width="15" height="27"
+          fill="#475569"/>
+
+    <rect x="45" y="170" width="85" height="7"
+          rx="3" fill="#334155"/>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- MAIN PYTHON CODING MONITOR        -->
+  <!-- ================================= -->
+
+  <g filter="url(#shadow)">
+
+    <rect x="475" y="220" width="305" height="195"
+          rx="9" fill="url(#metal)"/>
+
+    <rect x="480" y="225" width="295" height="185"
+          rx="6" fill="#020617"/>
+
+    <rect x="486" y="231" width="282" height="169"
+          rx="3" fill="url(#screen)"/>
+
+    <rect x="486" y="231" width="282" height="21"
+          fill="#1E293B"/>
+
+    <circle cx="497" cy="241" r="3" fill="#F87171"/>
+    <circle cx="507" cy="241" r="3" fill="#FACC15"/>
+    <circle cx="517" cy="241" r="3" fill="#34D399"/>
+
+    <text x="625" y="245"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="9" fill="#CBD5E1">
+      main.py — AI ENGINE
+    </text>
+
+    <!-- SCROLLING CODE -->
+
+    <g clip-path="url(#codeClip)">
+
+      <g transform="translate(498 270)">
+        <g>
+
+          <use xlink:href="#pythonCode"/>
+          <use xlink:href="#pythonCode" y="180"/>
+
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            from="0 0" to="0 -180"
+            dur="14s"
+            repeatCount="indefinite"/>
+
+        </g>
+      </g>
+
+    </g>
+
+    <!-- BLINKING CURSOR -->
+
+    <rect x="500" y="390" width="7" height="10"
+          fill="#67E8F9">
+
+      <animate attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <rect x="618" y="415" width="20" height="30"
+          fill="#475569"/>
+
+    <rect x="580" y="442" width="96" height="8"
+          rx="3" fill="#334155"/>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- RIGHT ANALYTICS MONITOR           -->
+  <!-- ================================= -->
+
+  <g transform="translate(790 265) skewY(-7)"
+     filter="url(#shadow)">
+
+    <rect width="180" height="145"
+          rx="7" fill="url(#metal)"/>
+
+    <rect x="4" y="4" width="172" height="137"
+          rx="4" fill="url(#screen)"/>
+
+    <text x="12" y="20"
+          font-family="monospace"
+          font-size="8" fill="#C4B5FD">
+      MODEL VISUALIZATION
+    </text>
+
+    <g transform="translate(90 75)">
+
+      <circle r="39" fill="url(#orb)"
+              stroke="#60A5FA"/>
+
+      <g fill="none" stroke="#BFDBFE"
+         stroke-width=".7" opacity=".65">
+
+        <ellipse rx="39" ry="12"/>
+        <ellipse rx="39" ry="26"/>
+        <ellipse rx="14" ry="39"/>
+        <ellipse rx="28" ry="39"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0" to="360"
+          dur="20s"
+          repeatCount="indefinite"/>
+
+      </g>
+
+      <ellipse rx="53" ry="15"
+               transform="rotate(-25)"
+               fill="none" stroke="#67E8F9"/>
+
+      <text y="7" text-anchor="middle"
+            font-family="Arial"
+            font-size="21"
+            font-weight="bold"
+            fill="#FFFFFF">AI</text>
+
+    </g>
+
+    <path d="M15 125L35 115L55 120L75 105
+             L95 113L115 100L135 110L165 95"
+          fill="none" stroke="#34D399"
+          stroke-width="1.5"/>
+
+    <rect x="82" y="145" width="15" height="27"
+          fill="#475569"/>
+
+    <rect x="48" y="170" width="85" height="7"
+          rx="3" fill="#334155"/>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- DESK ACCESSORIES                  -->
+  <!-- ================================= -->
+
+  <!-- KEYBOARD -->
+
+  <g transform="translate(550 455)">
+
+    <path d="M0 0H190L215 29H-25Z"
+          fill="#080B12" stroke="#64748B"/>
+
+    <g stroke="url(#rgb)" stroke-width="4"
+       stroke-dasharray="7 4">
+
+      <path d="M6 6H184"/>
+      <path d="M0 13H190"/>
+      <path d="M-7 20H197"/>
+
+    </g>
+
+    <path d="M45 25H145"
+          stroke="#67E8F9" stroke-width="3"/>
+
+  </g>
+
+  <!-- MOUSE -->
+
+  <path d="M790 452H875L890 485H780Z"
+        fill="#111827" stroke="#334155"/>
+
+  <ellipse cx="833" cy="466" rx="13" ry="17"
+           fill="url(#metal)"
+           stroke="#818CF8"/>
+
+  <path d="M833 451V463"
+        stroke="#67E8F9" stroke-width="2"/>
+
+  <!-- COFFEE MUG -->
+
+  <g transform="translate(910 455)">
+
+    <path d="M-15 -30H15V0Q0 10 -15 0Z"
+          fill="#CBD5E1"/>
+
+    <ellipse cy="-30" rx="15" ry="5"
+             fill="#475569"/>
+
+    <ellipse cy="-29" rx="12" ry="3"
+             fill="#422006"/>
+
+    <path d="M15 -24Q35 -25 28 -8L15 -5"
+          fill="none" stroke="#CBD5E1"
+          stroke-width="4"/>
+
+    <text y="-8" text-anchor="middle"
+          font-family="Arial"
+          font-size="8" font-weight="bold"
+          fill="#172554">RB</text>
+
+    <g fill="none" stroke="#CBD5E1"
+       stroke-width="1.5">
+
+      <path d="M-5 -38Q-17 -52 -5 -66"/>
+      <path d="M6 -38Q-5 -52 6 -66"/>
+
+      <animate attributeName="opacity"
+        values="0;.6;0"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PREMIUM RGB COMPUTER TOWER        -->
+  <!-- ================================= -->
+
+  <g transform="translate(1015 385)"
+     filter="url(#shadow)">
+
+    <path d="M0 0L70 -20L115 0L45 22Z"
+          fill="#475569"/>
+
+    <path d="M0 0L45 22V242L0 220Z"
+          fill="#1E293B"/>
+
+    <path d="M45 22L115 0V220L45 242Z"
+          fill="#080F1C" stroke="#475569"/>
+
+    <path d="M52 29L108 11V213L52 231Z"
+          fill="#111C30"/>
+
+    <g transform="translate(80 55) scale(.8 1)">
+      <use xlink:href="#fan"/>
+    </g>
+
+    <g transform="translate(80 125) scale(.8 1)">
+      <use xlink:href="#fan"/>
+    </g>
+
+    <g transform="translate(80 195) scale(.8 1)">
+      <use xlink:href="#fan"/>
+    </g>
+
+    <path d="M48 30V232"
+          stroke="url(#rgb)"
+          stroke-width="2"
+          filter="url(#glow)"/>
+
+    <path d="M8 15L34 28V200L8 188Z"
+          fill="#172554" opacity=".5"/>
+
+    <path d="M14 45L28 52M14 65L28 72
+             M14 85L28 92M14 105L28 112"
+          stroke="#67E8F9" stroke-width="2"
+          opacity=".6"/>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- ERGONOMIC CHAIR                   -->
+  <!-- ================================= -->
+
+  <g filter="url(#shadow)">
+
+    <path d="M180 340Q210 315 260 330
+             L305 505Q260 545 210 520Z"
+          fill="url(#chair)"
+          stroke="#475569" stroke-width="2"/>
+
+    <path d="M192 350L225 505"
+          stroke="#2563EB"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+    <path d="M248 340L292 500"
+          stroke="#8B5CF6"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+    <path d="M220 510Q310 480 390 520
+             L380 555Q300 580 225 550Z"
+          fill="url(#chair)"
+          stroke="#475569"/>
+
+    <rect x="290" y="555" width="20" height="70"
+          fill="url(#metal)"/>
+
+    <path d="M300 618L230 645
+             M300 618L370 645
+             M300 618L320 660"
+          stroke="#334155" stroke-width="10"
+          stroke-linecap="round"/>
+
+    <g fill="#080B12" stroke="#475569">
+      <circle cx="230" cy="645" r="9"/>
+      <circle cx="370" cy="645" r="9"/>
+      <circle cx="320" cy="660" r="9"/>
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- 3D-STYLE SEATED PROGRAMMER        -->
+  <!-- ================================= -->
+
+  <!-- LEGS -->
+
+  <path d="M295 500
+           Q355 485 425 510
+           Q455 520 455 555
+           L440 625H405
+           L410 555L330 555Z"
+        fill="url(#pants)"
+        stroke="#475569"/>
+
+  <path d="M330 510
+           Q390 505 460 535
+           Q480 545 475 580
+           L465 638H430
+           L435 575L350 560Z"
+        fill="url(#pants)"
+        stroke="#334155"/>
+
+  <!-- SHOES -->
+
+  <path d="M402 617H440L475 635
+           Q482 650 459 652H400Z"
+        fill="#101827" stroke="#475569"/>
+
+  <path d="M429 631H465L500 649
+           Q505 663 480 665H427Z"
+        fill="#080F1C" stroke="#475569"/>
+
+  <path d="M401 648H466M428 660H490"
+        stroke="#94A3B8" stroke-width="3"/>
+
+  <!-- TORSO -->
+
+  <path d="M265 345
+           Q310 320 350 350
+           Q380 390 385 435
+           L365 515
+           Q320 545 275 515
+           Q250 455 250 400
+           Q250 365 265 345Z"
+        fill="url(#hoodie)"
+        stroke="#475569"
+        stroke-width="1.2"/>
+
+  <!-- CLOTHING FOLDS -->
+
+  <g fill="none" stroke="#94A3B8"
+     stroke-width="1.2" opacity=".2">
+
+    <path d="M265 380Q290 400 285 440"/>
+    <path d="M280 460Q315 470 350 455"/>
+    <path d="M275 490Q315 510 350 490"/>
+    <path d="M330 355Q350 380 350 410"/>
+
+  </g>
+
+  <!-- NECK -->
+
+  <path d="M298 315L340 310
+           L350 355Q320 370 295 345Z"
+        fill="url(#skin)"/>
+
+  <!-- HEAD SIDE PROFILE -->
+
+  <g>
+
+    <path d="M275 260
+             Q290 225 330 230
+             Q370 235 378 270
+             L380 287L392 301
+             Q395 306 381 310
+             L379 330
+             Q367 350 345 345
+             L318 335
+             Q275 320 275 260Z"
+          fill="url(#skin)"
+          stroke="#A47558"/>
+
+    <!-- HAIR -->
+
+    <path d="M274 287
+             Q250 250 275 225
+             Q300 205 340 215
+             Q375 220 382 252
+             L365 258
+             Q350 242 335 249
+             Q312 265 305 294
+             L294 315
+             Q275 307 274 287Z"
+          fill="url(#hair)"/>
+
+    <g fill="none" stroke="#64748B"
+       stroke-width="1.5" opacity=".3">
+
+      <path d="M275 242Q310 210 355 234"/>
+      <path d="M280 251Q315 220 365 244"/>
+      <path d="M290 265Q315 235 355 242"/>
+
+    </g>
+
+    <!-- EAR -->
+
+    <ellipse cx="316" cy="294"
+             rx="10" ry="15"
+             fill="#B47D60"/>
+
+    <!-- EYE AND EYEBROW -->
+
+    <path d="M350 276Q362 270 373 277"
+          fill="none" stroke="#30231F"
+          stroke-width="2"/>
+
+    <ellipse cx="365" cy="286"
+             rx="4" ry="2.5"
+             fill="#111827"/>
+
+    <!-- GLASSES -->
+
+    <path d="M350 278H379L376 294H355Z"
+          fill="#93C5FD" fill-opacity=".12"
+          stroke="#111827" stroke-width="2.5"/>
+
+    <path d="M350 282L317 287"
+          stroke="#111827" stroke-width="3"/>
+
+    <path d="M354 280L370 280"
+          stroke="#67E8F9" stroke-width="1.2"
+          opacity=".7"/>
+
+    <!-- MOUTH -->
+
+    <path d="M367 321Q373 324 379 320"
+          fill="none" stroke="#754C3A"
+          stroke-width="1.5"/>
+
+    <!-- HEADPHONES -->
+
+    <path d="M290 284
+             Q270 210 328 220
+             Q352 223 360 248"
+          fill="none" stroke="#111827"
+          stroke-width="12"/>
+
+    <path d="M290 280
+             Q275 215 328 224"
+          fill="none" stroke="#64748B"
+          stroke-width="3"/>
+
+    <ellipse cx="302" cy="290"
+             rx="24" ry="30"
+             fill="url(#metal)"
+             stroke="#111827" stroke-width="3"/>
+
+    <ellipse cx="302" cy="290"
+             rx="17" ry="22"
+             fill="#111827"
+             stroke="url(#rgb)"
+             stroke-width="2"
+             filter="url(#glow)"/>
+
+    <text x="302" y="295"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="12"
+          font-weight="900"
+          fill="#CBD5E1">RB</text>
+
+    <!-- HEADPHONE MICROPHONE -->
+
+    <path d="M315 309Q330 330 360 324"
+          fill="none" stroke="#334155"
+          stroke-width="4"/>
+
+    <rect x="355" y="320"
+          width="13" height="7"
+          rx="3" fill="#111827"/>
+
+  </g>
+
+  <!-- HOODIE COLLAR -->
+
+  <path d="M280 345Q315 380 350 345
+           L360 370Q320 398 280 365Z"
+        fill="#1E293B" stroke="#475569"/>
+
+  <!-- FAR ARM -->
+
+  <path d="M350 365
+           Q380 380 410 420
+           L535 438L530 455
+           L400 450
+           Q370 435 340 405Z"
+        fill="url(#hoodie)"
+        stroke="#475569"/>
+
+  <g>
+    <path d="M530 438Q550 432 568 441
+             L581 449Q578 457 566 454
+             L535 455Z"
+          fill="url(#skin)"/>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 -2;0 0"
+      dur=".8s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- NEAR ARM -->
+
+  <path d="M275 370
+           Q300 355 325 380
+           L370 435
+           L550 460L545 481
+           L355 465
+           Q330 455 305 430
+           L270 400Z"
+        fill="url(#hoodie)"
+        stroke="#475569"/>
+
+  <path d="M280 380Q300 380 320 400
+           L365 448L535 470"
+        fill="none" stroke="#94A3B8"
+        stroke-width="1.4" opacity=".25"/>
+
+  <!-- ANIMATED TYPING HAND -->
+
+  <g>
+
+    <path d="M545 459
+             Q560 450 575 455
+             L599 464
+             Q605 470 598 474
+             L575 480L545 480Z"
+          fill="url(#skin)"/>
+
+    <g stroke="#80543D"
+       stroke-width="1" fill="none">
+
+      <path d="M575 459L592 465"/>
+      <path d="M573 465L595 470"/>
+      <path d="M571 471L590 475"/>
+
+    </g>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;2 -2;0 0;-1 -1;0 0"
+      dur="1.1s"
+      repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- CHAIR ARMREST -->
+
+  <path d="M220 455Q250 450 290 465"
+        stroke="#111827" stroke-width="15"
+        stroke-linecap="round"/>
+
+  <path d="M245 460V525"
+        stroke="#334155" stroke-width="8"/>
+
+  <!-- ================================= -->
+  <!-- FLOATING HOLOGRAPHIC AI CORE      -->
+  <!-- ================================= -->
+
+  <g transform="translate(170 345)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -12;0 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+      <circle r="65"
+              fill="url(#blueHalo)"/>
+
+      <circle r="31"
+              fill="url(#orb)"
+              stroke="#67E8F9"
+              stroke-width="1"/>
+
+      <g fill="none"
+         stroke="#67E8F9"
+         stroke-width=".8">
+
+        <ellipse rx="48" ry="13"
+                 transform="rotate(-25)"/>
+
+        <ellipse rx="45" ry="15"
+                 transform="rotate(45)"/>
+
+        <ellipse rx="31" ry="12"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0" to="360"
+          dur="25s"
+          repeatCount="indefinite"/>
+
+      </g>
+
+      <text y="6"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="18"
+            font-weight="bold"
+            fill="#FFFFFF">AI</text>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING ENERGY PARTICLES -->
+
+  <g filter="url(#glow)">
+
+    <circle r="2" fill="#67E8F9">
+
+      <animateMotion
+        path="M80 500Q500 130 1100 300"
+        dur="14s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="2" fill="#C4B5FD">
+
+      <animateMotion
+        path="M1100 600Q650 150 100 400"
+        dur="17s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- BOTTOM TECHNOLOGY TOOLBAR         -->
+  <!-- ================================= -->
+
+  <rect x="45" y="690" width="1110" height="48"
+        rx="7" fill="#0C1423"
+        stroke="#26354D"/>
+
+  <g font-family="Arial"
+     font-size="12"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <circle cx="80" cy="714" r="4" fill="#FACC15"/>
+    <text x="125" y="718" fill="#CBD5E1">PYTHON</text>
+
+    <circle cx="205" cy="714" r="4" fill="#60A5FA"/>
+    <text x="280" y="718" fill="#CBD5E1">MACHINE LEARNING</text>
+
+    <circle cx="380" cy="714" r="4" fill="#A78BFA"/>
+    <text x="445" y="718" fill="#CBD5E1">GENERATIVE AI</text>
+
+    <circle cx="535" cy="714" r="4" fill="#67E8F9"/>
+    <text x="575" y="718" fill="#CBD5E1">LLMs</text>
+
+    <circle cx="635" cy="714" r="4" fill="#C4B5FD"/>
+    <text x="710" y="718" fill="#CBD5E1">AI AGENTS &amp; RAG</text>
+
+    <circle cx="815" cy="714" r="4" fill="#34D399"/>
+    <text x="870" y="718" fill="#CBD5E1">DEPLOYMENT</text>
+
+    <circle cx="965" cy="714" r="4" fill="#60A5FA"/>
+    <text x="1050" y="718" fill="#CBD5E1">FULL STACK</text>
+
+  </g>
+
+  <!-- ANIMATED BOTTOM BORDER -->
+
+  <path d="M45 750H1155"
+        stroke="url(#rgb)"
+        stroke-width="1.5"/>
+
+  <circle r="3" fill="#FFFFFF"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M45 750H1155"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- PERSONAL BRAND -->
+
+  <text x="45" y="770"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="3"
+        fill="#94A3B8">
+    RAHULTECHNOTES
+  </text>
+
+  <text x="1155" y="770"
+        text-anchor="end"
+        font-family="Arial"
+        font-size="10"
+        letter-spacing="3"
+        fill="#94A3B8">
+    LEARN • CODE • GROW
+  </text>
+
+</svg>
