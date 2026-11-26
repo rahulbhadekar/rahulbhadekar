@@ -1,0 +1,852 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="1100"
+     viewBox="0 0 1200 1100">
+
+  <title>RAHUL OS 2.0 - Cinematic Project Gallery</title>
+
+  <defs>
+
+    <!-- UNIFIED OBSIDIAN BACKGROUND -->
+
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#15233F"/>
+      <stop offset="50%" stop-color="#080F1C"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="aiCard" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1D40"/>
+      <stop offset="55%" stop-color="#11182D"/>
+      <stop offset="100%" stop-color="#080D17"/>
+    </linearGradient>
+
+    <linearGradient id="shopCard" x2="1" y2="1">
+      <stop offset="0%" stop-color="#122D4B"/>
+      <stop offset="100%" stop-color="#080E18"/>
+    </linearGradient>
+
+    <linearGradient id="travelCard" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18283F"/>
+      <stop offset="100%" stop-color="#080E18"/>
+    </linearGradient>
+
+    <linearGradient id="greenCard" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10352D"/>
+      <stop offset="100%" stop-color="#080F15"/>
+    </linearGradient>
+
+    <linearGradient id="glass" x2=".2" y2="1">
+      <stop offset="0%" stop-color="#263D60"/>
+      <stop offset="100%" stop-color="#0B1325"/>
+    </linearGradient>
+
+    <linearGradient id="energy">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="earth" cx="30%" cy="20%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="35%" stop-color="#2563EB"/>
+      <stop offset="70%" stop-color="#183E78"/>
+      <stop offset="100%" stop-color="#050D20"/>
+    </radialGradient>
+
+    <radialGradient id="purpleHalo">
+      <stop offset="0%" stop-color="#8B5CF6"
+            stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scan" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"
+            stop-opacity="0"/>
+      <stop offset="100%" stop-color="#22D3EE"
+            stop-opacity=".3"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="12"
+        stdDeviation="12"
+        flood-color="#000000"
+        flood-opacity=".7"/>
+    </filter>
+
+    <pattern id="stars"
+             width="190" height="170"
+             patternUnits="userSpaceOnUse">
+
+      <circle cx="17" cy="26" r=".8"
+              fill="#FFFFFF" opacity=".3"/>
+
+      <circle cx="87" cy="73" r=".7"
+              fill="#93C5FD" opacity=".4"/>
+
+      <circle cx="156" cy="138" r="1"
+              fill="#C4B5FD" opacity=".4"/>
+
+    </pattern>
+
+    <!-- PRODUCT CUBE -->
+
+    <g id="cube">
+
+      <path d="M-48 -25L0 -50L48 -25L0 0Z"
+            fill="currentColor"/>
+
+      <path d="M-48 -25L0 0V65L-48 40Z"
+            fill="currentColor"
+            opacity=".35"/>
+
+      <path d="M0 0L48 -25V40L0 65Z"
+            fill="currentColor"
+            opacity=".6"/>
+
+      <path d="M-48 -25L0 0L48 -25M0 0V65"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-opacity=".4"/>
+
+      <path d="M-18 -41L30 -16"
+            stroke="#FFFFFF"
+            stroke-width="7"
+            stroke-opacity=".35"/>
+
+    </g>
+
+    <!-- RECYCLING ARROW -->
+
+    <g id="recycleArrow"
+       fill="none"
+       stroke="#34D399"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M-43 -15Q-38 -53 14 -53L30 -30"
+            stroke-width="13"/>
+
+      <path d="M7 -33L30 -30L35 -55"
+            stroke-width="9"/>
+
+    </g>
+
+    <clipPath id="resumeClip">
+      <rect x="-130" y="-115"
+            width="260" height="230"
+            rx="14"/>
+    </clipPath>
+
+    <clipPath id="earthClip">
+      <circle r="65"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="1100"
+        fill="#030509"/>
+
+  <rect width="1200" height="1100"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="1100"
+        fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".4;.9;.4"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- EDITORIAL HEADING -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="48"
+          font-size="13"
+          letter-spacing="5"
+          fill="#94A3B8">
+      04 / SELECTED PROJECTS
+    </text>
+
+    <text x="45" y="115"
+          font-size="49"
+          font-weight="bold"
+          fill="url(#metal)">
+      Ideas engineered into reality.
+    </text>
+
+    <text x="45" y="151"
+          font-size="18"
+          fill="#94A3B8">
+      A collection of intelligent applications and digital experiences.
+    </text>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PROJECT 01 : HIRESMART            -->
+  <!-- ================================= -->
+
+  <rect x="45" y="195"
+        width="1110" height="365"
+        rx="20"
+        fill="url(#aiCard)"
+        stroke="#6366F1"
+        stroke-opacity=".65"/>
+
+  <ellipse cx="900" cy="380"
+           rx="260" ry="170"
+           fill="url(#purpleHalo)">
+
+    <animate attributeName="opacity"
+      values=".5;1;.5"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- FLAGSHIP LABEL -->
+
+  <rect x="75" y="220"
+        width="235" height="30"
+        rx="15"
+        fill="#312E81"
+        stroke="#818CF8"
+        stroke-opacity=".5"/>
+
+  <circle cx="93" cy="235"
+          r="4"
+          fill="#C4B5FD"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+      values=".4;1;.4"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="108" y="240"
+        font-family="Arial"
+        font-size="12"
+        letter-spacing="2"
+        fill="#C4B5FD">
+    FLAGSHIP AI PROJECT
+  </text>
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="75" y="320"
+          font-size="64"
+          font-weight="900"
+          fill="url(#metal)">
+      HireSmart
+    </text>
+
+    <text x="75" y="357"
+          font-size="22"
+          fill="#A5B4FC">
+      AI-powered recruitment platform
+    </text>
+
+    <g font-size="18" fill="#CBD5E1">
+
+      <circle cx="81" cy="392"
+              r="3" fill="#67E8F9"/>
+
+      <text x="97" y="398">
+        AI Resume Analysis
+      </text>
+
+      <circle cx="81" cy="427"
+              r="3" fill="#67E8F9"/>
+
+      <text x="97" y="433">
+        Skill Gap &amp; Job Recommendations
+      </text>
+
+      <circle cx="81" cy="462"
+              r="3" fill="#67E8F9"/>
+
+      <text x="97" y="468">
+        Intelligent Candidate Matching
+      </text>
+
+    </g>
+
+    <text x="75" y="530"
+          font-size="13"
+          font-weight="bold"
+          letter-spacing="1.5"
+          fill="#A5B4FC">
+      PYTHON / DJANGO / REACT / POSTGRESQL
+    </text>
+
+  </g>
+
+  <!-- FLOATING AI RESUME SCANNER -->
+
+  <g transform="translate(900 380) rotate(-8)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -12;0 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+      <rect x="-130" y="-115"
+            width="260" height="230"
+            rx="14"
+            fill="url(#glass)"
+            stroke="#818CF8"
+            stroke-width="1.5"
+            filter="url(#shadow)"/>
+
+      <!-- DOCUMENT HEADER -->
+
+      <rect x="-110" y="-95"
+            width="220" height="22"
+            rx="4"
+            fill="#334A70"/>
+
+      <text x="0" y="-80"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="11"
+            letter-spacing="3"
+            fill="#CBD5E1">
+        CANDIDATE RESUME
+      </text>
+
+      <!-- PROFILE ICON -->
+
+      <circle cx="-82" cy="-40"
+              r="22"
+              fill="#243B60"
+              stroke="#64748B"/>
+
+      <circle cx="-82" cy="-46"
+              r="7" fill="#94A3B8"/>
+
+      <path d="M-96 -28Q-82 -44 -68 -28"
+            fill="#94A3B8"/>
+
+      <!-- DOCUMENT LINES -->
+
+      <g stroke="#64748B"
+         stroke-width="5"
+         stroke-linecap="round">
+
+        <path d="M-45 -47H95"/>
+        <path d="M-45 -32H60"/>
+        <path d="M-105 -3H105"/>
+        <path d="M-105 15H75"/>
+        <path d="M-105 33H105"/>
+        <path d="M-105 51H50"/>
+        <path d="M-105 69H95"/>
+        <path d="M-105 87H65"/>
+
+      </g>
+
+      <!-- ANIMATED SCANNER -->
+
+      <g clip-path="url(#resumeClip)">
+
+        <g>
+
+          <rect x="-130" y="-140"
+                width="260" height="40"
+                fill="url(#scan)"/>
+
+          <path d="M-130 -100H130"
+                stroke="#67E8F9"
+                stroke-width="2"
+                filter="url(#glow)"/>
+
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            values="0 0;0 230;0 0"
+            dur="5s"
+            repeatCount="indefinite"/>
+
+        </g>
+
+      </g>
+
+      <!-- ANALYSIS COMPLETE EMBLEM -->
+
+      <g transform="translate(130 95)">
+
+        <circle r="43"
+                fill="#0E2340"
+                stroke="#67E8F9"
+                stroke-width="2"
+                filter="url(#glow)"/>
+
+        <circle r="33"
+                fill="none"
+                stroke="#67E8F9"
+                stroke-opacity=".25"/>
+
+        <path d="M-17 0L-5 13L20 -16"
+              fill="none"
+              stroke="#67E8F9"
+              stroke-width="6"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+
+        <circle r="48"
+                fill="none"
+                stroke="#67E8F9">
+
+          <animate attributeName="r"
+            values="43;58;43"
+            dur="4s"
+            repeatCount="indefinite"/>
+
+          <animate attributeName="opacity"
+            values=".7;0;.7"
+            dur="4s"
+            repeatCount="indefinite"/>
+
+        </circle>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PROJECT 02 : CLICKSTORE           -->
+  <!-- ================================= -->
+
+  <rect x="45" y="585"
+        width="525" height="465"
+        rx="20"
+        fill="url(#shopCard)"
+        stroke="#2563EB"
+        stroke-opacity=".6"/>
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="75" y="625"
+          font-size="12"
+          letter-spacing="3"
+          fill="#93C5FD">
+      02 / DIGITAL COMMERCE
+    </text>
+
+    <text x="75" y="685"
+          font-size="48"
+          font-weight="900"
+          fill="url(#metal)">
+      ClickStore
+    </text>
+
+    <text x="75" y="720"
+          font-size="19"
+          fill="#94A3B8">
+      Full stack e-commerce system
+    </text>
+
+  </g>
+
+  <!-- PRODUCT DISPLAY PLATFORM -->
+
+  <g transform="translate(305 855)">
+
+    <ellipse cy="45"
+             rx="190" ry="55"
+             fill="#2563EB"
+             opacity=".25"
+             filter="url(#blur)"/>
+
+    <path d="M-185 35L0 -15L185 35L0 85Z"
+          fill="url(#glass)"
+          stroke="#60A5FA"
+          stroke-opacity=".5"/>
+
+    <path d="M-185 35L0 85V98L-185 48Z"
+          fill="#0C1830"
+          stroke="#2563EB"/>
+
+    <path d="M0 85L185 35V48L0 98Z"
+          fill="#162449"
+          stroke="#6366F1"/>
+
+    <!-- FLOATING PRODUCT ONE -->
+
+    <g transform="translate(-115 -15)">
+
+      <g color="#60A5FA">
+
+        <use xlink:href="#cube"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -15;0 0"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+    <!-- FLOATING PRODUCT TWO -->
+
+    <g transform="translate(0 -65)">
+
+      <g color="#A78BFA">
+
+        <use xlink:href="#cube"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -8;0 8;0 -8"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+    <!-- FLOATING PRODUCT THREE -->
+
+    <g transform="translate(115 -10)">
+
+      <g color="#38BDF8">
+
+        <use xlink:href="#cube"/>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -20;0 0"
+          dur="7s"
+          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+    <!-- PLATFORM ENERGY -->
+
+    <circle r="4"
+            fill="#67E8F9"
+            filter="url(#glow)">
+
+      <animateMotion
+        path="M-185 48L0 98L185 48"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- CLICKSTORE DETAILS -->
+
+  <g font-family="Arial">
+
+    <text x="75" y="985"
+          font-size="19"
+          font-weight="bold"
+          fill="#E2E8F0">
+      120 demo products imported
+    </text>
+
+    <text x="75" y="1025"
+          font-size="12"
+          font-weight="bold"
+          letter-spacing="1"
+          fill="#93C5FD">
+      JAVA / SPRING BOOT / POSTGRESQL
+    </text>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PROJECT 03 : GOTRIP               -->
+  <!-- ================================= -->
+
+  <rect x="595" y="585"
+        width="560" height="220"
+        rx="20"
+        fill="url(#travelCard)"
+        stroke="#475569"
+        stroke-opacity=".8"/>
+
+  <g font-family="Arial">
+
+    <text x="625" y="625"
+          font-size="12"
+          letter-spacing="3"
+          fill="#93C5FD">
+      03 / TRAVEL EXPERIENCE
+    </text>
+
+    <text x="625" y="685"
+          font-size="44"
+          font-weight="900"
+          fill="url(#metal)">
+      GoTrip
+    </text>
+
+    <text x="625" y="720"
+          font-size="17"
+          fill="#CBD5E1">
+      Full stack travel platform
+    </text>
+
+    <text x="625" y="765"
+          font-size="12"
+          letter-spacing="1"
+          fill="#93C5FD">
+      EXPLORE / DISCOVER / TRAVEL
+    </text>
+
+  </g>
+
+  <!-- ANIMATED TRAVEL GLOBE -->
+
+  <g transform="translate(1050 695)">
+
+    <circle r="85"
+            fill="#2563EB"
+            opacity=".25"
+            filter="url(#blur)"/>
+
+    <circle r="65"
+            fill="url(#earth)"
+            stroke="#60A5FA"/>
+
+    <!-- ROTATING SPHERICAL GRID -->
+
+    <g clip-path="url(#earthClip)"
+       fill="none"
+       stroke="#BFDBFE"
+       stroke-opacity=".3">
+
+      <ellipse rx="65" ry="20"/>
+      <ellipse rx="65" ry="42"/>
+      <ellipse rx="20" ry="65"/>
+      <ellipse rx="42" ry="65"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0" to="360"
+        dur="35s"
+        repeatCount="indefinite"/>
+
+    </g>
+
+    <!-- STYLIZED LAND MASSES -->
+
+    <g fill="#34D399"
+       opacity=".5"
+       clip-path="url(#earthClip)">
+
+      <path d="M-45 -35L-18 -48L8 -30
+               L-5 -10L-24 -5L-12 15
+               L-35 27L-52 0Z"/>
+
+      <path d="M20 -40L48 -25L55 -3
+               L35 12L20 2L7 -20Z"/>
+
+      <path d="M15 20L35 22L25 48
+               L10 58L0 35Z"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0" to="360"
+        dur="35s"
+        repeatCount="indefinite"/>
+
+    </g>
+
+    <!-- TRAVEL ROUTE -->
+
+    <path d="M-45 30Q-40 -85 48 -25"
+          fill="none"
+          stroke="#FBBF24"
+          stroke-width="1.5"
+          stroke-dasharray="4 5"/>
+
+    <circle cx="-45" cy="30"
+            r="4"
+            fill="#FBBF24"
+            filter="url(#glow)"/>
+
+    <circle cx="48" cy="-25"
+            r="4"
+            fill="#FBBF24"
+            filter="url(#glow)"/>
+
+    <!-- MOVING AIRPLANE -->
+
+    <g fill="#FFFFFF">
+
+      <path d="M-11 -2L-2 -2L2 -12L5 -12
+               L4 -2L13 0L4 3L5 12
+               L2 12L-2 3L-11 3Z"/>
+
+      <animateMotion
+        path="M-45 30Q-40 -85 48 -25"
+        rotate="auto"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- PROJECT 04 : REVITALIZE           -->
+  <!-- ================================= -->
+
+  <rect x="595" y="830"
+        width="560" height="220"
+        rx="20"
+        fill="url(#greenCard)"
+        stroke="#34D399"
+        stroke-opacity=".45"/>
+
+  <g font-family="Arial">
+
+    <text x="625" y="870"
+          font-size="12"
+          letter-spacing="3"
+          fill="#6EE7B7">
+      04 / SUSTAINABLE WEB
+    </text>
+
+    <text x="625" y="930"
+          font-size="44"
+          font-weight="900"
+          fill="url(#metal)">
+      Revitalize
+    </text>
+
+    <text x="625" y="965"
+          font-size="17"
+          fill="#CBD5E1">
+      Waste management website
+    </text>
+
+    <text x="625" y="1010"
+          font-size="12"
+          letter-spacing="1"
+          fill="#6EE7B7">
+      HTML / CSS / JAVASCRIPT
+    </text>
+
+  </g>
+
+  <!-- ROTATING RECYCLING EMBLEM -->
+
+  <g transform="translate(1050 940)">
+
+    <circle r="80"
+            fill="#10B981"
+            opacity=".15"
+            filter="url(#blur)"/>
+
+    <circle r="70"
+            fill="none"
+            stroke="#34D399"
+            stroke-opacity=".15"/>
+
+    <g filter="url(#glow)">
+
+      <use xlink:href="#recycleArrow"/>
+
+      <use xlink:href="#recycleArrow"
+           transform="rotate(120)"/>
+
+      <use xlink:href="#recycleArrow"
+           transform="rotate(240)"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0" to="360"
+        dur="20s"
+        repeatCount="indefinite"/>
+
+    </g>
+
+    <circle r="17"
+            fill="#34D399"
+            opacity=".15">
+
+      <animate attributeName="r"
+        values="15;25;15"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <path d="M-10 5Q-10 -15 15 -15
+             Q15 10 -10 5Z"
+          fill="#6EE7B7"/>
+
+    <path d="M-12 12L8 -8"
+          stroke="#064E3B"
+          stroke-width="2"/>
+
+  </g>
+
+  <!-- SEAMLESS BOTTOM TRANSITION -->
+
+  <path d="M200 1080H1000"
+        stroke="url(#energy)"
+        opacity=".5"/>
+
+  <circle r="3"
+          fill="#67E8F9"
+          filter="url(#glow)">
+
+    <animateMotion
+      path="M200 1080H1000"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
