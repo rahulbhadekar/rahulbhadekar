@@ -1,0 +1,501 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="600"
+     viewBox="0 0 800 600"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>ClickStore - Full Stack E-Commerce</title>
+
+  <defs>
+
+    <radialGradient id="bg" cx=".5" cy=".4" r=".8">
+      <stop stop-color="#29364c"/>
+      <stop offset=".5" stop-color="#131c2d"/>
+      <stop offset="1" stop-color="#060b14"/>
+    </radialGradient>
+
+    <linearGradient id="gold">
+      <stop stop-color="#fde68a"/>
+      <stop offset=".5" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop stop-color="#94a3b8"/>
+      <stop offset=".4" stop-color="#475569"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#263449"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+
+    <linearGradient id="display" x2="1" y2="1">
+      <stop stop-color="#2563eb"/>
+      <stop offset=".5" stop-color="#4338ca"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="productGlow">
+      <stop stop-color="#f59e0b" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <pattern id="grid" width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none"
+            stroke="#94a3b8" stroke-opacity=".05"/>
+    </pattern>
+
+    <!-- Reusable product card -->
+
+    <g id="productCard">
+
+      <rect width="190" height="235" rx="12"
+            fill="url(#panel)" stroke="#475569"/>
+
+      <rect x="10" y="10" width="170" height="140"
+            rx="9" fill="#0b1323"/>
+
+      <ellipse cx="95" cy="80" rx="85" ry="65"
+               fill="url(#productGlow)"/>
+
+      <rect x="20" y="165" width="110" height="7"
+            rx="3" fill="#94a3b8"/>
+
+      <rect x="20" y="183" width="60" height="6"
+            rx="3" fill="#fbbf24"/>
+
+      <rect x="20" y="201" width="150" height="23"
+            rx="6" fill="url(#gold)"/>
+
+      <text x="95" y="217"
+            text-anchor="middle"
+            font-family="Arial,sans-serif"
+            font-size="12" font-weight="bold"
+            fill="#111827">Add to Cart</text>
+
+    </g>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="800" height="600"
+        rx="22" fill="url(#bg)"/>
+
+  <rect width="800" height="600"
+        rx="22" fill="url(#grid)"/>
+
+  <ellipse cx="400" cy="300"
+           rx="360" ry="250"
+           fill="url(#productGlow)"/>
+
+  <!-- Project branding -->
+
+  <text x="400" y="65"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="48" font-weight="800"
+        fill="#f8fafc">
+    Click<tspan fill="url(#gold)">Store</tspan>
+  </text>
+
+  <text x="400" y="95"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="13" letter-spacing="3"
+        fill="#94a3b8">
+    FULL STACK E-COMMERCE PLATFORM
+  </text>
+
+  <path d="M260 112H540"
+        stroke="url(#gold)" opacity=".65"/>
+
+  <!-- Application window shadow -->
+
+  <rect x="85" y="145"
+        width="630" height="325"
+        rx="18" fill="#000"
+        opacity=".65" filter="url(#shadow)"/>
+
+  <!-- Main storefront -->
+
+  <rect x="75" y="130"
+        width="650" height="330"
+        rx="17" fill="url(#metal)"
+        stroke="#64748b"/>
+
+  <rect x="80" y="135"
+        width="640" height="320"
+        rx="12" fill="#101827"/>
+
+  <!-- Navigation bar -->
+
+  <path d="M92 135H708Q720 135 720 147
+           V175H80V147Q80 135 92 135Z"
+        fill="#263449"/>
+
+  <text x="100" y="160"
+        font-family="Arial,sans-serif"
+        font-size="16" font-weight="bold"
+        fill="#fbbf24">ClickStore</text>
+
+  <!-- Search field -->
+
+  <rect x="240" y="145"
+        width="290" height="20"
+        rx="7" fill="#101827"/>
+
+  <circle cx="253" cy="154" r="4"
+          fill="none" stroke="#94a3b8"/>
+
+  <path d="M256 157L260 161"
+        stroke="#94a3b8"/>
+
+  <text x="270" y="159"
+        font-family="Arial"
+        font-size="10"
+        fill="#64748b">Search products...</text>
+
+  <!-- Shopping cart icon -->
+
+  <g transform="translate(660 153)">
+
+    <path d="M-17 -9H-10L-5 7H15L20 -6H-9"
+          fill="none"
+          stroke="#fbbf24"
+          stroke-width="2.5"
+          stroke-linejoin="round"/>
+
+    <circle cx="-3" cy="13" r="3" fill="#fbbf24"/>
+    <circle cx="13" cy="13" r="3" fill="#fbbf24"/>
+
+    <circle cx="24" cy="-12" r="7"
+            fill="#f97316" filter="url(#glow)">
+
+      <animate attributeName="r"
+               values="6;8;6"
+               dur="3s" repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- Product card one -->
+
+  <g transform="translate(100 195)">
+
+    <use href="#productCard"/>
+
+    <!-- Floating headphones -->
+
+    <g transform="translate(95 80)">
+
+      <g>
+
+        <ellipse cy="51" rx="48" ry="7"
+                 fill="#000" opacity=".4"/>
+
+        <path d="M-43 5V-15
+                 A43 43 0 0 1 43 -15V5"
+              fill="none"
+              stroke="url(#metal)"
+              stroke-width="13"/>
+
+        <path d="M-34 -19
+                 A34 34 0 0 1 34 -19"
+              fill="none"
+              stroke="#94a3b8"
+              stroke-width="3"/>
+
+        <rect x="-51" y="-3"
+              width="27" height="48"
+              rx="12" fill="url(#metal)"/>
+
+        <rect x="24" y="-3"
+              width="27" height="48"
+              rx="12" fill="url(#metal)"/>
+
+        <rect x="-48" y="4"
+              width="12" height="34"
+              rx="6" fill="#111827"/>
+
+        <rect x="36" y="4"
+              width="12" height="34"
+              rx="6" fill="#111827"/>
+
+        <path d="M-46 8V34M46 8V34"
+              stroke="#fbbf24"
+              stroke-width="2"
+              filter="url(#glow)"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 0;0 -7;0 0"
+                          dur="5s"
+                          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <!-- Product card two -->
+
+  <g transform="translate(305 195)">
+
+    <use href="#productCard"/>
+
+    <!-- Floating smartwatch -->
+
+    <g transform="translate(95 80)">
+
+      <g>
+
+        <rect x="-18" y="-65"
+              width="36" height="130"
+              rx="12" fill="#334155"/>
+
+        <path d="M-10 -60V-35M10 35V60"
+              stroke="#64748b"
+              stroke-width="2"/>
+
+        <rect x="-36" y="-35"
+              width="72" height="70"
+              rx="17" fill="url(#metal)"/>
+
+        <rect x="-29" y="-28"
+              width="58" height="56"
+              rx="13" fill="#080d18"/>
+
+        <circle r="21"
+                fill="none"
+                stroke="#334155"
+                stroke-width="3"/>
+
+        <circle r="21"
+                fill="none"
+                stroke="#fbbf24"
+                stroke-width="3"
+                stroke-dasharray="100 132"
+                transform="rotate(-90)"/>
+
+        <path d="M0 -15V0L12 8"
+              fill="none"
+              stroke="#f8fafc"
+              stroke-width="2.5"
+              stroke-linecap="round"/>
+
+        <circle r="3" fill="#fbbf24"/>
+
+        <rect x="36" y="-9"
+              width="5" height="15"
+              rx="2" fill="#94a3b8"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 -5;0 2;0 -5"
+                          dur="6s"
+                          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <!-- Product card three -->
+
+  <g transform="translate(510 195)">
+
+    <use href="#productCard"/>
+
+    <!-- Floating laptop -->
+
+    <g transform="translate(95 75)">
+
+      <g>
+
+        <rect x="-61" y="-43"
+              width="122" height="82"
+              rx="7" fill="url(#metal)"
+              stroke="#94a3b8"/>
+
+        <rect x="-54" y="-36"
+              width="108" height="67"
+              rx="3" fill="url(#display)"/>
+
+        <path d="M-54 22L54 -36V31H-54Z"
+              fill="#60a5fa" opacity=".2"/>
+
+        <path d="M-54 4Q-10 -40 54 10"
+              fill="none"
+              stroke="#a5b4fc"
+              stroke-width="3" opacity=".6"/>
+
+        <circle cy="-39" r="1.5"
+                fill="#111827"/>
+
+        <path d="M-61 39H61L78 53H-78Z"
+              fill="url(#metal)"/>
+
+        <path d="M-78 53H78V57H-78Z"
+              fill="#475569"/>
+
+        <path d="M-17 43H17L23 49H-23Z"
+              fill="#64748b"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0 0;0 -6;0 0"
+                          dur="5.5s"
+                          repeatCount="indefinite"/>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <!-- Animated product-to-cart signals -->
+
+  <g fill="#fbbf24" filter="url(#glow)">
+
+    <circle r="4">
+
+      <animateMotion
+        path="M195 407L195 180L660 180L660 153"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="8s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="4">
+
+      <animateMotion
+        path="M400 407L400 180L660 180L660 153"
+        dur="7s"
+        begin="2s"
+        repeatCount="indefinite"/>
+
+      <animate attributeName="opacity"
+               values="0;1;1;0"
+               dur="7s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- Metallic application edge -->
+
+  <path d="M95 460H705"
+        stroke="url(#gold)"
+        stroke-width="3"
+        filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values=".3;1;.3"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+  <!-- Backend architecture -->
+
+  <g fill="none" stroke="#475569"
+     stroke-width="1.5">
+
+    <path d="M150 460V490H650V460"/>
+    <path d="M150 490V515"/>
+    <path d="M315 490V515"/>
+    <path d="M480 490V515"/>
+    <path d="M645 490V515"/>
+
+  </g>
+
+  <path d="M150 490H650"
+        stroke="url(#gold)"
+        stroke-width="2"
+        stroke-dasharray="10 80">
+
+    <animate attributeName="stroke-dashoffset"
+             from="180" to="0"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+  <!-- Technology stack -->
+
+  <g font-family="Arial,sans-serif"
+     font-size="14" font-weight="bold"
+     text-anchor="middle">
+
+    <rect x="75" y="515"
+          width="150" height="35"
+          rx="8" fill="#30241b"
+          stroke="#f97316"/>
+
+    <text x="150" y="538"
+          fill="#fdba74">Java</text>
+
+    <rect x="240" y="515"
+          width="150" height="35"
+          rx="8" fill="#153326"
+          stroke="#6db33f"/>
+
+    <text x="315" y="538"
+          fill="#86efac">Spring Boot</text>
+
+    <rect x="405" y="515"
+          width="150" height="35"
+          rx="8" fill="#172c43"
+          stroke="#60a5fa"/>
+
+    <text x="480" y="538"
+          fill="#93c5fd">REST API</text>
+
+    <rect x="570" y="515"
+          width="150" height="35"
+          rx="8" fill="#192e4c"
+          stroke="#60a5fa"/>
+
+    <text x="645" y="538"
+          fill="#93c5fd">PostgreSQL</text>
+
+  </g>
+
+  <!-- Footer branding -->
+
+  <text x="400" y="580"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="12"
+        letter-spacing="3"
+        fill="#fbbf24">
+    FROM PRODUCT TO PURCHASE
+  </text>
+
+</svg>
