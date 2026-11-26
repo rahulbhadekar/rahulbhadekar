@@ -1,140 +1,277 @@
 
-<!-- ====================================================== -->
-<!-- RAHUL OS 2.0 | AI ENGINEER EDITION                      -->
-<!-- ====================================================== -->
+<!-- ===================================================== -->
+<!-- RAHUL OS 2.0 — AI ENGINEERING PORTFOLIO                -->
+<!-- ===================================================== -->
 
 <div align="center">
 
-<img src="./assets/premium/hero.svg" width="100%" alt="Rahul OS 2.0 - AI Engineer Edition"/>
+<img src="./assets/premium/hero.svg" width="100%" alt="Rahul Bhadekar"/>
 
-<h1>👋 Hi, I'm Rahul Bhadekar</h1>
+<h1>Hi there, I'm Rahul Bhadekar 👋</h1>
 
-<h3>AI Engineer | Python Developer | Full Stack Developer</h3>
+<h3>AI Engineering • Python Development • Full Stack Engineering</h3>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Building+Intelligent+Applications;Python+%7C+Artificial+Intelligence;Machine+Learning+%7C+Generative+AI;Django+%7C+React.js+%7C+PostgreSQL;Java+%7C+Spring+Boot+%7C+REST+APIs;Turning+Ideas+Into+Real-World+Solutions" alt="Typing Animation"/>
 
 <p>
-Building intelligent applications, scalable backend systems,
-and AI-powered digital experiences.
+  <i>Where software engineering meets artificial intelligence.</i>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&height=55&lines=AI+Engineering+%26+Python+Development;Machine+Learning+%26+Generative+AI;Django+%7C+React.js+%7C+PostgreSQL;Java+%7C+Spring+Boot+%7C+REST+APIs;Large+Language+Models+%26+AI+Agents;Building+Intelligent+Real-World+Applications" alt="Typing Animation"/>
+<a href="https://rahul-bhadekar-portfolio.netlify.app">
+<img src="https://img.shields.io/badge/Portfolio-Explore%20My%20Work-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
-<br/>
+<a href="https://www.linkedin.com/in/rahul-bhadekar">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=2563eb&style=for-the-badge"/>
-<img src="https://img.shields.io/github/followers/rahulbhadekar?label=FOLLOWERS&style=for-the-badge&color=8b5cf6"/>
+<a href="mailto:rahulbhadekar2@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
 <br/><br/>
 
-<a href="https://rahul-bhadekar-portfolio.netlify.app">
-<img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/rahul-bhadekar">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/rahulbhadekar">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="mailto:rahulbhadekar2@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&label=PROFILE+VIEWS&color=2563eb&style=flat-square"/>
+<img src="https://img.shields.io/github/followers/rahulbhadekar?label=Followers&style=flat-square&color=8b5cf6"/>
+<img src="https://img.shields.io/github/stars/rahulbhadekar?affiliations=OWNER&style=flat-square&color=EAB308"/>
 
 </div>
 
 ---
 
-# 👨‍💻 About Me
+<!-- ==================== NAVIGATION ==================== -->
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-I am a Computer Science Engineering professional with a strong interest in **Artificial Intelligence, Python Development, and Full Stack Engineering**.
-
-I enjoy combining software engineering with artificial intelligence to solve real-world problems and build meaningful digital products.
-
-- 🐍 Python and AI-powered application development.
-- 🧠 Machine Learning and Generative AI.
-- 🤖 Large Language Models, AI Agents and RAG.
-- ⚙️ Backend development using Django and Spring Boot.
-- ⚛️ Full stack applications using React.js.
-- 🗄️ PostgreSQL, MySQL and database design.
-- 🔗 REST APIs and application integration.
-- 💻 Data Structures and Problem Solving.
-- 📚 Technical content through RahulTechNotes.
-
-</td>
-<td width="45%" valign="middle">
-
-<img src="./assets/premium/developer-workspace.svg" width="100%" alt="Animated Developer Workspace"/>
-
-</td>
-</tr>
-</table>
-
-> My goal is to build intelligent, reliable, and scalable software that creates real-world impact.
+<p align="center">
+  <a href="#about-me">About</a> •
+  <a href="#technical-toolkit">Skills</a> •
+  <a href="#artificial-intelligence">AI Engineering</a> •
+  <a href="#featured-projects">Projects</a> •
+  <a href="#github-activity">GitHub Activity</a> •
+  <a href="#connect-with-me">Contact</a>
+</p>
 
 ---
 
-# 💻 What I Do
+<!-- ==================== ABOUT ME ==================== -->
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<h2 id="about-me">01. 👨‍💻 About Me</h2>
 
-### 🤖 Artificial Intelligence
+<img align="right"
+     src="./assets/premium/developer-workspace.svg"
+     width="43%"
+     alt="Animated Developer Workspace"/>
 
-- AI-powered applications
-- Machine Learning concepts
-- Generative AI
-- Intelligent recommendation systems
-- AI-assisted automation
-- Resume and candidate analysis
+I'm a Computer Science Engineering professional with a passion for **Artificial Intelligence, Python, and modern software development**.
 
-</td>
-<td width="50%" valign="top">
+I enjoy building applications that combine intelligent features, reliable backend systems, and meaningful user experiences.
 
-### 🐍 Python Development
+My engineering interests extend from AI-powered applications and data-driven systems to full stack development and software architecture.
 
-- Python programming
-- Object-Oriented Programming
-- Django development
-- REST API development
-- Database integration
-- Automation and scripting
+- 🐍 Python & Backend Development
+- 🤖 Artificial Intelligence & Generative AI
+- 🧠 Machine Learning & Intelligent Systems
+- 🌐 Full Stack Application Development
+- ☕ Java & Spring Boot
+- 🗄️ Database Design & REST APIs
+- 📚 Technical Knowledge Sharing
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**My philosophy:** Understand the problem, design the solution, and build something that matters.
+
+<br clear="both"/>
+
+---
+
+<!-- ==================== PROFESSIONAL IDENTITY ==================== -->
+
+## 02. Engineering Profile
+
+```python
+class RahulBhadekar:
+
+    def __init__(self):
+        self.name = "Rahul Bhadekar"
+        self.location = "India"
+        self.primary_focus = [
+            "Artificial Intelligence",
+            "Python Development",
+            "Backend Engineering"
+        ]
+
+        self.secondary_focus = [
+            "Java Development",
+            "Full Stack Engineering"
+        ]
+
+        self.interests = [
+            "Machine Learning",
+            "Generative AI",
+            "Large Language Models",
+            "AI Agents",
+            "System Design"
+        ]
+
+        self.mission = "Build intelligent software for real-world problems"
+
+    def connect(self):
+        return "Let's build something meaningful!"
+```
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,django,java,spring,react,postgres,git,github&perline=8"/>
+
+</div>
+
+---
+
+<!-- ==================== WHAT I DO ==================== -->
+
+## 03. What I Do
+
+### 🧠 Artificial Intelligence
+
+Exploring how intelligent systems can solve practical problems through machine learning, generative AI, recommendation systems, and intelligent automation.
+
+### 🐍 Python & Backend Engineering
+
+Building database-driven applications, backend services, REST APIs, and application workflows using Python and Django.
 
 ### 🌐 Full Stack Development
 
-- React.js applications
-- Responsive user interfaces
-- Backend architecture
-- Authentication and authorization
-- Database-driven applications
-- Frontend and backend integration
-
-</td>
-<td width="50%" valign="top">
+Developing end-to-end applications by connecting responsive frontend interfaces with backend services and databases.
 
 ### ☕ Java Development
 
-- Core Java
-- Object-Oriented Programming
-- Collections Framework
-- Spring Boot applications
-- RESTful services
-- Data Structures and Algorithms
-
-</td>
-</tr>
-</table>
+Working with Java, object-oriented programming, Spring Boot, REST APIs, and problem-solving techniques.
 
 ---
 
-# 🧠 Artificial Intelligence & Machine Learning
+<!-- ==================== TECHNICAL SKILLS ==================== -->
+
+<h2 id="technical-toolkit">04. 🛠️ Technical Toolkit</h2>
+
+<table>
+<tr>
+<td width="28%">
+
+**Programming Languages**
+
+</td>
+<td>
+
+<img src="https://skillicons.dev/icons?i=python,java,javascript,html,css"/>
+
+<br/>
+
+Python • Java • JavaScript • SQL • HTML5 • CSS3
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Backend Development**
+
+</td>
+<td>
+
+<img src="https://skillicons.dev/icons?i=django,spring,maven"/>
+
+<br/>
+
+Django • Spring Boot • REST APIs • ORM • MVC
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Frontend Development**
+
+</td>
+<td>
+
+<img src="https://skillicons.dev/icons?i=react,javascript,html,css,vite"/>
+
+<br/>
+
+React.js • Responsive Design • API Integration
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Databases**
+
+</td>
+<td>
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql"/>
+
+<br/>
+
+PostgreSQL • MySQL • SQL • Database Design
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+**Development Tools**
+
+</td>
+<td>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman"/>
+
+<br/>
+
+Git • GitHub • VS Code • IntelliJ IDEA • Postman
+
+</td>
+</tr>
+
+</table>
+
+### AI & Data Science Ecosystem — Areas of Focus
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+
+</p>
+
+### Cloud & Software Architecture — Engineering Interests
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,aws,linux,githubactions,redis,kafka"/>
+
+</p>
+
+<p align="center">
+
+Cloud Deployment • Containerization • CI/CD • Microservices • System Design
+
+</p>
+
+---
+
+<!-- ==================== AI ENGINEERING ==================== -->
+
+<h2 id="artificial-intelligence">05. 🧠 Artificial Intelligence & Intelligent Systems</h2>
 
 <div align="center">
 
@@ -142,239 +279,172 @@ I enjoy combining software engineering with artificial intelligence to solve rea
 
 </div>
 
-Artificial Intelligence is a primary focus of my engineering journey. I am interested in building applications that combine intelligent models, data processing, and modern software architecture.
+Artificial Intelligence represents the central direction of my engineering journey. My interest is in connecting intelligent models with practical software applications.
 
-## AI Engineering Focus Areas
-
-| Domain | Areas of Interest |
+| Engineering Domain | Technical Focus |
 | :--- | :--- |
-| Machine Learning | Supervised Learning, Unsupervised Learning, Model Evaluation |
-| Deep Learning | Neural Networks, CNNs, Transformers |
-| Generative AI | Text Generation, AI Assistants, Prompt Engineering |
-| Natural Language Processing | Text Processing, Classification, Semantic Search |
-| Large Language Models | LLM Integration, Embeddings, Context Management |
-| AI Agents | Intelligent Workflows, Tool Integration, Automation |
-| RAG | Retrieval-Augmented Generation, Vector Search |
-| Data Science | Data Cleaning, Analysis, Visualization |
-| MLOps | Model Deployment, Monitoring, AI System Architecture |
+| 🧠 Machine Learning | Regression, Classification, Clustering, Model Evaluation |
+| 🔬 Deep Learning | Neural Networks, CNNs, Transformers |
+| ✨ Generative AI | AI Assistants, Content Generation, Prompt Engineering |
+| 💬 NLP | Text Processing, Classification, Semantic Search |
+| 🤖 Large Language Models | LLM Integration, Embeddings, Context Management |
+| 📚 RAG | Retrieval-Augmented Generation, Vector Search |
+| ⚡ AI Agents | Intelligent Automation, Tool Integration, Agent Workflows |
+| 📊 Data Science | Data Processing, Analysis, Visualization |
+| ☁️ MLOps | Model Deployment, Monitoring, AI Architecture |
+
+> The objective is not just to understand AI models, but to integrate intelligence into useful, reliable software systems.
 
 ---
 
-# 🛠️ Technical Skills
+<!-- ==================== PROJECTS ==================== -->
 
-## 🐍 Programming Languages
+<h2 id="featured-projects">06. 🚀 Selected Projects</h2>
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,javascript,html,css"/>
-</p>
+A collection of applications that reflect my interests in artificial intelligence, backend engineering, full stack development, and real-world problem solving.
 
-`Python` • `Java` • `JavaScript` • `SQL` • `HTML5` • `CSS3`
+<!-- ==================== HIRESMART ==================== -->
 
----
+### 01 / HireSmart
 
-## 🤖 AI & Data Science Ecosystem
+#### AI-Powered Recruitment & Career Intelligence Platform
 
-<p>
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-</p>
-
-**Areas of technical focus:**
-
-`NumPy` • `Pandas` • `Scikit-learn`
-
-`TensorFlow` • `PyTorch` • `Matplotlib`
-
-`Hugging Face` • `LangChain` • `LLMs`
-
-`Prompt Engineering` • `Embeddings` • `RAG`
-
----
-
-## ⚙️ Backend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,django,spring,maven"/>
-</p>
-
-`Python` • `Django` • `Django REST Framework`
-
-`Java` • `Spring Boot` • `Spring Data JPA`
-
-`REST APIs` • `MVC Architecture` • `ORM`
-
-`CRUD Operations` • `API Integration`
-
----
-
-## ⚛️ Frontend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,javascript,html,css,tailwind,bootstrap,vite"/>
-</p>
-
-`React.js` • `JavaScript` • `HTML5` • `CSS3`
-
-`React Hooks` • `Responsive Design`
-
-`Tailwind CSS` • `Bootstrap` • `API Integration`
-
----
-
-## 🗄️ Database Management
-
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql"/>
-</p>
-
-`PostgreSQL` • `MySQL` • `SQL`
-
-`Joins` • `Subqueries` • `CRUD Operations`
-
-`Database Relationships` • `Normalization`
-
-`Database Design` • `Query Optimization`
-
----
-
-## 🔐 Application Security
-
-<p>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/Authentication-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Authorization-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RBAC-059669?style=for-the-badge"/>
-</p>
-
-`Authentication` • `Authorization`
-
-`JWT` • `Role-Based Access Control`
-
-`Password Hashing` • `Protected APIs`
-
----
-
-## 🐳 Cloud, Deployment & DevOps
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,aws,linux,githubactions,netlify"/>
-</p>
-
-**Engineering focus:**
-
-`Cloud Deployment` • `Docker` • `AWS`
-
-`Linux` • `CI/CD` • `GitHub Actions`
-
-`Environment Configuration` • `Application Deployment`
-
----
-
-## 🔧 Development Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,pycharm,postman"/>
-</p>
-
-`Git` • `GitHub` • `VS Code`
-
-`IntelliJ IDEA` • `PyCharm` • `Postman`
-
-`Jupyter Notebook` • `pgAdmin` • `Maven`
-
----
-
-# 🚀 Featured Projects
-
-## 🤖 HireSmart — AI-Powered Recruitment Platform
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-8B5CF6?style=flat-square"/>
-
-HireSmart is an AI-powered recruitment platform designed to connect candidates and recruiters through intelligent recruitment workflows.
-
-**Key Features**
-
-- AI Resume Analysis
-- AI Candidate Matching
-- Skill Gap Analysis
-- Personalized Job Recommendations
-- Candidate and Recruiter Dashboards
-- Job Search and Filtering
-- Resume Upload and Job Applications
-- Role-Based Authentication
-
-**Technology Stack:** Python, Django, React.js, PostgreSQL, REST APIs.
+<div align="center">
 
 <a href="https://github.com/rahulbhadekar?tab=repositories&q=HireSmart">
-<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/>
+<img src="./assets/projects/hiresmart.svg" width="100%" alt="HireSmart AI Recruitment Platform"/>
 </a>
 
----
+</div>
 
-## 🛒 ClickStore — Full Stack E-Commerce Platform
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-
-ClickStore is an e-commerce application focused on product management, backend services, and database-driven workflows.
-
-**Key Features**
-
-- Product Catalog
-- Product Management
-- REST API Integration
-- PostgreSQL Database
-- Bulk Product Import
-- Automated Product Image Upload
-- 120 Demo Products
-
-**Technology Stack:** Java, Spring Boot, PostgreSQL, REST APIs.
-
-<a href="https://github.com/rahulbhadekar?tab=repositories&q=ClickStore">
-<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github"/>
-</a>
-
----
-
-## 🌍 Other Projects
+HireSmart is a recruitment platform designed to simplify the connection between candidates and recruiters through intelligent recruitment features.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ✈️ GoTrip
+**Candidate Experience**
 
-A travel-focused full stack application designed around digital travel experiences.
+- Candidate Dashboard
+- Resume Upload
+- AI Resume Analysis
+- Skill Gap Analysis
+- Job Recommendations
+- Job Search & Applications
 
-**Domain:** Travel & Tourism
+</td>
+<td width="50%" valign="top">
+
+**Recruiter Experience**
+
+- Recruiter Dashboard
+- Company Profile
+- Recruitment Workflows
+- AI Candidate Matching
+- Candidate Management
+- Role-Based Access
+
+</td>
+</tr>
+</table>
+
+**Technology Stack**
+
+<img src="https://skillicons.dev/icons?i=python,django,react,postgres"/>
+
+`Python` `Django` `React.js` `PostgreSQL` `REST APIs` `AI`
+
+<a href="https://github.com/rahulbhadekar?tab=repositories&q=HireSmart">
+<img src="https://img.shields.io/badge/Explore%20HireSmart-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+---
+
+<!-- ==================== CLICKSTORE ==================== -->
+
+### 02 / ClickStore
+
+<table>
+<tr>
+<td width="48%" valign="middle">
+
+<a href="https://github.com/rahulbhadekar?tab=repositories&q=ClickStore">
+<img src="./assets/projects/clickstore.svg" width="100%" alt="ClickStore"/>
+</a>
+
+</td>
+<td width="52%" valign="top">
+
+<h3>Full Stack E-Commerce Platform</h3>
+
+A database-driven e-commerce application focused on product management and backend services.
+
+<b>Project Highlights</b>
+
+<ul>
+<li>Product Catalog & Management</li>
+<li>REST API Development</li>
+<li>PostgreSQL Integration</li>
+<li>Automated Bulk Product Import</li>
+<li>Automated Product Image Upload</li>
+<li>120 Demo Products</li>
+</ul>
+
+<img src="https://skillicons.dev/icons?i=java,spring,postgres"/>
+
+<br/><br/>
+
+<a href="https://github.com/rahulbhadekar?tab=repositories&q=ClickStore">
+<img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ==================== OTHER PROJECTS ==================== -->
+
+### More Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 <a href="https://github.com/rahulbhadekar?tab=repositories&q=GoTrip">
-<img src="https://img.shields.io/badge/Explore%20Project-2563EB?style=for-the-badge&logo=github"/>
+<img src="./assets/projects/gotrip.svg" width="100%" alt="GoTrip"/>
+</a>
+
+<h3>03 / GoTrip</h3>
+
+<b>Travel & Tourism Application</b>
+
+A full stack project focused on digital travel experiences and user-friendly travel services.
+
+<a href="https://github.com/rahulbhadekar?tab=repositories&q=GoTrip">
+<img src="https://img.shields.io/badge/Explore%20Project-2563EB?style=flat-square&logo=github"/>
 </a>
 
 </td>
 <td width="50%" valign="top">
 
-### ♻️ Revitalize
+<a href="https://github.com/rahulbhadekar?tab=repositories&q=Revitalize">
+<img src="./assets/projects/revitalize.svg" width="100%" alt="Revitalize"/>
+</a>
 
-A waste management website designed to promote environmental awareness and sustainable waste management.
+<h3>04 / Revitalize</h3>
 
-**Tech:** HTML, CSS, JavaScript
+<b>Waste Management Website</b>
+
+A frontend application promoting environmental awareness and sustainable waste management.
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript"/>
+
+<br/>
 
 <a href="https://github.com/rahulbhadekar?tab=repositories&q=Revitalize">
-<img src="https://img.shields.io/badge/Explore%20Project-059669?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/Explore%20Project-059669?style=flat-square&logo=github"/>
 </a>
 
 </td>
@@ -391,200 +461,203 @@ A waste management website designed to promote environmental awareness and susta
 
 ---
 
-# 🌐 My Portfolio
+<!-- ==================== ENGINEERING JOURNEY ==================== -->
 
-My portfolio brings together my projects, technical interests, development experience, and professional journey.
+## 07. 🎯 My Engineering Direction
 
 <div align="center">
 
-<a href="https://rahul-bhadekar-portfolio.netlify.app">
-<img src="./assets/premium/portfolio-experience.svg" width="85%" alt="Portfolio Experience"/>
-</a>
-
-<br/>
-
-<a href="https://rahul-bhadekar-portfolio.netlify.app">
-<img src="https://img.shields.io/badge/Visit%20My%20Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
+<img src="./assets/premium/neural-architecture.svg" width="85%" alt="Intelligent System Architecture"/>
 
 </div>
-
----
-
-# 🎯 My Engineering Journey
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 AI Engineering Path
+<h3>🤖 AI Engineering Path</h3>
 
 <pre>
 Python Programming
-        ↓
+        │
+        ▼
 Mathematics & Statistics
-        ↓
-Data Analysis & Processing
-        ↓
+        │
+        ▼
+Data Science
+        │
+        ▼
 Machine Learning
-        ↓
+        │
+        ▼
 Deep Learning
-        ↓
-Natural Language Processing
-        ↓
+        │
+        ▼
+NLP & Transformers
+        │
+        ▼
 Generative AI & LLMs
-        ↓
-Embeddings & Vector Databases
-        ↓
+        │
+        ▼
 RAG & AI Agents
-        ↓
-AI Application Development
-        ↓
-Model Deployment & MLOps
+        │
+        ▼
+AI Engineering
 </pre>
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 Software Engineering Path
+<h3>💻 Software Engineering Path</h3>
 
 <pre>
 Programming Fundamentals
-        ↓
-Object-Oriented Programming
-        ↓
-Data Structures & Algorithms
-        ↓
+        │
+        ▼
+OOP & Data Structures
+        │
+        ▼
 Python & Java
-        ↓
+        │
+        ▼
 Django & Spring Boot
-        ↓
+        │
+        ▼
 SQL & Database Design
-        ↓
+        │
+        ▼
 REST API Development
-        ↓
-React.js & Full Stack
-        ↓
-Authentication & Security
-        ↓
-Cloud & DevOps
-        ↓
-Scalable System Design
+        │
+        ▼
+React & Full Stack
+        │
+        ▼
+Cloud & System Design
+        │
+        ▼
+Software Engineering
 </pre>
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
 
-# 🔬 Engineering Focus
+<h3>AI Engineering + Software Engineering</h3>
 
-<p align="center">
+<b>↓</b>
 
-<img src="https://img.shields.io/badge/Python%20Development-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge"/>
+<h3>Intelligent Real-World Applications</h3>
 
-<br/>
-
-<img src="https://img.shields.io/badge/Generative%20AI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Large%20Language%20Models-0891B2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI%20Agents%20%26%20RAG-7C3AED?style=for-the-badge"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Backend%20Engineering-059669?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/System%20Design-4338CA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Problem%20Solving-EAB308?style=for-the-badge"/>
-
-</p>
+</div>
 
 ---
 
-# 📊 GitHub Analytics
+<!-- ==================== PORTFOLIO ==================== -->
+
+## 08. 🌐 Beyond GitHub
+
+My personal portfolio brings together my projects, technical interests, professional identity, and engineering journey.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulbhadekar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030509&title_color=38BDF8&icon_color=A78BFA"/>
+<a href="https://rahul-bhadekar-portfolio.netlify.app">
+<img src="./assets/premium/portfolio-experience.svg" width="90%" alt="Rahul Bhadekar Portfolio"/>
+</a>
 
-<img width="49%" src="https://streak-stats.demolab.com?user=rahulbhadekar&theme=tokyonight&hide_border=true&background=030509&ring=38BDF8&fire=A78BFA"/>
+<br/>
+
+<a href="https://rahul-bhadekar-portfolio.netlify.app">
+<img src="https://img.shields.io/badge/Visit%20My%20Portfolio-Explore%20Now-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<!-- ==================== GITHUB STATISTICS ==================== -->
+
+<h2 id="github-activity">09. 📊 Engineering Activity</h2>
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rahulbhadekar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=A78BFA"/>
+
+<img width="49%" src="https://streak-stats.demolab.com?user=rahulbhadekar&theme=tokyonight&hide_border=true&background=00000000&ring=58A6FF&fire=A78BFA"/>
 
 <br/><br/>
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulbhadekar&layout=compact&theme=tokyonight&hide_border=true&bg_color=030509&title_color=38BDF8"/>
+<img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulbhadekar&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=58A6FF"/>
 
 </div>
 
----
-
-# 📈 Contribution Activity
+### Contribution Activity
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rahulbhadekar&bg_color=030509&color=94A3B8&line=38BDF8&point=A78BFA&area=true&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rahulbhadekar&theme=github-dark&hide_border=true&area=true&line=58A6FF&point=A78BFA" width="100%"/>
 
 </div>
 
----
-
-# 🌌 3D Contribution Universe
+### 3D Contribution Landscape
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions"/>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
 
 </div>
 
----
+<details>
+<summary><b>🐍 Explore Animated Contribution Graphs</b></summary>
 
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake"/>
-
-</div>
-
----
-
-# 👾 Pacman Contribution Graph
+<br/>
 
 <div align="center">
+
+<h3>Contribution Snake</h3>
+
+<img src="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+
+<h3>Pacman Contribution Graph</h3>
 
 <img src="https://raw.githubusercontent.com/rahulbhadekar/rahulbhadekar/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pacman Contribution Graph"/>
 
 </div>
 
+</details>
+
 ---
 
-# 📚 RahulTechNotes
+<!-- ==================== KNOWLEDGE SHARING ==================== -->
 
-### LEARN • CODE • GROW
-
-I share technical knowledge, programming notes, interview preparation resources, and practical development concepts through RahulTechNotes.
+## 10. 📚 RahulTechNotes
 
 <table>
 <tr>
-<td width="45%" valign="middle">
+<td width="42%" valign="middle">
 
-<img src="./assets/premium/knowledge-studio.svg" width="100%" alt="RahulTechNotes Knowledge Studio"/>
+<img src="./assets/premium/knowledge-studio.svg" width="100%" alt="RahulTechNotes"/>
 
 </td>
-<td width="55%" valign="top">
+<td width="58%" valign="top">
 
-### Topics I Share
+<h2>LEARN • CODE • GROW</h2>
 
-- 🐍 Python Programming
-- ☕ Core Java
-- 🤖 Artificial Intelligence
-- 🧠 Machine Learning
-- 🗄️ SQL and Databases
-- ⚛️ Full Stack Development
-- 💻 Data Structures and Algorithms
-- 🎯 Technical Interview Preparation
-- 📖 Programming Cheat Sheets
-- 🚀 Real-World Project Development
+I believe that knowledge becomes more valuable when it is shared.
+
+Through RahulTechNotes, I create and share programming resources, technical explanations, interview preparation notes, and practical development concepts.
+
+<b>Content Topics</b>
+
+<ul>
+<li>Python & Java Programming</li>
+<li>Artificial Intelligence & Machine Learning</li>
+<li>SQL & Database Management</li>
+<li>Full Stack Development</li>
+<li>Technical Interview Preparation</li>
+<li>Programming Cheat Sheets</li>
+</ul>
 
 <a href="https://www.linkedin.com/in/rahul-bhadekar">
 <img src="https://img.shields.io/badge/Follow%20RahulTechNotes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -596,43 +669,56 @@ I share technical knowledge, programming notes, interview preparation resources,
 
 ---
 
-# 🤝 Let's Connect
+<!-- ==================== CONTACT ==================== -->
 
-I am open to professional opportunities, technical collaborations, AI-powered projects, and meaningful conversations about software engineering.
-
-| Platform | Connect |
-| :--- | :--- |
-| 🌐 Portfolio | [Visit My Portfolio](https://rahul-bhadekar-portfolio.netlify.app) |
-| 💼 LinkedIn | [Rahul Bhadekar](https://www.linkedin.com/in/rahul-bhadekar) |
-| 💻 GitHub | [rahulbhadekar](https://github.com/rahulbhadekar) |
-| 📧 Email | [rahulbhadekar2@gmail.com](mailto:rahulbhadekar2@gmail.com) |
+<h2 id="connect-with-me">11. 🤝 Let's Build Something Meaningful</h2>
 
 <div align="center">
+
+I am open to professional opportunities, technical collaborations, and meaningful conversations about Artificial Intelligence and Software Engineering.
+
+<br/>
 
 <a href="https://rahul-bhadekar-portfolio.netlify.app">
 <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
+
 <a href="https://www.linkedin.com/in/rahul-bhadekar">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+
+<a href="https://github.com/rahulbhadekar">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
 <a href="mailto:rahulbhadekar2@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
+
+<br/><br/>
+
+**Email:** rahulbhadekar2@gmail.com
 
 </div>
 
 ---
 
+<!-- ==================== SIGNATURE ==================== -->
+
 <div align="center">
 
 <img src="./assets/premium/cinematic-signature.svg" width="100%" alt="Rahul Bhadekar Signature"/>
 
-**Thanks for visiting my profile!**
+<h3>Thanks for stopping by! ❤️</h3>
 
-⭐ Explore my repositories and connect with me.
+<i>Keep learning. Keep building. Keep growing.</i>
 
-`RAHUL OS 2.0 — AI ENGINEER EDITION`
+<br/><br/>
 
-**#RahulTechNotes**
+<b>RAHUL OS 2.0 — AI ENGINEER EDITION</b>
+
+<br/>
+
+<b>#RahulTechNotes</b>
 
 </div>
