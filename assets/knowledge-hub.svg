@@ -1,0 +1,474 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="480"
+     viewBox="0 0 1200 480">
+
+  <title>RahulTechNotes - Knowledge Hub</title>
+
+  <defs>
+
+    <radialGradient id="bg" cx="75%" cy="45%">
+      <stop offset="0%" stop-color="#30265B"/>
+      <stop offset="55%" stop-color="#10182D"/>
+      <stop offset="100%" stop-color="#030711"/>
+    </radialGradient>
+
+    <linearGradient id="metal">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#67E8F9"/>
+      <stop offset="70%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+
+    <linearGradient id="page">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="70%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="cover" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+
+    <radialGradient id="floor">
+      <stop offset="0%" stop-color="#6366F1"
+            stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#6366F1"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- CINEMATIC BACKGROUND -->
+
+  <rect width="1200" height="480"
+        rx="20" fill="url(#bg)"/>
+
+  <ellipse cx="910" cy="380"
+           rx="280" ry="80"
+           fill="url(#floor)">
+
+    <animate attributeName="opacity"
+             values=".5;1;.5"
+             dur="5s"
+             repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- PERSPECTIVE GRID -->
+
+  <g stroke="#818CF8"
+     opacity=".12" fill="none">
+
+    <path d="M900 280L0 480"/>
+    <path d="M900 280L200 480"/>
+    <path d="M900 280L400 480"/>
+    <path d="M900 280L600 480"/>
+    <path d="M900 280L800 480"/>
+    <path d="M900 280L1000 480"/>
+    <path d="M900 280L1200 480"/>
+
+    <path d="M0 320H1200"/>
+    <path d="M0 350H1200"/>
+    <path d="M0 390H1200"/>
+    <path d="M0 440H1200"/>
+
+  </g>
+
+  <!-- SECTION LABEL -->
+
+  <circle cx="50" cy="45" r="5"
+          fill="#67E8F9"
+          filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="68" y="51"
+        font-family="monospace"
+        font-size="14"
+        letter-spacing="3"
+        fill="#67E8F9">
+    KNOWLEDGE HUB / DEVELOPER RESOURCES
+  </text>
+
+  <!-- METALLIC BRANDING -->
+
+  <text x="48" y="135"
+        font-family="Arial"
+        font-size="62"
+        font-weight="900"
+        fill="url(#metal)">
+    RahulTechNotes
+  </text>
+
+  <text x="50" y="175"
+        font-family="monospace"
+        font-size="21"
+        letter-spacing="6"
+        fill="#C4B5FD">
+    LEARN &#8226; CODE &#8226; GROW
+  </text>
+
+  <text x="50" y="225"
+        font-family="Arial"
+        font-size="21"
+        fill="#E2E8F0">
+    Making technology easier to understand.
+  </text>
+
+  <!-- KNOWLEDGE DOMAINS -->
+
+  <g font-family="Arial"
+     font-size="18"
+     fill="#CBD5E1">
+
+    <circle cx="55" cy="265" r="4"
+            fill="#67E8F9"/>
+    <text x="75" y="271">
+      Python &amp; Artificial Intelligence
+    </text>
+
+    <circle cx="55" cy="302" r="4"
+            fill="#A78BFA"/>
+    <text x="75" y="308">
+      Java &amp; Backend Development
+    </text>
+
+    <circle cx="55" cy="339" r="4"
+            fill="#67E8F9"/>
+    <text x="75" y="345">
+      Full Stack Development
+    </text>
+
+    <circle cx="55" cy="376" r="4"
+            fill="#A78BFA"/>
+    <text x="75" y="382">
+      Interview Preparation &amp; Technical Notes
+    </text>
+
+  </g>
+
+  <!-- HOLOGRAPHIC PLATFORM -->
+
+  <g fill="none" stroke="#818CF8">
+
+    <ellipse cx="910" cy="390"
+             rx="240" ry="45"
+             opacity=".35"/>
+
+    <ellipse cx="910" cy="390"
+             rx="190" ry="35"
+             stroke-dasharray="30 15"
+             opacity=".6">
+
+      <animate attributeName="stroke-dashoffset"
+               from="0" to="270"
+               dur="10s"
+               repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="910" cy="390"
+             rx="140" ry="25"
+             stroke="#22D3EE"
+             opacity=".5"/>
+
+  </g>
+
+  <!-- FLOATING 3D NOTEBOOK -->
+
+  <g transform="translate(680 75)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -15;0 0"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+      <!-- Notebook Cover -->
+
+      <path d="M0 30L220 0L440 30
+               V310L220 280L0 310Z"
+            fill="url(#cover)"
+            stroke="#A78BFA"
+            stroke-width="3"/>
+
+      <!-- Page Thickness -->
+
+      <path d="M10 20L220 0L430 20
+               V295L220 270L10 295Z"
+            fill="#64748B"/>
+
+      <!-- Left Page -->
+
+      <path d="M10 10L220 0
+               V265L10 285Z"
+            fill="url(#page)"
+            stroke="#CBD5E1"/>
+
+      <!-- Right Page -->
+
+      <path d="M220 0L430 10
+               V285L220 265Z"
+            fill="#E2E8F0"
+            stroke="#CBD5E1"/>
+
+      <!-- Notebook Spine -->
+
+      <path d="M220 0V265"
+            stroke="#64748B"
+            stroke-width="3"/>
+
+      <!-- Left Page Content -->
+
+      <g transform="matrix(1 -.047 0 1 28 25)">
+
+        <text x="0" y="22"
+              font-family="Arial"
+              font-size="23"
+              font-weight="bold"
+              fill="#1E40AF">
+          PYTHON
+        </text>
+
+        <path d="M0 32H170"
+              stroke="#2563EB"
+              stroke-width="2"/>
+
+        <g font-family="monospace"
+           font-size="15"
+           fill="#1E3A8A">
+
+          <text x="0" y="65"
+                fill="#7C3AED">
+            def build():
+          </text>
+
+          <text x="18" y="92">
+            learn()
+          </text>
+
+          <text x="18" y="119">
+            code()
+          </text>
+
+          <text x="18" y="146">
+            grow()
+          </text>
+
+          <text x="0" y="185"
+                fill="#047857">
+            build()
+          </text>
+
+        </g>
+
+        <!-- Animated Code Cursor -->
+
+        <rect x="66" y="172"
+              width="3" height="17"
+              fill="#2563EB">
+
+          <animate attributeName="opacity"
+                   values="1;0;1"
+                   dur="1s"
+                   repeatCount="indefinite"/>
+
+        </rect>
+
+        <text x="0" y="225"
+              font-family="monospace"
+              font-size="10"
+              fill="#475569">
+          #RahulTechNotes
+        </text>
+
+      </g>
+
+      <!-- Right Page Content -->
+
+      <g transform="matrix(1 .047 0 1 235 15)">
+
+        <text x="0" y="25"
+              font-family="Arial"
+              font-size="17"
+              font-weight="bold"
+              fill="#312E81">
+          AI ENGINEERING
+        </text>
+
+        <path d="M0 35H175"
+              stroke="#6366F1"
+              stroke-width="2"/>
+
+        <g font-family="Arial"
+           font-size="12"
+           font-weight="bold"
+           fill="#312E81">
+
+          <rect x="0" y="50"
+                width="175" height="27"
+                rx="4" fill="#C7D2FE"/>
+
+          <text x="10" y="68">
+            Python
+          </text>
+
+          <rect x="0" y="86"
+                width="175" height="27"
+                rx="4" fill="#C7D2FE"/>
+
+          <text x="10" y="104">
+            Machine Learning
+          </text>
+
+          <rect x="0" y="122"
+                width="175" height="27"
+                rx="4" fill="#C7D2FE"/>
+
+          <text x="10" y="140">
+            Deep Learning
+          </text>
+
+          <rect x="0" y="158"
+                width="175" height="27"
+                rx="4" fill="#C7D2FE"/>
+
+          <text x="10" y="176">
+            Generative AI
+          </text>
+
+          <rect x="0" y="194"
+                width="175" height="27"
+                rx="4" fill="#C7D2FE"/>
+
+          <text x="10" y="212">
+            Intelligent Systems
+          </text>
+
+        </g>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING CODE SYMBOLS -->
+
+  <g font-family="monospace"
+     font-weight="bold"
+     filter="url(#glow)">
+
+    <text x="640" y="120"
+          font-size="25"
+          fill="#67E8F9">
+
+      &lt;/&gt;
+
+      <animate attributeName="y"
+               values="120;95;120"
+               dur="5s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+    <text x="1120" y="75"
+          font-size="30"
+          fill="#C4B5FD">
+
+      { }
+
+      <animate attributeName="y"
+               values="75;50;75"
+               dur="4s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+    <text x="620" y="330"
+          font-size="22"
+          fill="#818CF8">
+
+      AI
+
+      <animate attributeName="opacity"
+               values=".3;1;.3"
+               dur="3s"
+               repeatCount="indefinite"/>
+
+    </text>
+
+  </g>
+
+  <!-- MOVING KNOWLEDGE PARTICLES -->
+
+  <g fill="#67E8F9"
+     filter="url(#glow)">
+
+    <circle r="3">
+
+      <animateMotion
+        path="M650 200Q850 10 1150 150"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="4">
+
+      <animateMotion
+        path="M1150 350Q900 440 650 350"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- FOOTER -->
+
+  <path d="M50 430H1150"
+        stroke="#6366F1"
+        opacity=".7"/>
+
+  <circle cx="50" cy="430"
+          r="4"
+          fill="#FFFFFF"
+          filter="url(#glow)">
+
+    <animate attributeName="cx"
+             values="50;1150;50"
+             dur="8s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="600" y="458"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="14"
+        letter-spacing="4"
+        fill="#C4B5FD">
+    KNOWLEDGE IS MEANT TO BE SHARED
+  </text>
+
+</svg>
