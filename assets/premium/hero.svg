@@ -1,0 +1,467 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="580"
+     viewBox="0 0 1200 580">
+
+  <title>RAHUL OS 2.0 — AI Engineer Edition</title>
+
+  <defs>
+
+    <!-- OBSIDIAN BACKGROUND -->
+
+    <radialGradient id="background" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#172642"/>
+      <stop offset="40%" stop-color="#0A1222"/>
+      <stop offset="75%" stop-color="#050910"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <!-- LIQUID METAL -->
+
+    <linearGradient id="metal" x1="0" y1="0" x2=".12" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="20%" stop-color="#F1F5F9"/>
+      <stop offset="38%" stop-color="#A5B4C8"/>
+      <stop offset="49%" stop-color="#475569"/>
+      <stop offset="55%" stop-color="#E0F2FE"/>
+      <stop offset="72%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+
+    <!-- AURORA ENERGY -->
+
+    <linearGradient id="aurora">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#2563EB"/>
+      <stop offset="48%" stop-color="#67E8F9"/>
+      <stop offset="72%" stop-color="#818CF8"/>
+      <stop offset="90%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="blueLight">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleLight">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="shine">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- LIGHTING FILTERS -->
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <filter id="deepGlow">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+
+    <filter id="particleGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textShadow">
+      <feDropShadow dx="0" dy="8"
+        stdDeviation="7"
+        flood-color="#000000"
+        flood-opacity=".9"/>
+    </filter>
+
+    <clipPath id="nameClip">
+      <text x="600" y="245"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="88"
+        font-weight="900"
+        letter-spacing="-2">
+        RAHUL BHADEKAR
+      </text>
+    </clipPath>
+
+    <!-- STAR FIELD -->
+
+    <pattern id="stars" width="190" height="170"
+      patternUnits="userSpaceOnUse">
+
+      <circle cx="17" cy="26" r=".8"
+        fill="#FFFFFF" opacity=".4"/>
+
+      <circle cx="87" cy="73" r=".6"
+        fill="#93C5FD" opacity=".5"/>
+
+      <circle cx="156" cy="38" r="1"
+        fill="#C4B5FD" opacity=".5"/>
+
+      <circle cx="43" cy="143" r=".6"
+        fill="#FFFFFF" opacity=".3"/>
+
+      <circle cx="172" cy="132" r=".7"
+        fill="#67E8F9" opacity=".4"/>
+
+    </pattern>
+
+  </defs>
+
+  <!-- BASE BACKGROUND -->
+
+  <rect width="1200" height="580"
+    fill="url(#background)"/>
+
+  <!-- MOVING AMBIENT LIGHT -->
+
+  <ellipse cx="280" cy="260"
+    rx="480" ry="280"
+    fill="url(#blueLight)">
+
+    <animate attributeName="cx"
+      values="180;800;180"
+      dur="18s"
+      repeatCount="indefinite"/>
+
+    <animate attributeName="opacity"
+      values=".4;1;.4"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <ellipse cx="920" cy="350"
+    rx="400" ry="250"
+    fill="url(#purpleLight)">
+
+    <animate attributeName="cx"
+      values="1000;400;1000"
+      dur="20s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- COSMIC PARTICLES -->
+
+  <rect width="1200" height="580"
+    fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".45;.95;.45"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- CINEMATIC AURORA GLOW -->
+
+  <g fill="none" filter="url(#deepGlow)">
+
+    <path d="M-100 340
+      C250 40 650 590 1300 150"
+      stroke="#2563EB"
+      stroke-width="45"
+      opacity=".15">
+
+      <animate attributeName="d"
+        values="
+        M-100 340 C250 40 650 590 1300 150;
+        M-100 240 C350 560 800 30 1300 350;
+        M-100 340 C250 40 650 590 1300 150"
+        dur="14s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M-100 420
+      C350 100 750 520 1300 240"
+      stroke="#8B5CF6"
+      stroke-width="35"
+      opacity=".14">
+
+      <animate attributeName="d"
+        values="
+        M-100 420 C350 100 750 520 1300 240;
+        M-100 260 C300 520 850 100 1300 390;
+        M-100 420 C350 100 750 520 1300 240"
+        dur="17s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+  <!-- FLOWING ENERGY RIBBONS -->
+
+  <g fill="none" stroke="url(#aurora)">
+
+    <path d="M-100 300 C250 30 750 580 1300 140"
+      stroke-width="1.6" opacity=".45">
+
+      <animate attributeName="d"
+        values="
+        M-100 300 C250 30 750 580 1300 140;
+        M-100 190 C350 570 850 40 1300 330;
+        M-100 300 C250 30 750 580 1300 140"
+        dur="13s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M-100 320 C250 50 750 600 1300 160"
+      stroke-width="1" opacity=".3">
+
+      <animate attributeName="d"
+        values="
+        M-100 320 C250 50 750 600 1300 160;
+        M-100 210 C350 590 850 60 1300 350;
+        M-100 320 C250 50 750 600 1300 160"
+        dur="14s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M-100 340 C250 70 750 620 1300 180"
+      opacity=".25"/>
+
+    <path d="M-100 360 C250 90 750 640 1300 200"
+      opacity=".2"/>
+
+    <path d="M-100 380 C250 110 750 660 1300 220"
+      opacity=".17"/>
+
+    <path d="M-100 400 C250 130 750 680 1300 240"
+      opacity=".13"/>
+
+    <path d="M-100 420 C250 150 750 700 1300 260"
+      opacity=".1"/>
+
+    <path d="M-100 440 C250 170 750 720 1300 280"
+      opacity=".08"/>
+
+    <path d="M-100 260 C300 500 800 10 1300 300"
+      opacity=".2"/>
+
+    <path d="M-100 280 C300 520 800 30 1300 320"
+      opacity=".15"/>
+
+    <path d="M-100 300 C300 540 800 50 1300 340"
+      opacity=".1"/>
+
+  </g>
+
+  <!-- FLOATING LIGHT PARTICLES -->
+
+  <g filter="url(#particleGlow)">
+
+    <circle r="3" fill="#67E8F9">
+      <animateMotion
+        path="M-20 340 C250 40 750 580 1220 140"
+        dur="11s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="2.5" fill="#C4B5FD">
+      <animateMotion
+        path="M1220 340 C850 40 350 520 -20 200"
+        dur="14s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="2" fill="#FFFFFF">
+      <animateMotion
+        path="M100 500 Q600 100 1100 440"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="170" cy="140" r="2" fill="#67E8F9">
+      <animate attributeName="cy"
+        values="140;100;140"
+        dur="7s"
+        repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+        values=".2;1;.2"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="390" r="2.5" fill="#A78BFA">
+      <animate attributeName="cy"
+        values="390;330;390"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- MINIMAL TOP BRANDING -->
+
+  <text x="45" y="45"
+    font-family="Arial, sans-serif"
+    font-size="13"
+    letter-spacing="4"
+    fill="#94A3B8">
+    RB / DIGITAL EXPERIENCE
+  </text>
+
+  <circle cx="1065" cy="40" r="4"
+    fill="#4ADE80"
+    filter="url(#particleGlow)">
+
+    <animate attributeName="opacity"
+      values=".4;1;.4"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="1080" y="45"
+    font-family="monospace"
+    font-size="12"
+    letter-spacing="2"
+    fill="#86EFAC">
+    ONLINE
+  </text>
+
+  <!-- HERO INTRO -->
+
+  <text x="600" y="140"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="15"
+    letter-spacing="9"
+    fill="#A5B4FC">
+    INTELLIGENCE BEYOND LIMITS
+  </text>
+
+  <!-- LIQUID METAL NAME -->
+
+  <text x="600" y="245"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="88"
+    font-weight="900"
+    letter-spacing="-2"
+    fill="url(#metal)"
+    filter="url(#textShadow)">
+    RAHUL BHADEKAR
+  </text>
+
+  <!-- ANIMATED METALLIC REFLECTION -->
+
+  <g clip-path="url(#nameClip)">
+
+    <rect x="-350" y="145"
+      width="240" height="130"
+      fill="url(#shine)"
+      transform="skewX(-18)">
+
+      <animate attributeName="x"
+        values="-350;1600;1600"
+        keyTimes="0;.55;1"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+  </g>
+
+  <!-- PRIMARY IDENTITY -->
+
+  <text x="600" y="308"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="36"
+    font-weight="600"
+    letter-spacing="14"
+    fill="#E0F2FE">
+    AI ENGINEER
+  </text>
+
+  <!-- TECHNOLOGY FOCUS -->
+
+  <text x="600" y="358"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="19"
+    letter-spacing="2"
+    fill="#94A3B8">
+    Python &#8226; Generative AI &#8226; Full Stack Systems
+  </text>
+
+  <!-- ENERGY DIVIDER -->
+
+  <path d="M340 400H860"
+    stroke="url(#aurora)"
+    stroke-width="1.5"/>
+
+  <circle r="3"
+    fill="#E0F2FE"
+    filter="url(#particleGlow)">
+
+    <animateMotion
+      path="M340 400H860"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- EDITION BRAND -->
+
+  <text x="600" y="450"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="25"
+    font-weight="700"
+    letter-spacing="5"
+    fill="#67E8F9">
+    RAHUL OS 2.0
+  </text>
+
+  <text x="600" y="483"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="13"
+    letter-spacing="6"
+    fill="#C4B5FD">
+    AI ENGINEER EDITION
+  </text>
+
+  <!-- BOTTOM BRANDING -->
+
+  <text x="45" y="548"
+    font-family="Arial, sans-serif"
+    font-size="11"
+    letter-spacing="3"
+    fill="#64748B">
+    DESIGNED WITH PURPOSE
+  </text>
+
+  <text x="1155" y="535"
+    text-anchor="end"
+    font-family="Arial, sans-serif"
+    font-size="17"
+    font-weight="bold"
+    fill="#CBD5E1">
+    RahulTechNotes
+  </text>
+
+  <text x="1155" y="553"
+    text-anchor="end"
+    font-family="Arial, sans-serif"
+    font-size="9"
+    letter-spacing="2"
+    fill="#64748B">
+    LEARN &#8226; CODE &#8226; GROW
+  </text>
+
+</svg>
