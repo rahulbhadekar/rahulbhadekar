@@ -1,34 +1,42 @@
 
 <div align="center">
 
-<!-- CINEMATIC HEADER -->
+<!-- CUSTOM CINEMATIC HEADER -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0066FF,100:00D9FF&height=250&section=header&text=RAHUL%20BHADEKAR&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER&descAlignY=60&descSize=18"/>
+<a href="https://rahul-bhadekar-portfolio.netlify.app">
+  <img src="./assets/header.svg" width="100%" alt="Rahul Bhadekar"/>
+</a>
 
-<!-- TYPING ANIMATION -->
+<!-- LIVE TYPING ANIMATION -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=SYSTEM+INITIALIZED...;Full+Stack+Developer;Java+%26+Python+Developer;Backend+Development;Building+AI-Powered+Applications;LEARN+%E2%80%A2+CODE+%E2%80%A2+GROW" alt="Typing Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&height=55&lines=Full+Stack+Developer;Java+%26+Python+Developer;Backend+Engineering;AI-Powered+Applications;Dream.+Develop.+Deploy.+Repeat." alt="Developer Animation"/>
 
-<br/>
+<!-- SOCIAL CONNECTIONS -->
 
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF88?style=for-the-badge&labelColor=050810"/>
-<img src="https://img.shields.io/badge/RAHUL_OS-V2026.1-00D9FF?style=for-the-badge&labelColor=050810"/>
-
-<br/><br/>
-
-<a href="https://github.com/rahulbhadekar">
-<img src="https://img.shields.io/badge/GITHUB-050810?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://rahul-bhadekar-portfolio.netlify.app">
+  <img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=black"/>
 </a>
 <a href="https://linkedin.com/in/rahul-bhadekar">
-<img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/rahulbhadekar">
+  <img src="https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="mailto:rahulbhadekar2@gmail.com">
+  <img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<br/><br/>
+<!-- LIVE PROFILE METRICS -->
 
-<img src="https://komarev.com/ghpvc/?username=rahulbhadekar&style=for-the-badge&color=0066FF&label=PROFILE+VISITORS"/>
-<img src="https://img.shields.io/github/followers/rahulbhadekar?style=for-the-badge&color=00D9FF&labelColor=050810"/>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=rahulbhadekar&style=flat-square&color=00D9FF&label=PROFILE+VIEWS"/>
+  <img src="https://img.shields.io/github/followers/rahulbhadekar?style=flat-square&color=00D9FF&label=FOLLOWERS"/>
+  <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF88?style=flat-square&labelColor=050810"/>
+</p>
 
 </div>
+
+
 
 <!-- ANIMATED DIVIDER -->
 
