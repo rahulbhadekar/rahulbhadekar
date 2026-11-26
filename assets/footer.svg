@@ -1,0 +1,359 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420"
+     viewBox="0 0 1200 420">
+
+  <title>RAHUL OS 2.0 - AI Engineer Edition</title>
+
+  <defs>
+
+    <radialGradient id="bg" cx="50%" cy="45%">
+      <stop offset="0%" stop-color="#202C52"/>
+      <stop offset="50%" stop-color="#0B1428"/>
+      <stop offset="100%" stop-color="#03060D"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="65%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="wave">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity="0"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="65%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shine">
+      <stop offset="0%" stop-color="#FFFFFF"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF"
+            stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FFFFFF"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#6366F1"
+            stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#6366F1"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="5"
+                    stdDeviation="5"
+                    flood-color="#000000"
+                    flood-opacity=".8"/>
+    </filter>
+
+    <clipPath id="nameClip">
+      <text x="600" y="210"
+            text-anchor="middle"
+            font-family="Arial, sans-serif"
+            font-size="62"
+            font-weight="900"
+            letter-spacing="3">
+        RAHUL BHADEKAR
+      </text>
+    </clipPath>
+
+  </defs>
+
+  <!-- CINEMATIC BACKGROUND -->
+
+  <rect width="1200" height="420"
+        rx="20" fill="url(#bg)"/>
+
+  <ellipse cx="600" cy="220"
+           rx="520" ry="190"
+           fill="url(#halo)">
+
+    <animate attributeName="opacity"
+      values=".5;1;.5"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- FUTURISTIC CORNER DETAILS -->
+
+  <g fill="none"
+     stroke="#38BDF8"
+     stroke-width="2"
+     opacity=".65">
+
+    <path d="M25 80V25H150"/>
+    <path d="M1050 25H1175V80"/>
+    <path d="M25 340V395H150"/>
+    <path d="M1050 395H1175V340"/>
+
+  </g>
+
+  <g fill="#67E8F9">
+
+    <circle cx="25" cy="25" r="3"/>
+    <circle cx="1175" cy="25" r="3"/>
+    <circle cx="25" cy="395" r="3"/>
+    <circle cx="1175" cy="395" r="3"/>
+
+  </g>
+
+  <!-- ANIMATED ENERGY WAVES -->
+
+  <g fill="none"
+     stroke="url(#wave)"
+     stroke-width="1.3">
+
+    <path d="M0 240Q300 100 600 260T1200 220"
+          opacity=".35">
+
+      <animate attributeName="d"
+        values="
+        M0 240Q300 100 600 260T1200 220;
+        M0 220Q300 330 600 210T1200 250;
+        M0 240Q300 100 600 260T1200 220"
+        dur="9s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M0 260Q300 140 600 280T1200 240"
+          opacity=".4">
+
+      <animate attributeName="d"
+        values="
+        M0 260Q300 140 600 280T1200 240;
+        M0 240Q300 350 600 230T1200 270;
+        M0 260Q300 140 600 280T1200 240"
+        dur="10s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M0 280Q300 160 600 300T1200 260"
+          opacity=".3">
+
+      <animate attributeName="d"
+        values="
+        M0 280Q300 160 600 300T1200 260;
+        M0 260Q300 370 600 250T1200 290;
+        M0 280Q300 160 600 300T1200 260"
+        dur="11s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M0 300Q300 200 600 320T1200 280"
+          opacity=".25"/>
+
+    <path d="M0 320Q300 220 600 340T1200 300"
+          opacity=".2"/>
+
+    <path d="M0 340Q300 240 600 360T1200 320"
+          opacity=".15"/>
+
+  </g>
+
+  <!-- INFINITY SYMBOL -->
+
+  <g transform="translate(600 75)">
+
+    <path d="M0 0
+             C-50 -65 -95 0 -50 20
+             C-25 32 -10 12 0 0
+             C50 -65 95 0 50 20
+             C25 32 10 12 0 0Z"
+          fill="none"
+          stroke="#312E81"
+          stroke-width="9"
+          opacity=".6"/>
+
+    <path d="M0 0
+             C-50 -65 -95 0 -50 20
+             C-25 32 -10 12 0 0
+             C50 -65 95 0 50 20
+             C25 32 10 12 0 0Z"
+          fill="none"
+          stroke="#67E8F9"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+    <!-- Moving Infinity Energy -->
+
+    <circle r="5"
+            fill="#FFFFFF"
+            filter="url(#glow)">
+
+      <animateMotion
+        path="M0 0
+              C-50 -65 -95 0 -50 20
+              C-25 32 -10 12 0 0
+              C50 -65 95 0 50 20
+              C25 32 10 12 0 0Z"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- JOURNEY LABEL -->
+
+  <text x="600" y="145"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="7"
+        fill="#A5B4FC">
+    THE JOURNEY CONTINUES
+  </text>
+
+  <!-- METALLIC SIGNATURE -->
+
+  <text x="600" y="210"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="62"
+        font-weight="900"
+        letter-spacing="3"
+        fill="url(#metal)"
+        filter="url(#shadow)">
+    RAHUL BHADEKAR
+  </text>
+
+  <!-- MOVING METALLIC SHINE -->
+
+  <g clip-path="url(#nameClip)">
+
+    <rect x="-250" y="140"
+          width="200" height="100"
+          fill="url(#shine)"
+          transform="skewX(-20)">
+
+      <animate attributeName="x"
+        values="-250;1500;1500"
+        keyTimes="0;.6;1"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+  </g>
+
+  <!-- AI ENGINEER BRANDING -->
+
+  <text x="600" y="250"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="19"
+        letter-spacing="4"
+        fill="#67E8F9">
+    RAHUL OS 2.0 — AI ENGINEER EDITION
+  </text>
+
+  <!-- MOTIVATIONAL QUOTE -->
+
+  <text x="600" y="300"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-style="italic"
+        font-size="23"
+        fill="#E2E8F0">
+    "Build with purpose. Innovate without limits."
+  </text>
+
+  <!-- BRAND DIVIDER -->
+
+  <path d="M420 325H780"
+        stroke="url(#wave)"
+        stroke-width="1.5"/>
+
+  <!-- RAHULTECHNOTES -->
+
+  <text x="600" y="355"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="22"
+        font-weight="bold"
+        fill="#C4B5FD">
+    RahulTechNotes
+  </text>
+
+  <text x="600" y="380"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="12"
+        letter-spacing="5"
+        fill="#94A3B8">
+    LEARN &#8226; CODE &#8226; GROW
+  </text>
+
+  <!-- FLOATING PARTICLES -->
+
+  <g fill="#67E8F9"
+     filter="url(#glow)">
+
+    <circle cx="180" cy="120" r="3">
+
+      <animate attributeName="cy"
+        values="120;80;120"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle cx="1020" cy="120" r="3">
+
+      <animate attributeName="cy"
+        values="120;80;120"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle cx="300" cy="350" r="2">
+
+      <animate attributeName="opacity"
+        values=".2;1;.2"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle cx="900" cy="350" r="2">
+
+      <animate attributeName="opacity"
+        values="1;.2;1"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3">
+
+      <animateMotion
+        path="M100 320Q600 400 1100 320"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+</svg>
