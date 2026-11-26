@@ -1,0 +1,340 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="550"
+     viewBox="0 0 1200 550">
+
+  <defs>
+
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#0C1C30"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="neon">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <radialGradient id="core">
+      <stop offset="0%" stop-color="#164E63"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="32" height="32"
+             patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none"
+            stroke="#22D3EE" opacity=".07"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1200" height="550" rx="20"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="550" rx="20"
+        fill="url(#grid)"/>
+
+  <!-- Animated border -->
+
+  <rect x="15" y="15" width="1170" height="520"
+        rx="15" fill="none"
+        stroke="#164E63"/>
+
+  <path d="M15 95V15H165
+           M1035 15H1185V95
+           M15 455V535H165
+           M1035 535H1185V455"
+        fill="none"
+        stroke="url(#neon)"
+        stroke-width="3"
+        filter="url(#glow)"/>
+
+  <!-- Header -->
+
+  <text x="45" y="55"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="17"
+        letter-spacing="3">
+    01 // DEVELOPER IDENTITY
+  </text>
+
+  <circle cx="1030" cy="49" r="6"
+          fill="#4ADE80">
+    <animate attributeName="opacity"
+             values="1;.2;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="1045" y="55"
+        fill="#4ADE80"
+        font-family="monospace"
+        font-size="15">
+    ACTIVE
+  </text>
+
+  <path d="M45 78H1155"
+        stroke="#164E63"/>
+
+  <!-- Terminal introduction -->
+
+  <text x="50" y="125"
+        fill="#4ADE80"
+        font-family="monospace"
+        font-size="18">
+    root@rahul-os:~$ whoami
+  </text>
+
+  <rect x="300" y="109"
+        width="10" height="20"
+        fill="#4ADE80">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <text x="50" y="178"
+        fill="#F1F5F9"
+        font-family="Arial"
+        font-size="40"
+        font-weight="bold">
+    Rahul Bhadekar
+  </text>
+
+  <text x="50" y="215"
+        fill="#22D3EE"
+        font-family="monospace"
+        font-size="21"
+        letter-spacing="3">
+    FULL STACK DEVELOPER
+  </text>
+
+  <!-- Developer information -->
+
+  <g font-family="monospace" font-size="17">
+
+    <text x="50" y="270" fill="#64748B">
+      LOCATION
+    </text>
+
+    <text x="215" y="270" fill="#CBD5E1">
+      Pune, India
+    </text>
+
+    <text x="50" y="310" fill="#64748B">
+      EDUCATION
+    </text>
+
+    <text x="215" y="310" fill="#CBD5E1">
+      Computer Science Engineering
+    </text>
+
+    <text x="50" y="350" fill="#64748B">
+      FOCUS
+    </text>
+
+    <text x="215" y="350" fill="#CBD5E1">
+      Backend &amp; Full Stack
+    </text>
+
+    <text x="50" y="390" fill="#64748B">
+      LANGUAGES
+    </text>
+
+    <text x="215" y="390" fill="#CBD5E1">
+      Java | Python | JavaScript
+    </text>
+
+    <text x="50" y="430" fill="#64748B">
+      MISSION
+    </text>
+
+    <text x="215" y="430" fill="#CBD5E1">
+      Build. Learn. Innovate.
+    </text>
+
+  </g>
+
+  <!-- Holographic reactor -->
+
+  <circle cx="915" cy="285" r="120"
+          fill="url(#core)"/>
+
+  <!-- Outer rotating ring -->
+
+  <circle cx="915" cy="285" r="185"
+          fill="none"
+          stroke="#22D3EE"
+          stroke-width="2"
+          stroke-dasharray="65 18"
+          opacity=".7">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 915 285"
+      to="360 915 285"
+      dur="22s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Reverse rotating ring -->
+
+  <circle cx="915" cy="285" r="160"
+          fill="none"
+          stroke="#8B5CF6"
+          stroke-width="3"
+          stroke-dasharray="25 15"
+          opacity=".6">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="360 915 285"
+      to="0 915 285"
+      dur="16s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Inner ring -->
+
+  <circle cx="915" cy="285" r="135"
+          fill="none"
+          stroke="#22D3EE"
+          stroke-dasharray="8 10"
+          opacity=".5">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 915 285"
+      to="360 915 285"
+      dur="12s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="915" cy="285" r="112"
+          fill="none"
+          stroke="#164E63"
+          stroke-width="2"/>
+
+  <!-- Glowing coding symbol -->
+
+  <g fill="none"
+     stroke="#67E8F9"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     filter="url(#glow)">
+
+    <path d="M875 245L830 285L875 325"/>
+
+    <path d="M955 245L1000 285L955 325"/>
+
+    <path d="M935 225L895 345"/>
+
+    <animate attributeName="opacity"
+             values="1;.55;1"
+             dur="4s"
+             repeatCount="indefinite"/>
+
+  </g>
+
+  <!-- Orbiting energy particles -->
+
+  <circle cx="915" cy="100" r="6"
+          fill="#22D3EE"
+          filter="url(#glow)">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 915 285"
+      to="360 915 285"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="915" cy="470" r="5"
+          fill="#A78BFA"
+          filter="url(#glow)">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="360 915 285"
+      to="0 915 285"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Moving holographic scanner -->
+
+  <rect x="750" y="130"
+        width="330" height="2"
+        fill="#22D3EE"
+        opacity=".5">
+
+    <animate attributeName="y"
+             values="130;440;130"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Footer status -->
+
+  <path d="M45 470H690"
+        stroke="#164E63"/>
+
+  <circle cx="55" cy="500" r="5"
+          fill="#4ADE80">
+
+    <animate attributeName="opacity"
+             values="1;.3;1"
+             dur="1.5s"
+             repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="72" y="506"
+        fill="#4ADE80"
+        font-family="monospace"
+        font-size="16">
+    SYSTEM READY FOR NEW CHALLENGES
+  </text>
+
+  <rect x="810" y="485"
+        width="210" height="32"
+        rx="6"
+        fill="#102C3B"
+        stroke="#164E63"/>
+
+  <text x="915" y="506"
+        text-anchor="middle"
+        fill="#67E8F9"
+        font-family="monospace"
+        font-size="14">
+    ENGINEERING MODE
+  </text>
+
+</svg>
