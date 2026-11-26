@@ -1,0 +1,766 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="660"
+     viewBox="0 0 1200 660">
+
+  <title>RAHUL OS 2.0 - Personal Portfolio Experience</title>
+
+  <defs>
+
+    <!-- UNIFIED OBSIDIAN BACKGROUND -->
+
+    <radialGradient id="bg" cx="65%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#15233F"/>
+      <stop offset="50%" stop-color="#080F1C"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="30%" stop-color="#CBD5E1"/>
+      <stop offset="55%" stop-color="#64748B"/>
+      <stop offset="75%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+
+    <linearGradient id="heading" x2="1" y2="0">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="50%" stop-color="#101A30"/>
+      <stop offset="100%" stop-color="#050910"/>
+    </linearGradient>
+
+    <linearGradient id="reflection">
+      <stop offset="0%" stop-color="#FFFFFF"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF"
+            stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#FFFFFF"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="energy">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#2563EB"
+            stop-opacity=".4"/>
+      <stop offset="100%" stop-color="#2563EB"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orb" cx="30%" cy="25%">
+      <stop offset="0%" stop-color="#BFDBFE"/>
+      <stop offset="25%" stop-color="#3B82F6"/>
+      <stop offset="65%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#080F20"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="15"
+        stdDeviation="15"
+        flood-color="#000000"
+        flood-opacity=".8"/>
+    </filter>
+
+    <pattern id="stars"
+             width="190" height="170"
+             patternUnits="userSpaceOnUse">
+
+      <circle cx="17" cy="26" r=".8"
+              fill="#FFFFFF" opacity=".3"/>
+
+      <circle cx="87" cy="73" r=".7"
+              fill="#93C5FD" opacity=".4"/>
+
+      <circle cx="156" cy="138" r="1"
+              fill="#C4B5FD" opacity=".4"/>
+
+    </pattern>
+
+    <clipPath id="laptopScreen">
+      <rect x="-222" y="-147"
+            width="444" height="285"
+            rx="7"/>
+    </clipPath>
+
+    <clipPath id="phoneScreen">
+      <rect x="-52" y="-117"
+            width="104" height="234"
+            rx="14"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="660"
+        fill="#030509"/>
+
+  <rect width="1200" height="660"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="660"
+        fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".4;.9;.4"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- AMBIENT LIGHT -->
+
+  <ellipse cx="860" cy="350"
+           rx="380" ry="290"
+           fill="url(#halo)">
+
+    <animate attributeName="opacity"
+      values=".5;1;.5"
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <ellipse cx="1000" cy="420"
+           rx="150" ry="120"
+           fill="#8B5CF6"
+           opacity=".08"
+           filter="url(#blur)"/>
+
+  <!-- FLOWING BACKGROUND ENERGY -->
+
+  <g fill="none"
+     stroke="url(#energy)">
+
+    <path d="M-100 450
+             C300 180 800 700 1300 240"
+          opacity=".2">
+
+      <animate attributeName="d"
+        values="
+        M-100 450 C300 180 800 700 1300 240;
+        M-100 350 C300 650 800 180 1300 400;
+        M-100 450 C300 180 800 700 1300 240"
+        dur="18s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M-100 480
+             C300 210 800 730 1300 270"
+          opacity=".12"/>
+
+    <path d="M-100 510
+             C300 240 800 760 1300 300"
+          opacity=".08"/>
+
+  </g>
+
+  <!-- EDITORIAL INTRODUCTION -->
+
+  <g font-family="Arial, sans-serif">
+
+    <text x="45" y="48"
+          font-size="13"
+          letter-spacing="5"
+          fill="#94A3B8">
+      05 / BEHIND THE CODE
+    </text>
+
+    <text x="45" y="142"
+          font-size="49"
+          font-weight="900"
+          fill="#F1F5F9">
+      More than code.
+    </text>
+
+    <text x="45" y="200"
+          font-size="49"
+          font-weight="900"
+          fill="url(#heading)">
+      Built with purpose.
+    </text>
+
+    <text x="45" y="260"
+          font-size="21"
+          font-weight="bold"
+          fill="#CBD5E1">
+      AI Engineer &amp; Full Stack Developer
+    </text>
+
+    <g font-size="18" fill="#94A3B8">
+
+      <text x="45" y="310">
+        Building intelligent applications by
+      </text>
+
+      <text x="45" y="340">
+        connecting Python, artificial intelligence
+      </text>
+
+      <text x="45" y="370">
+        and modern software engineering.
+      </text>
+
+    </g>
+
+    <path d="M45 410H475"
+          stroke="#334155"
+          stroke-width="1"/>
+
+    <text x="45" y="450"
+          font-size="14"
+          letter-spacing="3"
+          fill="#67E8F9">
+      DESIGN. DEVELOP. INNOVATE.
+    </text>
+
+    <text x="45" y="505"
+          font-size="29"
+          font-weight="bold"
+          fill="#F1F5F9">
+      Personal Portfolio
+    </text>
+
+    <text x="45" y="540"
+          font-size="16"
+          fill="#A5B4FC">
+      Projects / Experience / Engineering
+    </text>
+
+  </g>
+
+  <!-- FLOATING LAPTOP SHADOW -->
+
+  <ellipse cx="850" cy="555"
+           rx="250" ry="35"
+           fill="#2563EB"
+           opacity=".2"
+           filter="url(#blur)">
+
+    <animate attributeName="rx"
+      values="250;220;250"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- ================================= -->
+  <!-- CINEMATIC LAPTOP MOCKUP           -->
+  <!-- ================================= -->
+
+  <g transform="translate(850 345) rotate(-5)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -14;0 0"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+      <!-- METALLIC LAPTOP BODY -->
+
+      <rect x="-235" y="-160"
+            width="470" height="310"
+            rx="16"
+            fill="url(#metal)"
+            stroke="#CBD5E1"
+            stroke-width="1"
+            filter="url(#shadow)"/>
+
+      <!-- BLACK SCREEN BEZEL -->
+
+      <rect x="-230" y="-155"
+            width="460" height="300"
+            rx="12"
+            fill="#030509"/>
+
+      <!-- SCREEN -->
+
+      <rect x="-222" y="-147"
+            width="444" height="285"
+            rx="7"
+            fill="url(#screen)"/>
+
+      <circle cx="0" cy="-151"
+              r="2.5"
+              fill="#334155"/>
+
+      <!-- PORTFOLIO SCREEN CONTENT -->
+
+      <g clip-path="url(#laptopScreen)"
+         font-family="Arial, sans-serif">
+
+        <!-- NAVIGATION -->
+
+        <text x="-203" y="-120"
+              font-size="17"
+              font-weight="900"
+              fill="#FFFFFF">
+          RB.
+        </text>
+
+        <text x="200" y="-120"
+              text-anchor="end"
+              font-size="10"
+              letter-spacing="1"
+              fill="#94A3B8">
+          ABOUT / WORK / CONTACT
+        </text>
+
+        <path d="M-205 -105H205"
+              stroke="#334155"
+              opacity=".6"/>
+
+        <!-- SCREEN HERO -->
+
+        <text x="-200" y="-72"
+              font-size="9"
+              letter-spacing="3"
+              fill="#67E8F9">
+          DIGITAL PORTFOLIO
+        </text>
+
+        <text x="-200" y="-35"
+              font-size="31"
+              font-weight="900"
+              fill="#F8FAFC">
+          RAHUL
+        </text>
+
+        <text x="-200" y="0"
+              font-size="31"
+              font-weight="900"
+              fill="url(#heading)">
+          BHADEKAR
+        </text>
+
+        <text x="-200" y="26"
+              font-size="12"
+              letter-spacing="3"
+              fill="#CBD5E1">
+          AI ENGINEER
+        </text>
+
+        <text x="-200" y="47"
+              font-size="9"
+              fill="#94A3B8">
+          Python / AI / Full Stack Development
+        </text>
+
+        <!-- ANIMATED SCREEN AI CORE -->
+
+        <g transform="translate(125 -15)">
+
+          <circle r="72"
+                  fill="#2563EB"
+                  opacity=".18"
+                  filter="url(#blur)"/>
+
+          <circle r="53"
+                  fill="url(#orb)"
+                  stroke="#60A5FA"
+                  stroke-width=".7"/>
+
+          <g fill="none"
+             stroke="#93C5FD"
+             stroke-width=".7"
+             opacity=".45">
+
+            <ellipse rx="53" ry="15"/>
+            <ellipse rx="53" ry="30"/>
+            <ellipse rx="20" ry="53"/>
+            <ellipse rx="38" ry="53"/>
+
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              from="0" to="360"
+              dur="25s"
+              repeatCount="indefinite"/>
+
+          </g>
+
+          <g transform="rotate(-25)">
+
+            <ellipse rx="80" ry="23"
+                     fill="none"
+                     stroke="#67E8F9"
+                     stroke-opacity=".6"/>
+
+            <circle r="3"
+                    fill="#FFFFFF"
+                    filter="url(#glow)">
+
+              <animateMotion
+                path="M80 0 A80 23 0 1 1 -80 0 A80 23 0 1 1 80 0"
+                dur="7s"
+                repeatCount="indefinite"/>
+
+            </circle>
+
+          </g>
+
+          <text y="8"
+                text-anchor="middle"
+                font-size="25"
+                font-weight="900"
+                fill="#FFFFFF">
+            AI
+          </text>
+
+        </g>
+
+        <!-- MINI PROJECT SHOWCASE -->
+
+        <g>
+
+          <rect x="-200" y="78"
+                width="126" height="42"
+                rx="5"
+                fill="#17243C"
+                stroke="#6366F1"
+                stroke-opacity=".5"/>
+
+          <text x="-137" y="103"
+                text-anchor="middle"
+                font-size="11"
+                font-weight="bold"
+                fill="#C4B5FD">
+            HireSmart
+          </text>
+
+          <rect x="-63" y="78"
+                width="126" height="42"
+                rx="5"
+                fill="#17243C"
+                stroke="#2563EB"
+                stroke-opacity=".5"/>
+
+          <text x="0" y="103"
+                text-anchor="middle"
+                font-size="11"
+                font-weight="bold"
+                fill="#93C5FD">
+            ClickStore
+          </text>
+
+          <rect x="74" y="78"
+                width="126" height="42"
+                rx="5"
+                fill="#17243C"
+                stroke="#34D399"
+                stroke-opacity=".4"/>
+
+          <text x="137" y="103"
+                text-anchor="middle"
+                font-size="11"
+                font-weight="bold"
+                fill="#6EE7B7">
+            Revitalize
+          </text>
+
+        </g>
+
+        <!-- ANIMATED SCREEN REFLECTION -->
+
+        <rect x="-500" y="-160"
+              width="150" height="330"
+              fill="url(#reflection)"
+              transform="skewX(-20)">
+
+          <animate attributeName="x"
+            values="-500;500;500"
+            keyTimes="0;.6;1"
+            dur="9s"
+            repeatCount="indefinite"/>
+
+        </rect>
+
+      </g>
+
+      <!-- LAPTOP HINGE -->
+
+      <rect x="-225" y="143"
+            width="450" height="7"
+            rx="3"
+            fill="#1E293B"/>
+
+      <!-- KEYBOARD BASE -->
+
+      <path d="M-235 150H235L275 179H-275Z"
+            fill="url(#metal)"
+            stroke="#94A3B8"
+            stroke-width=".6"/>
+
+      <path d="M-190 153H190L208 165H-208Z"
+            fill="#1E293B"
+            opacity=".85"/>
+
+      <!-- TRACKPAD -->
+
+      <path d="M-55 167H55L65 176H-65Z"
+            fill="#64748B"
+            stroke="#CBD5E1"
+            stroke-width=".5"/>
+
+      <!-- FRONT EDGE -->
+
+      <path d="M-275 179H275
+               L252 189H-252Z"
+            fill="#475569"
+            stroke="#64748B"/>
+
+      <path d="M-35 179H35L27 183H-27Z"
+            fill="#1E293B"/>
+
+    </g>
+
+  </g>
+
+  <!-- ================================= -->
+  <!-- FLOATING SMARTPHONE MOCKUP        -->
+  <!-- ================================= -->
+
+  <g transform="translate(1080 445) rotate(9)">
+
+    <g>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 -8;0 9;0 -8"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+      <!-- PHONE BODY -->
+
+      <rect x="-60" y="-125"
+            width="120" height="250"
+            rx="21"
+            fill="url(#metal)"
+            stroke="#CBD5E1"
+            filter="url(#shadow)"/>
+
+      <rect x="-56" y="-121"
+            width="112" height="242"
+            rx="18"
+            fill="#030509"/>
+
+      <rect x="-52" y="-117"
+            width="104" height="234"
+            rx="14"
+            fill="url(#screen)"/>
+
+      <!-- PHONE SCREEN -->
+
+      <g clip-path="url(#phoneScreen)"
+         font-family="Arial, sans-serif">
+
+        <rect x="-18" y="-111"
+              width="36" height="8"
+              rx="4"
+              fill="#020617"/>
+
+        <text y="-81"
+              text-anchor="middle"
+              font-size="14"
+              font-weight="900"
+              fill="#FFFFFF">
+          RB.
+        </text>
+
+        <text y="-46"
+              text-anchor="middle"
+              font-size="19"
+              font-weight="900"
+              fill="#F1F5F9">
+          RAHUL
+        </text>
+
+        <text y="-25"
+              text-anchor="middle"
+              font-size="12"
+              font-weight="bold"
+              fill="#93C5FD">
+          BHADEKAR
+        </text>
+
+        <text y="-8"
+              text-anchor="middle"
+              font-size="8"
+              letter-spacing="2"
+              fill="#94A3B8">
+          AI ENGINEER
+        </text>
+
+        <!-- MINI AI SPHERE -->
+
+        <g transform="translate(0 35)">
+
+          <circle r="25"
+                  fill="url(#orb)"
+                  stroke="#60A5FA"/>
+
+          <g fill="none"
+             stroke="#67E8F9"
+             stroke-width=".7">
+
+            <ellipse rx="35" ry="11"
+                     transform="rotate(-30)"/>
+
+            <ellipse rx="30" ry="13"
+                     transform="rotate(30)"/>
+
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              from="0" to="360"
+              dur="20s"
+              repeatCount="indefinite"/>
+
+          </g>
+
+          <text y="5"
+                text-anchor="middle"
+                font-size="14"
+                font-weight="bold"
+                fill="#FFFFFF">
+            AI
+          </text>
+
+        </g>
+
+        <rect x="-37" y="77"
+              width="74" height="20"
+              rx="5"
+              fill="#172554"
+              stroke="#6366F1"/>
+
+        <text y="90"
+              text-anchor="middle"
+              font-size="8"
+              letter-spacing="1"
+              fill="#C4B5FD">
+          PORTFOLIO
+        </text>
+
+        <!-- PHONE REFLECTION -->
+
+        <rect x="-180" y="-120"
+              width="55" height="240"
+              fill="url(#reflection)"
+              transform="skewX(-15)">
+
+          <animate attributeName="x"
+            values="-180;180;180"
+            keyTimes="0;.6;1"
+            dur="8s"
+            repeatCount="indefinite"/>
+
+        </rect>
+
+      </g>
+
+      <!-- SIDE BUTTONS -->
+
+      <rect x="59" y="-55"
+            width="3" height="35"
+            rx="1.5"
+            fill="#94A3B8"/>
+
+      <rect x="-62" y="-65"
+            width="3" height="20"
+            rx="1.5"
+            fill="#94A3B8"/>
+
+      <rect x="-62" y="-38"
+            width="3" height="20"
+            rx="1.5"
+            fill="#94A3B8"/>
+
+      <!-- HOME INDICATOR -->
+
+      <rect x="-17" y="109"
+            width="34" height="3"
+            rx="1.5"
+            fill="#94A3B8"/>
+
+    </g>
+
+  </g>
+
+  <!-- FLOATING LIGHT PARTICLES -->
+
+  <g filter="url(#glow)">
+
+    <circle r="3" fill="#67E8F9">
+
+      <animateMotion
+        path="M570 200Q850 50 1150 230"
+        dur="10s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle r="3" fill="#C4B5FD">
+
+      <animateMotion
+        path="M1150 570Q850 650 580 480"
+        dur="12s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+  <!-- BOTTOM SIGNATURE -->
+
+  <path d="M45 600H1155"
+        stroke="url(#energy)"
+        opacity=".5"/>
+
+  <text x="45" y="635"
+        font-family="Arial"
+        font-size="11"
+        letter-spacing="3"
+        fill="#64748B">
+    TURNING IDEAS INTO DIGITAL EXPERIENCES
+  </text>
+
+  <text x="1155" y="635"
+        text-anchor="end"
+        font-family="Arial"
+        font-size="11"
+        letter-spacing="2"
+        fill="#94A3B8">
+    RAHUL OS 2.0
+  </text>
+
+</svg>
