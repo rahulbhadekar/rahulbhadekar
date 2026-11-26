@@ -1,0 +1,686 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="900"
+     viewBox="0 0 1200 900">
+
+  <title>Holographic Engineering Technology Stack</title>
+
+  <defs>
+
+    <!-- OBSIDIAN THEME -->
+
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#15233F"/>
+      <stop offset="50%" stop-color="#080F1C"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </radialGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#294B75"/>
+      <stop offset="45%" stop-color="#152844"/>
+      <stop offset="100%" stop-color="#080F20"/>
+    </linearGradient>
+
+    <linearGradient id="glassTile" x2=".3" y2="1">
+      <stop offset="0%" stop-color="#263B58"/>
+      <stop offset="100%" stop-color="#0A1323"/>
+    </linearGradient>
+
+    <linearGradient id="edge">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="reflection">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="12"
+        stdDeviation="9"
+        flood-color="#000000"
+        flood-opacity=".7"/>
+    </filter>
+
+    <pattern id="stars" width="190" height="170"
+             patternUnits="userSpaceOnUse">
+      <circle cx="17" cy="26" r=".8"
+              fill="#FFFFFF" opacity=".3"/>
+      <circle cx="87" cy="73" r=".7"
+              fill="#93C5FD" opacity=".4"/>
+      <circle cx="156" cy="138" r="1"
+              fill="#C4B5FD" opacity=".4"/>
+    </pattern>
+
+    <!-- REUSABLE ISOMETRIC PLATFORM -->
+
+    <g id="platform">
+
+      <ellipse cx="0" cy="45"
+               rx="220" ry="30"
+               fill="#2563EB"
+               opacity=".15"
+               filter="url(#blur)"/>
+
+      <path d="M-235 0L0 -48L235 0L0 48Z"
+            fill="url(#glass)"
+            stroke="currentColor"
+            stroke-width="1.2"/>
+
+      <path d="M-235 0L0 48V63L-235 15Z"
+            fill="#0B172B"
+            stroke="currentColor"
+            stroke-opacity=".4"/>
+
+      <path d="M0 48L235 0V15L0 63Z"
+            fill="#16213D"
+            stroke="currentColor"
+            stroke-opacity=".4"/>
+
+      <path d="M-235 15L0 63L235 15"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            filter="url(#glow)">
+
+        <animate attributeName="opacity"
+          values=".3;1;.3"
+          dur="5s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+    </g>
+
+    <!-- REUSABLE GLASS TILE -->
+
+    <g id="tile">
+
+      <rect x="-44" y="-44"
+            width="88" height="88"
+            rx="18"
+            fill="url(#glassTile)"
+            stroke="currentColor"
+            stroke-width="1.3"
+            filter="url(#shadow)"/>
+
+      <path d="M-30 -37H25"
+            stroke="#FFFFFF"
+            stroke-opacity=".3"
+            stroke-width="1.5"/>
+
+      <rect x="-42" y="-42"
+            width="84" height="84"
+            rx="17"
+            fill="url(#reflection)"
+            opacity=".35">
+
+        <animate attributeName="opacity"
+          values=".1;.6;.1"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+      </rect>
+
+    </g>
+
+    <!-- REUSABLE MINI TILE -->
+
+    <g id="miniTile">
+
+      <rect x="-59" y="-23"
+            width="118" height="46"
+            rx="9"
+            fill="url(#glassTile)"
+            stroke="currentColor"
+            stroke-opacity=".7"/>
+
+      <path d="M-46 -18H46"
+            stroke="#FFFFFF"
+            stroke-opacity=".12"/>
+
+    </g>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+
+  <rect width="1200" height="900"
+        fill="#030509"/>
+
+  <rect width="1200" height="900"
+        fill="url(#bg)"/>
+
+  <rect width="1200" height="900"
+        fill="url(#stars)">
+
+    <animate attributeName="opacity"
+      values=".4;.9;.4"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- AMBIENT MOVING LIGHT -->
+
+  <ellipse cx="600" cy="350"
+           rx="550" ry="350"
+           fill="url(#halo)">
+
+    <animate attributeName="cx"
+      values="400;800;400"
+      dur="18s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+  <!-- EDITORIAL HEADING -->
+
+  <text x="45" y="48"
+        font-family="Arial"
+        font-size="13"
+        letter-spacing="5"
+        fill="#94A3B8">
+    02 / ENGINEERING TOOLKIT
+  </text>
+
+  <text x="45" y="115"
+        font-family="Arial"
+        font-size="49"
+        font-weight="bold"
+        fill="url(#metal)">
+    Built with intelligence.
+  </text>
+
+  <text x="45" y="151"
+        font-family="Arial"
+        font-size="18"
+        fill="#94A3B8">
+    Technologies behind intelligent digital experiences.
+  </text>
+
+  <!-- PRIMARY AI PLATFORM -->
+
+  <g transform="translate(600 345)">
+
+    <ellipse cy="40"
+             rx="390" ry="75"
+             fill="#2563EB"
+             opacity=".2"
+             filter="url(#blur)"/>
+
+    <path d="M-350 0L0 -100L350 0L0 100Z"
+          fill="url(#glass)"
+          stroke="url(#edge)"
+          stroke-width="2"/>
+
+    <path d="M-350 0L0 100V122L-350 22Z"
+          fill="#0B172B"
+          stroke="#2563EB"/>
+
+    <path d="M0 100L350 0V22L0 122Z"
+          fill="#172449"
+          stroke="#6366F1"/>
+
+    <!-- MOVING PLATFORM ENERGY -->
+
+    <path d="M-350 22L0 122L350 22"
+          fill="none"
+          stroke="url(#edge)"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+    <circle r="4"
+            fill="#FFFFFF"
+            filter="url(#glow)">
+
+      <animateMotion
+        path="M-350 22L0 122L350 22"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <!-- PYTHON GLASS ICON -->
+
+    <g transform="translate(-225 -65)">
+
+      <g color="#FACC15">
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -15;0 0"
+          dur="6s"
+          repeatCount="indefinite"/>
+
+        <use xlink:href="#tile"/>
+
+        <g transform="scale(.62)">
+
+          <path d="M-38 -42H9
+                   Q34 -42 34 -19
+                   V0H-12V12H-47V-19
+                   Q-47 -42 -25 -42Z"
+                fill="#3776AB"/>
+
+          <path d="M38 42H-9
+                   Q-34 42 -34 19
+                   V0H12V-12H47V19
+                   Q47 42 25 42Z"
+                fill="#FFD343"/>
+
+          <circle cx="-23" cy="-28"
+                  r="4" fill="#FFFFFF"/>
+
+          <circle cx="23" cy="28"
+                  r="4" fill="#FFFFFF"/>
+
+        </g>
+
+        <text y="70"
+              text-anchor="middle"
+              font-family="Arial"
+              font-size="16"
+              font-weight="bold"
+              fill="#FACC15">
+          PYTHON
+        </text>
+
+      </g>
+
+    </g>
+
+    <!-- MACHINE LEARNING ICON -->
+
+    <g transform="translate(-75 -65)">
+
+      <g color="#67E8F9">
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -8;0 7;0 -8"
+          dur="7s"
+          repeatCount="indefinite"/>
+
+        <use xlink:href="#tile"/>
+
+        <g fill="none"
+           stroke="#67E8F9"
+           stroke-width="2">
+
+          <path d="M-25 20L-10 -5L5 8L25 -25"/>
+
+          <circle cx="-25" cy="20" r="4"/>
+          <circle cx="-10" cy="-5" r="4"/>
+          <circle cx="5" cy="8" r="4"/>
+          <circle cx="25" cy="-25" r="4"/>
+
+        </g>
+
+        <text y="70"
+              text-anchor="middle"
+              font-family="Arial"
+              font-size="13"
+              font-weight="bold"
+              fill="#67E8F9">
+          MACHINE LEARNING
+        </text>
+
+      </g>
+
+    </g>
+
+    <!-- GENERATIVE AI ICON -->
+
+    <g transform="translate(75 -65)">
+
+      <g color="#A78BFA">
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -18;0 0"
+          dur="8s"
+          repeatCount="indefinite"/>
+
+        <use xlink:href="#tile"/>
+
+        <g fill="none"
+           stroke="#C4B5FD"
+           stroke-width="2">
+
+          <path d="M0 -30L28 -15L28 15L0 30L-28 15L-28 -15Z"/>
+
+          <path d="M0 -30V30M-28 -15L28 15M28 -15L-28 15"/>
+
+          <circle r="9"
+                  fill="#A78BFA"
+                  filter="url(#glow)"/>
+
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0" to="360"
+            dur="22s"
+            repeatCount="indefinite"/>
+
+        </g>
+
+        <text y="70"
+              text-anchor="middle"
+              font-family="Arial"
+              font-size="14"
+              font-weight="bold"
+              fill="#C4B5FD">
+          GENERATIVE AI
+        </text>
+
+      </g>
+
+    </g>
+
+    <!-- LLM ICON -->
+
+    <g transform="translate(225 -65)">
+
+      <g color="#60A5FA">
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 -10;0 5;0 -10"
+          dur="7s"
+          repeatCount="indefinite"/>
+
+        <use xlink:href="#tile"/>
+
+        <g fill="none"
+           stroke="#93C5FD"
+           stroke-width="2">
+
+          <rect x="-25" y="-24"
+                width="50" height="48"
+                rx="8"/>
+
+          <path d="M-15 -12H15
+                   M-15 0H15
+                   M-15 12H8"/>
+
+        </g>
+
+        <text y="70"
+              text-anchor="middle"
+              font-family="Arial"
+              font-size="16"
+              font-weight="bold"
+              fill="#93C5FD">
+          LLMs
+        </text>
+
+      </g>
+
+    </g>
+
+  </g>
+
+  <text x="600" y="505"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="15"
+        letter-spacing="5"
+        fill="#67E8F9">
+    PRIMARY FOCUS / PYTHON &amp; AI
+  </text>
+
+  <!-- BACKEND ENGINEERING -->
+
+  <g transform="translate(310 600)"
+     color="#4ADE80">
+
+    <use xlink:href="#platform"/>
+
+    <g transform="translate(-140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#86EFAC">Django</text>
+    </g>
+
+    <g transform="translate(0 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#FDBA74">Java</text>
+    </g>
+
+    <g transform="translate(140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="14"
+            font-weight="bold"
+            fill="#86EFAC">Spring Boot</text>
+    </g>
+
+    <text y="90"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          letter-spacing="3"
+          fill="#86EFAC">
+      BACKEND ENGINEERING
+    </text>
+
+  </g>
+
+  <!-- FRONTEND ENGINEERING -->
+
+  <g transform="translate(890 600)"
+     color="#67E8F9">
+
+    <use xlink:href="#platform"/>
+
+    <g transform="translate(-140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#67E8F9">React</text>
+    </g>
+
+    <g transform="translate(0 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="15"
+            font-weight="bold"
+            fill="#FACC15">JavaScript</text>
+    </g>
+
+    <g transform="translate(140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="15"
+            font-weight="bold"
+            fill="#93C5FD">HTML / CSS</text>
+    </g>
+
+    <text y="90"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          letter-spacing="3"
+          fill="#67E8F9">
+      FRONTEND EXPERIENCE
+    </text>
+
+  </g>
+
+  <!-- DATABASE ENGINEERING -->
+
+  <g transform="translate(310 760)"
+     color="#60A5FA">
+
+    <use xlink:href="#platform"/>
+
+    <g transform="translate(-140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="14"
+            font-weight="bold"
+            fill="#93C5FD">PostgreSQL</text>
+    </g>
+
+    <g transform="translate(0 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#FDBA74">MySQL</text>
+    </g>
+
+    <g transform="translate(140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#93C5FD">SQL</text>
+    </g>
+
+    <text y="90"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          letter-spacing="3"
+          fill="#93C5FD">
+      DATA &amp; DATABASES
+    </text>
+
+  </g>
+
+  <!-- DEVELOPMENT TOOLS -->
+
+  <g transform="translate(890 760)"
+     color="#A78BFA">
+
+    <use xlink:href="#platform"/>
+
+    <g transform="translate(-140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#FB923C">Git</text>
+    </g>
+
+    <g transform="translate(0 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#F1F5F9">GitHub</text>
+    </g>
+
+    <g transform="translate(140 -35)">
+      <use xlink:href="#miniTile"/>
+      <text y="5" text-anchor="middle"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold"
+            fill="#FB923C">Postman</text>
+    </g>
+
+    <text y="90"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          letter-spacing="3"
+          fill="#C4B5FD">
+      DEVELOPMENT TOOLS
+    </text>
+
+  </g>
+
+  <!-- FLOATING BACKGROUND PARTICLES -->
+
+  <g filter="url(#glow)">
+
+    <circle r="3" fill="#67E8F9">
+      <animateMotion
+        path="M50 250Q600 100 1150 400"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle r="3" fill="#A78BFA">
+      <animateMotion
+        path="M1150 500Q600 850 50 500"
+        dur="15s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="100" cy="400" r="2"
+            fill="#93C5FD">
+      <animate attributeName="cy"
+        values="400;350;400"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1100" cy="300" r="2"
+            fill="#C4B5FD">
+      <animate attributeName="cy"
+        values="300;250;300"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- SEAMLESS BOTTOM TRANSITION -->
+
+  <path d="M200 880H1000"
+        stroke="url(#edge)"
+        opacity=".35"/>
+
+</svg>
