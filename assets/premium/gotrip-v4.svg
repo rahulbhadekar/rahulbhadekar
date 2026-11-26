@@ -1,0 +1,530 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="600"
+     viewBox="0 0 800 600"
+     preserveAspectRatio="xMidYMid meet">
+
+  <title>GoTrip - Full Stack Travel Platform</title>
+
+  <defs>
+
+    <radialGradient id="bg">
+      <stop stop-color="#153b49"/>
+      <stop offset=".6" stop-color="#101e30"/>
+      <stop offset="1" stop-color="#060b14"/>
+    </radialGradient>
+
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#101b35"/>
+      <stop offset=".35" stop-color="#164e63"/>
+      <stop offset=".7" stop-color="#d97706"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+
+    <linearGradient id="accent">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#86efac"/>
+    </linearGradient>
+
+    <linearGradient id="mountain" x2="1" y2="1">
+      <stop stop-color="#64748b"/>
+      <stop offset=".45" stop-color="#334155"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#164e63"/>
+      <stop offset=".5" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#082f49"/>
+    </linearGradient>
+
+    <linearGradient id="plane" x2="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#64748b"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x2="0" y2="1">
+      <stop stop-color="#64748b"/>
+      <stop offset=".2" stop-color="#334155"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+
+    <radialGradient id="sunGlow">
+      <stop stop-color="#fef3c7" stop-opacity=".8"/>
+      <stop offset=".45" stop-color="#fbbf24" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-100%" y="-100%"
+            width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <clipPath id="landscape">
+      <rect x="55" y="135"
+            width="690" height="335" rx="13"/>
+    </clipPath>
+
+    <pattern id="grid" width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30"
+            fill="none" stroke="#94a3b8"
+            stroke-opacity=".045"/>
+    </pattern>
+
+  </defs>
+
+  <!-- Cinematic background -->
+
+  <rect width="800" height="600"
+        rx="22" fill="url(#bg)"/>
+
+  <rect width="800" height="600"
+        rx="22" fill="url(#grid)"/>
+
+  <!-- Project title -->
+
+  <text x="400" y="65"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="48" font-weight="800"
+        fill="#f8fafc">
+    Go<tspan fill="url(#accent)">Trip</tspan>
+  </text>
+
+  <text x="400" y="95"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="13" letter-spacing="3"
+        fill="#94a3b8">
+    FULL STACK TRAVEL PLATFORM
+  </text>
+
+  <path d="M260 112H540"
+        stroke="url(#accent)" opacity=".65"/>
+
+  <!-- Landscape frame -->
+
+  <rect x="60" y="145"
+        width="680" height="335"
+        rx="18" fill="#000"
+        opacity=".6" filter="url(#shadow)"/>
+
+  <rect x="50" y="130"
+        width="700" height="345"
+        rx="17" fill="url(#metal)"
+        stroke="#64748b"/>
+
+  <g clip-path="url(#landscape)">
+
+    <!-- Sunset sky -->
+
+    <rect x="55" y="135"
+          width="690" height="335"
+          fill="url(#sky)"/>
+
+    <circle cx="565" cy="255"
+            r="130" fill="url(#sunGlow)"/>
+
+    <circle cx="565" cy="255"
+            r="59" fill="#fde68a"/>
+
+    <!-- Distant clouds -->
+
+    <g fill="#e2e8f0" opacity=".22">
+
+      <g>
+        <ellipse cx="150" cy="200" rx="55" ry="13"/>
+        <ellipse cx="175" cy="191" rx="38" ry="17"/>
+        <ellipse cx="205" cy="202" rx="45" ry="10"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="-30 0;60 0;-30 0"
+                          dur="25s"
+                          repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <ellipse cx="590" cy="185" rx="50" ry="12"/>
+        <ellipse cx="620" cy="175" rx="35" ry="15"/>
+        <ellipse cx="650" cy="187" rx="45" ry="9"/>
+
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="20 0;-40 0;20 0"
+                          dur="30s"
+                          repeatCount="indefinite"/>
+      </g>
+
+    </g>
+
+    <!-- Distant mountain range -->
+
+    <path d="M55 365L150 285L225 320
+             L320 225L440 355L530 265
+             L650 345L745 280V470H55Z"
+          fill="#475569" opacity=".65"/>
+
+    <!-- Main mountain range -->
+
+    <path d="M55 380L230 200L390 370
+             L480 235L650 390L745 330
+             V470H55Z"
+          fill="url(#mountain)"/>
+
+    <!-- Mountain shaded faces -->
+
+    <path d="M230 200L390 370L275 345Z"
+          fill="#1e293b"/>
+
+    <path d="M480 235L650 390L520 355Z"
+          fill="#172033"/>
+
+    <!-- Snow-covered peaks -->
+
+    <path d="M168 264L230 200L295 270
+             L260 253L244 278L224 248
+             L207 268L194 250Z"
+          fill="#e2e8f0"/>
+
+    <path d="M432 290L480 235L540 290
+             L505 280L490 298L470 272
+             L455 289Z"
+          fill="#cbd5e1"/>
+
+    <!-- Foreground hills -->
+
+    <path d="M55 420L160 320L310 430
+             L445 335L620 440L745 370
+             V470H55Z"
+          fill="#153b42"/>
+
+    <path d="M55 445L145 390L280 450
+             L420 390L560 455L745 410
+             V470H55Z"
+          fill="#0c292f"/>
+
+    <!-- Lake -->
+
+    <path d="M55 435Q220 405 400 448
+             T745 425V470H55Z"
+          fill="url(#water)"/>
+
+    <!-- Animated lake reflections -->
+
+    <g stroke="#fcd34d"
+       stroke-width="2"
+       stroke-linecap="round">
+
+      <path d="M480 442H600"/>
+      <path d="M510 452H630"/>
+      <path d="M460 462H570"/>
+
+      <animate attributeName="opacity"
+               values=".15;.6;.15"
+               dur="5s"
+               repeatCount="indefinite"/>
+
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="-10 0;10 0;-10 0"
+                        dur="7s"
+                        repeatCount="indefinite"/>
+
+    </g>
+
+    <!-- Pine trees -->
+
+    <g fill="#082b2c">
+
+      <path d="M75 425L91 385L107 425H98L112 445H70L84 425Z"/>
+      <path d="M105 440L121 400L137 440H129L142 458H100L113 440Z"/>
+      <path d="M690 425L708 378L726 425H717L734 449H682L699 425Z"/>
+      <path d="M655 440L668 405L681 440H674L688 459H648L662 440Z"/>
+
+    </g>
+
+    <!-- Travel route -->
+
+    <path d="M115 350Q330 120 680 230"
+          fill="none"
+          stroke="#e2e8f0"
+          stroke-opacity=".5"
+          stroke-width="2"
+          stroke-dasharray="6 9"/>
+
+    <path d="M115 350Q330 120 680 230"
+          fill="none"
+          stroke="#67e8f9"
+          stroke-width="3"
+          stroke-dasharray="15 180"
+          filter="url(#glow)">
+
+      <animate attributeName="stroke-dashoffset"
+               from="390" to="0"
+               dur="9s"
+               repeatCount="indefinite"/>
+
+    </path>
+
+    <!-- Departure location pin -->
+
+    <g transform="translate(115 350)">
+
+      <circle r="20" fill="#2dd4bf" opacity=".2">
+
+        <animate attributeName="r"
+                 values="12;25;12"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+
+      </circle>
+
+      <path d="M0 0C-5 -8 -15 -17 -15 -27
+               A15 15 0 1 1 15 -27
+               C15 -17 5 -8 0 0Z"
+            fill="#2dd4bf"/>
+
+      <circle cy="-27" r="6"
+              fill="#0f172a"/>
+
+    </g>
+
+    <!-- Destination location pin -->
+
+    <g transform="translate(680 230)">
+
+      <circle r="18" fill="#fbbf24" opacity=".2">
+
+        <animate attributeName="r"
+                 values="10;24;10"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+
+      </circle>
+
+      <path d="M0 0C-5 -8 -15 -17 -15 -27
+               A15 15 0 1 1 15 -27
+               C15 -17 5 -8 0 0Z"
+            fill="#fbbf24"/>
+
+      <circle cy="-27" r="6"
+              fill="#0f172a"/>
+
+    </g>
+
+    <!-- Animated airplane -->
+
+    <g>
+
+      <animateMotion
+        path="M300 245Q410 190 530 210Q410 190 300 245"
+        dur="16s"
+        repeatCount="indefinite"/>
+
+      <g transform="rotate(-8) scale(.9)">
+
+        <!-- Airplane shadow -->
+
+        <path d="M-65 -5L-15 -5L-36 -45H-19
+                 L22 -5H55Q75 0 55 9H22
+                 L-19 48H-36L-15 9H-65
+                 L-80 23H-91L-83 2L-91 -19H-80Z"
+              fill="#000"
+              opacity=".25"
+              transform="translate(3 7)"/>
+
+        <!-- Airplane body -->
+
+        <path d="M-65 -5L-15 -5L-36 -45H-19
+                 L22 -5H55Q75 0 55 9H22
+                 L-19 48H-36L-15 9H-65
+                 L-80 23H-91L-83 2L-91 -19H-80Z"
+              fill="url(#plane)"
+              stroke="#94a3b8"/>
+
+        <!-- Airplane stripe -->
+
+        <path d="M-62 2H55"
+              stroke="#0d9488"
+              stroke-width="3"/>
+
+        <!-- Cockpit -->
+
+        <path d="M46 -4L57 -2L60 1H47Z"
+              fill="#164e63"/>
+
+        <!-- Navigation lights -->
+
+        <circle cx="-28" cy="-43"
+                r="3" fill="#f87171"
+                filter="url(#glow)">
+
+          <animate attributeName="opacity"
+                   values="1;.1;1"
+                   dur="2s"
+                   repeatCount="indefinite"/>
+
+        </circle>
+
+        <circle cx="-28" cy="45"
+                r="3" fill="#4ade80"
+                filter="url(#glow)"/>
+
+      </g>
+
+    </g>
+
+    <!-- Travel navigation bar -->
+
+    <rect x="70" y="150"
+          width="660" height="36"
+          rx="9" fill="#081827"
+          opacity=".8"/>
+
+    <text x="88" y="173"
+          font-family="Arial"
+          font-size="15"
+          font-weight="bold"
+          fill="#99f6e4">GoTrip</text>
+
+    <g font-family="Arial"
+       font-size="11"
+       fill="#e2e8f0">
+
+      <text x="450" y="172">Explore</text>
+      <text x="525" y="172">Destinations</text>
+      <text x="625" y="172">My Trips</text>
+
+    </g>
+
+    <!-- Floating travel message -->
+
+    <rect x="250" y="390"
+          width="300" height="55"
+          rx="12" fill="#081827"
+          fill-opacity=".8"
+          stroke="#2dd4bf"
+          stroke-opacity=".6"/>
+
+    <text x="400" y="414"
+          font-family="Arial"
+          font-size="17"
+          font-weight="bold"
+          text-anchor="middle"
+          fill="#f8fafc">
+      Discover Your Next Adventure
+    </text>
+
+    <text x="400" y="432"
+          font-family="Arial"
+          font-size="11"
+          text-anchor="middle"
+          fill="#99f6e4">
+      Explore new places. Create new memories.
+    </text>
+
+  </g>
+
+  <!-- Glowing frame edge -->
+
+  <path d="M70 475H730"
+        stroke="url(#accent)"
+        stroke-width="3"
+        filter="url(#glow)">
+
+    <animate attributeName="opacity"
+             values=".3;1;.3"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+  </path>
+
+  <!-- Travel feature badges -->
+
+  <g font-family="Arial,sans-serif"
+     font-size="16"
+     font-weight="bold"
+     text-anchor="middle">
+
+    <!-- Explore -->
+
+    <rect x="80" y="505"
+          width="190" height="43"
+          rx="9" fill="#12313b"
+          stroke="#2dd4bf"/>
+
+    <circle cx="111" cy="526"
+            r="11" fill="none"
+            stroke="#99f6e4"/>
+
+    <path d="M106 531L109 523L117 520L114 528Z"
+          fill="#99f6e4"/>
+
+    <text x="185" y="532"
+          fill="#99f6e4">Explore</text>
+
+    <!-- Plan -->
+
+    <rect x="305" y="505"
+          width="190" height="43"
+          rx="9" fill="#12313b"
+          stroke="#2dd4bf"/>
+
+    <rect x="327" y="516"
+          width="22" height="21"
+          rx="4" fill="none"
+          stroke="#99f6e4"/>
+
+    <path d="M327 523H349
+             M333 513V519M343 513V519"
+          stroke="#99f6e4"
+          stroke-width="2"/>
+
+    <text x="410" y="532"
+          fill="#99f6e4">Plan</text>
+
+    <!-- Travel -->
+
+    <rect x="530" y="505"
+          width="190" height="43"
+          rx="9" fill="#12313b"
+          stroke="#2dd4bf"/>
+
+    <rect x="551" y="520"
+          width="24" height="18"
+          rx="4" fill="none"
+          stroke="#99f6e4"/>
+
+    <path d="M557 520V515H569V520"
+          fill="none"
+          stroke="#99f6e4"/>
+
+    <text x="635" y="532"
+          fill="#99f6e4">Travel</text>
+
+  </g>
+
+  <!-- Footer branding -->
+
+  <text x="400" y="580"
+        font-family="Arial,sans-serif"
+        font-size="12"
+        letter-spacing="3"
+        text-anchor="middle"
+        fill="#94a3b8">
+    YOUR JOURNEY STARTS HERE
+  </text>
+
+</svg>
