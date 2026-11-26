@@ -28,6 +28,15 @@
 
 </div>
 
+<!-- ==================== PREMIUM DEVELOPER WORKSPACE ==================== -->
+
+<div align="center">
+  <img
+    src="./assets/premium/developer-workspace.svg"
+    width="100%"
+    alt="Rahul OS 2.0 - Animated AI Engineering Studio"
+  />
+</div>
 
 <!-- ==================== AI INTELLIGENCE CORE ==================== -->
 
