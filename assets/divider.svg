@@ -1,0 +1,146 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="90"
+     viewBox="0 0 1200 90">
+
+  <defs>
+
+    <linearGradient id="energy">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="25%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="75%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <radialGradient id="particle">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#22D3EE"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Main energy beam -->
+
+  <path d="M0 45H1200"
+        stroke="url(#energy)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <!-- Animated energy waves -->
+
+  <g fill="none"
+     stroke="url(#energy)"
+     stroke-width="1.5">
+
+    <path d="M0 45Q300 5 600 45T1200 45">
+      <animate attributeName="d"
+        values="M0 45Q300 5 600 45T1200 45;
+                M0 45Q300 85 600 45T1200 45;
+                M0 45Q300 5 600 45T1200 45"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 45Q300 85 600 45T1200 45">
+      <animate attributeName="d"
+        values="M0 45Q300 85 600 45T1200 45;
+                M0 45Q300 5 600 45T1200 45;
+                M0 45Q300 85 600 45T1200 45"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 45Q300 20 600 45T1200 45">
+      <animate attributeName="d"
+        values="M0 45Q300 20 600 45T1200 45;
+                M0 45Q300 70 600 45T1200 45;
+                M0 45Q300 20 600 45T1200 45"
+        dur="3s"
+        repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+  <!-- Moving energy particles -->
+
+  <circle cx="0" cy="45" r="18"
+          fill="url(#particle)">
+    <animate attributeName="cx"
+             from="0" to="1200"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1200" cy="45" r="18"
+          fill="url(#particle)">
+    <animate attributeName="cx"
+             from="1200" to="0"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="0" cy="45" r="10"
+          fill="url(#particle)">
+    <animate attributeName="cx"
+             from="0" to="1200"
+             begin="2s"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Central energy crystal -->
+
+  <g transform="translate(600 45)">
+
+    <circle r="35"
+            fill="url(#particle)"
+            opacity=".4">
+
+      <animate attributeName="opacity"
+               values=".2;.7;.2"
+               dur="3s"
+               repeatCount="indefinite"/>
+
+    </circle>
+
+    <path d="M0 -20L20 0L0 20L-20 0Z"
+          fill="#071526"
+          stroke="#67E8F9"
+          stroke-width="2">
+
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0"
+        to="360"
+        dur="12s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+    <path d="M0 -10L10 0L0 10L-10 0Z"
+          fill="#22D3EE"
+          filter="url(#glow)">
+
+      <animate attributeName="opacity"
+               values="1;.4;1"
+               dur="2s"
+               repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+</svg>
